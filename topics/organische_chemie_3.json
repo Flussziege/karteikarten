@@ -1,0 +1,474 @@
+{
+  "title": "Organische Chemie 3",
+  "description": "Fett gedruckte Richtwerte auswendig lernen; alle übrigen Bindungsdissoziationsenergien nur qualitativ vergleichen.",
+  "cards": [
+    {
+      "heading": "Bindungsenergie und Bindungslänge",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche fett gedruckten Richtwerte musst du für diese Bindung auswendig kennen?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C{-}H}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "E = 98\\,\\mathrm{kcal\\,mol^{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "r = 1{,}09\\,\\mathrm{\\AA}"
+        }
+      ]
+    },
+    {
+      "heading": "Bindungsenergie und Bindungslänge",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche fett gedruckten Richtwerte musst du für diese Bindung auswendig kennen?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C{-}C}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "E = 84\\,\\mathrm{kcal\\,mol^{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "r = 1{,}53\\,\\mathrm{\\AA}"
+        }
+      ]
+    },
+    {
+      "heading": "Bindungsenergie und Bindungslänge",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche fett gedruckten Richtwerte musst du für diese Bindung auswendig kennen?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C{=}C}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "E = 148\\,\\mathrm{kcal\\,mol^{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "r = 1{,}32\\,\\mathrm{\\AA}"
+        }
+      ]
+    },
+    {
+      "heading": "Bindungsenergie und Bindungslänge",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche fett gedruckten Richtwerte musst du für diese Bindung auswendig kennen?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C{\\equiv}C}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "E = 200\\,\\mathrm{kcal\\,mol^{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "r = 1{,}18\\,\\mathrm{\\AA}"
+        }
+      ]
+    },
+    {
+      "heading": "Bindungsenergie und Bindungslänge",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche fett gedruckten Richtwerte musst du für diese Bindung auswendig kennen?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C{-}O}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "E = 88\\,\\mathrm{kcal\\,mol^{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "r = 1{,}43\\,\\mathrm{\\AA}"
+        }
+      ]
+    },
+    {
+      "heading": "Bindungsenergie und Bindungslänge",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche fett gedruckten Richtwerte musst du für diese Bindung auswendig kennen?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C{=}O}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "E = 177\\,\\mathrm{kcal\\,mol^{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "r = 1{,}21\\,\\mathrm{\\AA}"
+        }
+      ]
+    },
+    {
+      "heading": "Vergleich von Bindungsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – O–H oder N–H? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{O{-}H > N{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von Bindungsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – N–H oder C–N? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{N{-}H > C{-}N}"
+      }
+    },
+    {
+      "heading": "Vergleich von Bindungsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C=N oder C–N? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{C{=}N > C{-}N}"
+      }
+    },
+    {
+      "heading": "Vergleich von Bindungsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C≡N oder C=N? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{C{\\equiv}N > C{=}N}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – phenylische C–H-Bindung (Ph–H) oder C–H-Bindung in Methan (CH₃–H)? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{Ph{-}H > CH_3{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–H-Bindung in Methan (CH₃–H) oder C–H-Bindung in Trifluormethan (CF₃–H)? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{CH_3{-}H > CF_3{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–H-Bindung in Trifluormethan (CF₃–H) oder vinylische C–H-Bindung? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{CF_3{-}H > vinylische\\ C{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – vinylische C–H-Bindung oder cyclopropylische C–H-Bindung? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{vinylische\\ C{-}H = cyclopropylische\\ C{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–H-Bindung in Methan (CH₃–H) oder primäre C–H-Bindung in Ethan (CH₃CH₂–H)? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{CH_3{-}H > CH_3CH_2{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – primäre C–H-Bindung in Ethan (CH₃CH₂–H) oder C–H-Bindung in Chloroform (CCl₃–H)? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{CH_3CH_2{-}H > CCl_3{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–H-Bindung in Chloroform (CCl₃–H) oder sekundäre C–H-Bindung in Propan? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{CCl_3{-}H = (CH_3)_2CH{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – sekundäre C–H-Bindung in Propan oder tertiäre C–H-Bindung in Isobutan? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{(CH_3)_2CH{-}H > (CH_3)_3C{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – tertiäre C–H-Bindung in Isobutan oder benzylische C–H-Bindung? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{(CH_3)_3C{-}H > PhCH_2{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – benzylische C–H-Bindung oder aldehydische C–H-Bindung? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{benzylische\\ C{-}H > aldehydische\\ C{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–H-Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – aldehydische C–H-Bindung oder allylische C–H-Bindung? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{aldehydische\\ C{-}H > allylische\\ C{-}H}"
+      }
+    },
+    {
+      "heading": "Vergleich von X–X- und S–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – F–F oder Cl–Cl? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{Cl{-}Cl > F{-}F}"
+      }
+    },
+    {
+      "heading": "Vergleich von X–X- und S–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – Cl–Cl oder Br–Br? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{Cl{-}Cl > Br{-}Br}"
+      }
+    },
+    {
+      "heading": "Vergleich von X–X- und S–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – Br–Br oder I–I? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{Br{-}Br > I{-}I}"
+      }
+    },
+    {
+      "heading": "Vergleich von X–X- und S–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – S–S oder Cl–Cl? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{S{-}S > Cl{-}Cl}"
+      }
+    },
+    {
+      "heading": "Vergleich von H–X- und H–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – H–F oder H–Cl? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{H{-}F > H{-}Cl}"
+      }
+    },
+    {
+      "heading": "Vergleich von H–X- und H–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – H–Cl oder H–Br? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{H{-}Cl > H{-}Br}"
+      }
+    },
+    {
+      "heading": "Vergleich von H–X- und H–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – H–Br oder H–S? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{H{-}Br > H{-}S}"
+      }
+    },
+    {
+      "heading": "Vergleich von H–X- und H–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – H–S oder H–I? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{H{-}S > H{-}I}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–X- und C–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–F oder C–Cl? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{C{-}F > C{-}Cl}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–X- und C–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–Cl oder C–Br? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{C{-}Cl > C{-}Br}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–X- und C–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–Br oder C–S? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{C{-}Br > C{-}S}"
+      }
+    },
+    {
+      "heading": "Vergleich von C–X- und C–S-Bindungen",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–S oder C–I? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{C{-}S > C{-}I}"
+      }
+    },
+    {
+      "heading": "Weitere Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – H–H oder C–C-Bindung in Ethan (H₃C–CH₃)? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{H{-}H > H_3C{-}CH_3}"
+      }
+    },
+    {
+      "heading": "Weitere Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – C–C-Bindung in Ethan (H₃C–CH₃) oder zentrale C–C-Bindung in tBu–tBu? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{H_3C{-}CH_3 > tBu{-}tBu}"
+      }
+    },
+    {
+      "heading": "Weitere Bindungsdissoziationsenergien",
+      "question": {
+        "type": "text",
+        "content": "Welche Bindung besitzt die größere Bindungsdissoziationsenergie – O–O-Bindung in Wasserstoffperoxid (HO–OH) oder O–O-Bindung in Di-tert-butylperoxid (tBuO–OtBu)? Falls beide gleich groß sind, gib das an."
+      },
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{HO{-}OH > tBuO{-}OtBu}"
+      }
+    }
+  ]
+}

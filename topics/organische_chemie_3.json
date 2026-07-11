@@ -1350,6 +1350,691 @@
         "type": "text",
         "content": "Aziridin"
       }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Methan?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 50"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von einer vinylischen C–H-Bindung?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_2{=}CH{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 44"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Diisopropylamin?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{(CH_3)_2CH{-}NH{-}CH(CH_3)_2}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 45"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Benzol?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 43"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von einer benzylischen C–H-Bindung?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}CH_2{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 40"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Ammoniak?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{H_2N{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 40"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von einem terminalen Alkin?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{R{-}C{\\equiv}C{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = \\approx 30"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Wasser?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{H_2O}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = 15{,}74"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Phenol?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}OH}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = 10"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Ammonium?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{NH_4^+}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = 9{,}25"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Imidazolium?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C_3H_5N_2^+}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = 7"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Essigsäure?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO_2H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = 4{,}76"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Wert auswendig lernen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie groß ist der pKₐ-Wert von Hydronium?"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{H_3O^+}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a} = -1{,}74"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: α-C–H-Bindung eines Esters**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{EtO_2C{-}CH_2{-}H}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: α-C–H-Bindung eines Ketons**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO{-}CH_2{-}H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\alpha\\text{-Ester}) > \\mathrm{p}K_\\mathrm{a}(\\alpha\\text{-Keton})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: α-C–H-Bindung eines Ketons**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO{-}CH_2{-}H}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Cyclopentadien**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C_5H_6}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\alpha\\text{-Keton}) > \\mathrm{p}K_\\mathrm{a}(\\text{Cyclopentadien})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Cyclopentadien**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C_5H_6}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Ethanol**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Et{-}OH}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Cyclopentadien}) \\approx \\mathrm{p}K_\\mathrm{a}(\\text{Ethanol})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Ethanol**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Et{-}OH}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Diethylmalonat**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{EtO_2C{-}CH_2{-}CO_2Et}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Ethanol}) > \\mathrm{p}K_\\mathrm{a}(\\text{Diethylmalonat})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Diethylmalonat**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{EtO_2C{-}CH_2{-}CO_2Et}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Wasserstoffperoxid**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{HOOH}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Diethylmalonat}) > \\mathrm{p}K_\\mathrm{a}(\\mathrm{H_2O_2})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Wasserstoffperoxid**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{HOOH}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Ethylacetoacetat**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO{-}CH_2{-}CO_2Et}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\mathrm{H_2O_2}) > \\mathrm{p}K_\\mathrm{a}(\\text{Ethylacetoacetat})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Ethylacetoacetat**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO{-}CH_2{-}CO_2Et}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Triethylammonium**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Et_3NH^+}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Ethylacetoacetat}) \\approx \\mathrm{p}K_\\mathrm{a}(\\mathrm{Et_3NH^+})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Triethylammonium**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Et_3NH^+}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Benzylthiol**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}CH_2{-}SH}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\mathrm{Et_3NH^+}) > \\mathrm{p}K_\\mathrm{a}(\\text{Benzylthiol})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Benzylthiol**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}CH_2{-}SH}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Nitromethan**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{O_2N{-}CH_3}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Benzylthiol}) \\approx \\mathrm{p}K_\\mathrm{a}(\\text{Nitromethan})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Nitromethan**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{O_2N{-}CH_3}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Acetylaceton**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO{-}CH_2{-}COCH_3}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Nitromethan}) > \\mathrm{p}K_\\mathrm{a}(\\text{Acetylaceton})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Acetylaceton**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CH_3CO{-}CH_2{-}COCH_3}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: p-Nitrophenol**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{p{-}O_2N{-}C_6H_4{-}OH}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Acetylaceton}) > \\mathrm{p}K_\\mathrm{a}(\\textit{p}\\text{-Nitrophenol})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: p-Nitrophenol**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{p{-}O_2N{-}C_6H_4{-}OH}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Pyridinium**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C_5H_5NH^+}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\textit{p}\\text{-Nitrophenol}) > \\mathrm{p}K_\\mathrm{a}(\\text{Pyridinium})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Pyridinium**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{C_5H_5NH^+}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Malondialdehyd**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{OHC{-}CH_2{-}CHO}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Pyridinium}) > \\mathrm{p}K_\\mathrm{a}(\\text{Malondialdehyd})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Malondialdehyd**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{OHC{-}CH_2{-}CHO}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Anilinium**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}NH_3^+}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Malondialdehyd}) > \\mathrm{p}K_\\mathrm{a}(\\text{Anilinium})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Anilinium**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}NH_3^+}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Benzoesäure**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}CO_2H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Anilinium}) > \\mathrm{p}K_\\mathrm{a}(\\text{Benzoesäure})"
+      }
+    },
+    {
+      "heading": "pKₐ-Werte: Vergleich",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Verbindung besitzt den größeren pKₐ-Wert? Falls beide ungefähr gleich sind, gib das an."
+        },
+        {
+          "type": "markdown",
+          "content": "**A: Benzoesäure**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ph{-}CO_2H}"
+        },
+        {
+          "type": "markdown",
+          "content": "**B: Trifluoressigsäure**"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{CF_3CO_2H}"
+        }
+      ],
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{p}K_\\mathrm{a}(\\text{Benzoesäure}) > \\mathrm{p}K_\\mathrm{a}(\\text{Trifluoressigsäure})"
+      }
     }
   ]
 }

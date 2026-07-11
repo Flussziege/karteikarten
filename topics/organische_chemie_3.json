@@ -1201,28 +1201,6 @@
       "heading": "Trivialnamen: Name → Struktur",
       "question": {
         "type": "text",
-        "content": "Welche Struktur gehört zum Trivialnamen „Inden“?"
-      },
-      "answer": {
-        "type": "image",
-        "content": "../media/trivialnamen/inden.png"
-      }
-    },
-    {
-      "heading": "Trivialnamen: Struktur → Name",
-      "question": {
-        "type": "image",
-        "content": "../media/trivialnamen/inden.png"
-      },
-      "answer": {
-        "type": "text",
-        "content": "Inden"
-      }
-    },
-    {
-      "heading": "Trivialnamen: Name → Struktur",
-      "question": {
-        "type": "text",
         "content": "Welche Struktur gehört zum Trivialnamen „Piperidin“?"
       },
       "answer": {
@@ -1239,28 +1217,6 @@
       "answer": {
         "type": "text",
         "content": "Piperidin"
-      }
-    },
-    {
-      "heading": "Trivialnamen: Name → Struktur",
-      "question": {
-        "type": "text",
-        "content": "Welche Struktur gehört zum Trivialnamen „Piperazin“?"
-      },
-      "answer": {
-        "type": "image",
-        "content": "../media/trivialnamen/piperazin.png"
-      }
-    },
-    {
-      "heading": "Trivialnamen: Struktur → Name",
-      "question": {
-        "type": "image",
-        "content": "../media/trivialnamen/piperazin.png"
-      },
-      "answer": {
-        "type": "text",
-        "content": "Piperazin"
       }
     },
     {

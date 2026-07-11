@@ -17,6 +17,51 @@ st.set_page_config(
     layout="centered",
 )
 
+
+
+def check_password() -> None:
+    """Prüft das eingegebene Passwort."""
+    entered_password = st.session_state.get("password_input", "")
+    correct_password = st.secrets["APP_PASSWORD"]
+
+    if hmac.compare_digest(entered_password, correct_password):
+        st.session_state["password_correct"] = True
+
+        # Eingegebenes Passwort aus dem Session State entfernen
+        st.session_state.pop("password_input", None)
+    else:
+        st.session_state["password_correct"] = False
+
+
+def require_password() -> bool:
+    """Zeigt die App erst nach korrekter Passworteingabe an."""
+
+    if st.session_state.get("password_correct", False):
+        return True
+
+    st.title("🔒 Geschützter Bereich")
+    st.write("Bitte gib das Passwort ein, um die Karteikarten zu öffnen.")
+
+    st.text_input(
+        "Passwort",
+        type="password",
+        key="password_input",
+        on_change=check_password,
+        autocomplete="current-password",
+    )
+
+    if st.session_state.get("password_correct") is False:
+        st.error("Das Passwort ist falsch.")
+
+    return False
+
+
+if not require_password():
+    st.stop()
+
+
+
+
 BASE_DIR = Path(__file__).resolve().parent
 TOPICS_DIR = BASE_DIR / "topics"
 

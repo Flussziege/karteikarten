@@ -1,0 +1,64 @@
+{
+  "title": "Physikalische Chemie",
+  "description": "Beispielkarten zu Transportgesetzen und Diffusion.",
+  "cards": [
+    {
+      "heading": "Wiedemann-Franz-Gesetz",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Größen verbindet das Wiedemann-Franz-Gesetz?"
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{\\kappa}{\\sigma T}=L"
+        }
+      ],
+      "answer": [
+        {
+          "type": "markdown",
+          "content": "Es verbindet die **Wärmeleitfähigkeit** $\\kappa$ mit der **elektrischen Leitfähigkeit** $\\sigma$ eines Metalls."
+        },
+        {
+          "type": "text",
+          "content": "Beide Transportprozesse werden hauptsächlich durch die freien Elektronen verursacht."
+        }
+      ]
+    },
+    {
+      "heading": "1. Ficksches Gesetz",
+      "question": {
+        "type": "latex",
+        "content": "J=-D\\frac{\\mathrm{d}c}{\\mathrm{d}z}"
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "Der Teilchenstrom J ist proportional zum negativen Konzentrationsgradienten."
+        },
+        {
+          "type": "markdown",
+          "content": "Das Minuszeichen bedeutet: Teilchen diffundieren von **hoher** zu **niedriger** Konzentration."
+        }
+      ]
+    },
+    {
+      "heading": "Beispiel mit Bild",
+      "question": [
+        {
+          "type": "text",
+          "content": "Was zeigt die folgende Skizze?"
+        },
+        {
+          "type": "image",
+          "content": "../media/diffusion_beispiel.png",
+          "caption": "Schematischer Konzentrationsausgleich"
+        }
+      ],
+      "answer": {
+        "type": "text",
+        "content": "Die Teilchen verteilen sich mit der Zeit gleichmäßiger. Der Nettofluss zeigt zunächst in Richtung der geringeren Konzentration."
+      }
+    }
+  ]
+}

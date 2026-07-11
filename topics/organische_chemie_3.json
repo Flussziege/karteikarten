@@ -470,5 +470,886 @@
         "content": "\\mathrm{HO{-}OH > tBuO{-}OtBu}"
       }
     }
+    ,
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Benzol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Benzol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Toluol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/toluol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/toluol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Toluol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „p-Xylol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/p_xylol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/p_xylol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "p-Xylol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Mesitylen“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/mesitylen.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/mesitylen.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Mesitylen"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Styrol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/styrol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/styrol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Styrol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Phenol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/phenol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/phenol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Phenol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Anisol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/anisol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/anisol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Anisol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Anilin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/anilin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/anilin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Anilin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Benzoesäure“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzoesaeure.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzoesaeure.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Benzoesäure"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Benzaldehyd“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzaldehyd.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzaldehyd.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Benzaldehyd"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Acetophenon“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/acetophenon.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/acetophenon.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Acetophenon"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Phenyl“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/phenyl.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/phenyl.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Phenyl"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Benzyl“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzyl.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzyl.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Benzyl"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „p-Tolyl“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/p_tolyl.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/p_tolyl.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "p-Tolyl"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Mesityl“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/mesityl.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/mesityl.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Mesityl"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Benzoyl“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzoyl.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/benzoyl.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Benzoyl"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Naphthalin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/naphthalin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/naphthalin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Naphthalin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Anthracen“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/anthracen.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/anthracen.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Anthracen"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Phenanthren“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/phenanthren.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/phenanthren.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Phenanthren"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyridin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyridin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyridin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyridin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyridazin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyridazin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyridazin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyridazin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyrimidin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrimidin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrimidin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyrimidin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyrazin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrazin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrazin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyrazin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Chinolin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/chinolin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/chinolin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Chinolin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Purin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/purin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/purin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Purin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Furan“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/furan.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/furan.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Furan"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyrrol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrrol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrrol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyrrol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Thiophen“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/thiophen.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/thiophen.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Thiophen"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyrazol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrazol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrazol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyrazol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Imidazol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/imidazol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/imidazol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Imidazol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Oxazol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/oxazol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/oxazol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Oxazol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Isoxazol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/isoxazol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/isoxazol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Isoxazol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Indol“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/indol.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/indol.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Indol"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Inden“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/inden.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/inden.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Inden"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Piperidin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/piperidin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/piperidin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Piperidin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Piperazin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/piperazin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/piperazin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Piperazin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Pyrrolidin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrrolidin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/pyrrolidin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Pyrrolidin"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Tetrahydrofuran“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/tetrahydrofuran.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/tetrahydrofuran.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Tetrahydrofuran"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Oxiran“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/oxiran.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/oxiran.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Oxiran"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Name → Struktur",
+      "question": {
+        "type": "text",
+        "content": "Welche Struktur gehört zum Trivialnamen „Aziridin“?"
+      },
+      "answer": {
+        "type": "image",
+        "content": "../media/trivialnamen/aziridin.png"
+      }
+    },
+    {
+      "heading": "Trivialnamen: Struktur → Name",
+      "question": {
+        "type": "image",
+        "content": "../media/trivialnamen/aziridin.png"
+      },
+      "answer": {
+        "type": "text",
+        "content": "Aziridin"
+      }
+    }
   ]
 }

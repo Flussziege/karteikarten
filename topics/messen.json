@@ -1,0 +1,370 @@
+{
+  "title": "Messen in der Chemie",
+  "description": "Alle bekannten Fragen für die Klausur.",
+  "cards": [
+    {
+      "heading": "Q1-6 – Einheiten: Umrechnung",
+      "question": [
+        {
+          "type": "text",
+          "content": "Ein Körper besitzt eine kinetische Energie von 3,5 J. Wie groß ist diese Energie in der Einheit"
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{g}\\cdot\\mathrm{cm}^2}{\\mathrm{s}^2}\\,?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "3{,}5\\,\\mathrm{J}=3{,}5\\cdot 10^7\\,\\frac{\\mathrm{g}\\cdot\\mathrm{cm}^2}{\\mathrm{s}^2}"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist B."
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{kg}=10^3\\,\\mathrm{g},\\qquad 1\\,\\mathrm{m}^2=10^4\\,\\mathrm{cm}^2"
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{J}=1\\,\\frac{\\mathrm{kg}\\cdot\\mathrm{m}^2}{\\mathrm{s}^2}=10^7\\,\\frac{\\mathrm{g}\\cdot\\mathrm{cm}^2}{\\mathrm{s}^2}"
+        },
+        {
+          "type": "text",
+          "content": "Die Einheit g·cm²/s² wird auch Erg genannt."
+        }
+      ]
+    },
+    {
+      "heading": "Q1-7 – Einheitenvorsätze",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen sind richtig?\n\nA. Die mehrfache Verwendung von Vorsätzen bei einer Einheit ist nicht erlaubt.\n\nB. 598 nm = 5,89 · 10⁻⁸ m\n\nC. 6,5 ng = 6,5 · 10⁻¹² kg\n\nD. 1 µL = 10⁻⁹ m³"
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A, C und D sind richtig."
+        },
+        {
+          "type": "markdown",
+          "content": "**A:** Vorsätze dürfen nicht mehrfach kombiniert werden.\n\n**B:** Die Aussage ist falsch."
+        },
+        {
+          "type": "latex",
+          "content": "598\\,\\mathrm{nm}=598\\cdot 10^{-9}\\,\\mathrm{m}=5{,}98\\cdot 10^{-7}\\,\\mathrm{m}"
+        },
+        {
+          "type": "latex",
+          "content": "6{,}5\\,\\mathrm{ng}=6{,}5\\cdot 10^{-9}\\,\\mathrm{g}=6{,}5\\cdot 10^{-12}\\,\\mathrm{kg}"
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{\\mu L}=10^{-6}\\,\\mathrm{L}=10^{-9}\\,\\mathrm{m}^3"
+        }
+      ]
+    },
+    {
+      "heading": "Q1-11 – Konversion von Energieeinheiten",
+      "question": [
+        {
+          "type": "text",
+          "content": "Wie viel Joule entsprechen einem Liter mal Atmosphäre?"
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{L}\\cdot\\mathrm{atm}=?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{L}\\cdot\\mathrm{atm}=101{,}33\\,\\mathrm{J}"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist B."
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{L}=10^{-3}\\,\\mathrm{m}^3"
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{atm}=101325\\,\\mathrm{Pa}=101325\\,\\frac{\\mathrm{N}}{\\mathrm{m}^2}"
+        },
+        {
+          "type": "latex",
+          "content": "1\\,\\mathrm{L}\\cdot\\mathrm{atm}=10^{-3}\\,\\mathrm{m}^3\\cdot 101325\\,\\frac{\\mathrm{N}}{\\mathrm{m}^2}=101{,}325\\,\\mathrm{N\\,m}=101{,}33\\,\\mathrm{J}"
+        }
+      ]
+    },
+    {
+      "heading": "Signifikante Stellen",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Rechnungen sind unter Berücksichtigung der signifikanten Stellen korrekt?\n\nA. 7,89² = 62,3\n\nB. (18,3 − 0,04) · 7,2 = 130\n\nC. 7,8 / 1,23 = 6,34\n\nD. Der Kehrwert von 7,0 ist 0,14."
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A, B und D sind richtig."
+        },
+        {
+          "type": "markdown",
+          "content": "**A:** 7,89 besitzt drei signifikante Stellen. Daher muss auch das Ergebnis drei signifikante Stellen besitzen.\n\n**B:** Bei der Subtraktion wird zunächst nach Dezimalstellen gerundet. Anschließend bestimmt bei der Multiplikation die Zahl mit den wenigsten signifikanten Stellen die Genauigkeit.\n\n**C:** 7,8 besitzt nur zwei signifikante Stellen. Das Ergebnis müsste daher 6,3 und nicht 6,34 lauten.\n\n**D:** 7,0 besitzt zwei signifikante Stellen. Deshalb wird auch der Kehrwert mit zwei signifikanten Stellen angegeben."
+        },
+        {
+          "type": "latex",
+          "content": "7{,}89^2=62{,}3"
+        },
+        {
+          "type": "latex",
+          "content": "(18{,}3-0{,}04)\\cdot 7{,}2\\approx 1{,}3\\cdot 10^2"
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{7{,}8}{1{,}23}\\approx 6{,}3"
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{1}{7{,}0}\\approx 0{,}14"
+        }
+      ]
+    },
+    {
+      "heading": "Q2-9 – Folgefehler",
+      "question": [
+        {
+          "type": "text",
+          "content": "Eine quadratische Platte besitzt die Seitenlänge"
+        },
+        {
+          "type": "latex",
+          "content": "x=(1{,}50\\pm 0{,}01)\\,\\mathrm{m}."
+        },
+        {
+          "type": "text",
+          "content": "Welche Fläche besitzt die Platte einschließlich des maximalen Fehlers?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "a=(2{,}25\\pm 0{,}03)\\,\\mathrm{m}^2"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist C."
+        },
+        {
+          "type": "latex",
+          "content": "a=x^2=(1{,}50\\,\\mathrm{m})^2=2{,}25\\,\\mathrm{m}^2"
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta a=\\left|\\frac{\\mathrm{d}a}{\\mathrm{d}x}\\right|\\Delta x=2x\\Delta x"
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta a=2\\cdot 1{,}50\\,\\mathrm{m}\\cdot 0{,}01\\,\\mathrm{m}=0{,}03\\,\\mathrm{m}^2"
+        }
+      ]
+    },
+    {
+      "heading": "Q2-16 – Relative Fehler",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen zu?\n\nA. Aus Wert und absolutem Fehler einer Größe kann der relative Fehler berechnet werden.\n\nB. Ist eine Zielgröße das Produkt zweier Messgrößen, ist ihr maximaler relativer Fehler die Summe der relativen Fehler der Messgrößen.\n\nC. Relative Fehler darf man nie addieren.\n\nD. Gilt G = M², dann gilt für die relativen Fehler δG = 2δM."
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A, B und D sind richtig. C ist falsch."
+        },
+        {
+          "type": "latex",
+          "content": "\\delta G=\\frac{\\Delta G}{G}"
+        },
+        {
+          "type": "text",
+          "content": "Bei einem Produkt addieren sich die maximalen relativen Fehler."
+        },
+        {
+          "type": "latex",
+          "content": "G=M^2"
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta G=\\left|\\frac{\\mathrm{d}G}{\\mathrm{d}M}\\right|\\Delta M=2M\\Delta M"
+        },
+        {
+          "type": "latex",
+          "content": "\\delta G=\\frac{\\Delta G}{G}=\\frac{2M\\Delta M}{M^2}=2\\frac{\\Delta M}{M}=2\\delta M"
+        }
+      ]
+    },
+    {
+      "heading": "Q4-1 – Elektrische Leistung",
+      "question": "Eine Glühlampe besitzt eine Leistungsaufnahme von 60 W und eine Betriebsspannung von 240 V. Welchen elektrischen Widerstand besitzt sie im laufenden Betrieb?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "R=960\\,\\Omega"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist B."
+        },
+        {
+          "type": "latex",
+          "content": "P=U\\cdot I=\\frac{U^2}{R}=I^2R"
+        },
+        {
+          "type": "latex",
+          "content": "R=\\frac{U^2}{P}=\\frac{(240\\,\\mathrm{V})^2}{60\\,\\mathrm{W}}=960\\,\\Omega"
+        }
+      ]
+    },
+    {
+      "heading": "Q4-6 – Spannungsteiler",
+      "question": "Ein Widerstand von 150 Ω liegt in Reihe mit einer Parallelschaltung aus 180 Ω und 220 Ω. Die Gesamtspannung beträgt 6,0 V. Welche Spannung fällt am 150-Ω-Widerstand ab?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "U_1\\approx 3{,}6\\,\\mathrm{V}"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist C."
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{1}{R_{\\parallel}}=\\frac{1}{180\\,\\Omega}+\\frac{1}{220\\,\\Omega}"
+        },
+        {
+          "type": "latex",
+          "content": "R_{\\parallel}\\approx 99\\,\\Omega"
+        },
+        {
+          "type": "latex",
+          "content": "U_1=U_0\\frac{R_1}{R_1+R_{\\parallel}}"
+        },
+        {
+          "type": "latex",
+          "content": "U_1=6{,}0\\,\\mathrm{V}\\cdot\\frac{150\\,\\Omega}{150\\,\\Omega+99\\,\\Omega}\\approx 3{,}6\\,\\mathrm{V}"
+        }
+      ]
+    },
+    {
+      "heading": "Q5-11 – Multimeter NANJING MODEL MF47",
+      "question": {
+        "type": "markdown",
+        "content": "Ein analoges Multimeter besitzt einen Messbereich von 0,25 V bei 50 µA. Welche Aussagen treffen zu?\n\nA. Das Multimeter kann nur entweder einen Strom oder eine Spannung messen.\n\nB. Der Innenwiderstand der Drehspule beträgt 5 kΩ.\n\nC. Der Vorwiderstand im 1-V-Messbereich beträgt 15 kΩ.\n\nD. Der Parallelwiderstand im 0,5-mA-Bereich beträgt 732 Ω."
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "B und C sind richtig. A und D sind falsch."
+        },
+        {
+          "type": "latex",
+          "content": "R_{\\mathrm{i}}=\\frac{U}{I}=\\frac{0{,}25\\,\\mathrm{V}}{50\\,\\mathrm{\\mu A}}=5\\,\\mathrm{k\\Omega}"
+        },
+        {
+          "type": "text",
+          "content": "Für den 1-V-Messbereich wird insgesamt ein Widerstand von 20 kΩ benötigt."
+        },
+        {
+          "type": "latex",
+          "content": "R_{\\mathrm{V}}=\\frac{1\\,\\mathrm{V}}{50\\,\\mathrm{\\mu A}}-5\\,\\mathrm{k\\Omega}=15\\,\\mathrm{k\\Omega}"
+        },
+        {
+          "type": "text",
+          "content": "Im 0,5-mA-Bereich fließen 50 µA durch das Messwerk und 450 µA durch den Shunt."
+        },
+        {
+          "type": "latex",
+          "content": "R_{\\mathrm{P}}=\\frac{0{,}25\\,\\mathrm{V}}{450\\,\\mathrm{\\mu A}}\\approx 556\\,\\Omega"
+        },
+        {
+          "type": "text",
+          "content": "Daher ist die Angabe 732 Ω falsch."
+        }
+      ]
+    },
+    {
+      "heading": "Q5-1 – Hitzdraht-Amperemeter",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen über Hitzdraht-Amperemeter treffen zu?\n\nA. Das Hitzdraht-Amperemeter beruht auf der Wärmewirkung des elektrischen Stroms.\n\nB. Bei einer gegebenen Stromstärke besteht ein Kräftegleichgewicht zwischen einem ausgelenkten Draht und einer Feder.\n\nC. Das Hitzdraht-Amperemeter kann die Richtung des Stromes nicht bestimmen.\n\nD. Das Hitzdraht-Amperemeter eignet sich nur für niederfrequente Ströme."
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A, B und C sind richtig. D ist falsch."
+        },
+        {
+          "type": "markdown",
+          "content": "Die Erwärmung des Drahtes hängt von der elektrischen Leistung und damit vom Quadrat der Stromstärke ab. Deshalb ist die Anzeige unabhängig von der Stromrichtung. Hitzdraht-Amperemeter können auch für hochfrequente Wechselströme eingesetzt werden."
+        },
+        {
+          "type": "latex",
+          "content": "P=I^2R"
+        }
+      ]
+    },
+    {
+      "heading": "Drehspul-Amperemeter",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen über Drehspul-Amperemeter treffen zu?\n\nA. Das Drehspul-Amperemeter beruht auf magnetischen Wirkungen des elektrischen Stroms.\n\nB. Im Drehspul-Amperemeter befindet sich eine stromdurchflossene Spule zwischen den Polbacken eines Permanentmagneten.\n\nC. Das Drehspul-Amperemeter kann die Richtung des elektrischen Stromes bestimmen.\n\nD. Wegen der Trägheit der Zeigernadel kann es hochfrequente Wechselströme nicht messen."
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "A, B, C und D sind richtig. Die Stromrichtung bestimmt die Richtung des magnetischen Drehmoments und damit die Auslenkungsrichtung. Bei schnell wechselnden Strömen kann die mechanische Zeigernadel den Änderungen nicht folgen."
+      }
+    },
+    {
+      "heading": "Q6-7 – Transistoren",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen über Bipolartransistoren treffen zu?\n\nA. Im Transistor gibt es drei dotierte Halbleiterzonen.\n\nB. Ein schwacher Basisstrom steuert einen wesentlich größeren Kollektorstrom.\n\nC. Der Emitterstrom ist die Summe aus Basisstrom und Kollektorstrom.\n\nD. Wird die Basis-Emitter-Spannung verändert, bleibt der Spannungsabfall an einem Lastwiderstand im Kollektorzweig unverändert."
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A, B und C sind richtig. D ist falsch."
+        },
+        {
+          "type": "latex",
+          "content": "I_{\\mathrm{E}}=I_{\\mathrm{B}}+I_{\\mathrm{C}}"
+        },
+        {
+          "type": "markdown",
+          "content": "Der Basisstrom beziehungsweise die Basis-Emitter-Spannung steuert den Kollektorstrom. Ändert sich der Kollektorstrom, ändert sich auch der Spannungsabfall am Lastwiderstand."
+        },
+        {
+          "type": "latex",
+          "content": "U_{R_{\\mathrm{L}}}=I_{\\mathrm{C}}R_{\\mathrm{L}}"
+        }
+      ]
+    },
+    {
+      "heading": "Q6-1 – Diode BAY41",
+      "question": "Welche Spannung muss bei 70 °C an eine Diode BAY41 angelegt werden, damit ein Durchlassstrom von 1 mA fließt?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "U_{\\mathrm{F}}\\approx 500\\,\\mathrm{mV}"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist D. Der Wert wird aus der temperaturabhängigen Durchlasskennlinie im Datenblatt der Diode abgelesen."
+        }
+      ]
+    }
+  ]
+}

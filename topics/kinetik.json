@@ -1,0 +1,640 @@
+{
+  "title": "Chemische Kinetik und Transportprozesse",
+  "description": "Karteikarten zu Reaktionskinetik, Stoßtheorie, Diffusion, Viskosität, Wärmeleitung und elektrischem Transport. Die Gleichungen wurden aus der zugehörigen Bilder-PDF als LaTeX übertragen.",
+  "cards": [
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeitsgleichung 1.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=k_1[A]"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Zeitgesetz 1.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "[A]=[A]_0\\,\\mathrm{e}^{-k_1t}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeits- und Zeitgesetz 2. Ordnung für den Fall A + A → Produkte",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}&=2k_2[A]^2\\\\[4pt]\\frac{1}{[A]}-\\frac{1}{[A]_0}&=2k_2t\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeits- und Zeitgesetz 2. Ordnung für A + B → Produkte und [A]₀ = [B]₀",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}&=-k_2[A][B]=-k_2[A]^2\\\\[4pt]\\frac{1}{[A]}-\\frac{1}{[A]_0}&=k_2t\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeits- und Zeitgesetz 2. Ordnung für A + B → Produkte und [A]₀ ≠ [B]₀",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}[i]&=[i]_0+\\nu_i x\\\\[3pt]\\frac{\\mathrm{d}x}{\\mathrm{d}t}&=k_2\\bigl([A]_0+\\nu_Ax\\bigr)\\bigl([B]_0+\\nu_Bx\\bigr)\\\\[4pt]\\frac{1}{\\nu_B[A]_0-\\nu_A[B]_0}\\ln\\!\\left(\\frac{[A]_0\\bigl([B]_0+\\nu_Bx\\bigr)}{[B]_0\\bigl([A]_0+\\nu_Ax\\bigr)}\\right)&=k_2t\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeitsgleichung 3.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}x}{\\mathrm{d}t}=k_3\\bigl([A]_0+\\nu_Ax\\bigr)\\bigl([B]_0+\\nu_Bx\\bigr)\\bigl([C]_0+\\nu_Cx\\bigr)"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Zeitgesetz 3.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]^2}-\\frac{1}{[A]_0^2}=2k_3t"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeitsgesetz 0.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}x}{\\mathrm{d}t}=k_0"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Zeitgesetz 0.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}x&=k_0t\\\\[3pt][A]-[A]_0&=-k_0t\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Gleichungen zur Bestimmung der Reaktionsordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\text{0. Ordnung:}\\quad &[A]=[A]_0-k_0t\\\\\\text{1. Ordnung:}\\quad &\\ln[A]=\\ln[A]_0-k_1t\\\\\\text{2. Ordnung:}\\quad &\\frac{1}{[A]}=\\frac{1}{[A]_0}+k_2t\\\\\\text{3. Ordnung:}\\quad &\\frac{1}{[A]^2}=\\frac{1}{[A]_0^2}+2k_3t\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Halbwertszeiten 0.-3.Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\left(t_{1/2}\\right)_0&=\\frac{[A]_0}{2k_0}\\\\\\left(t_{1/2}\\right)_1&=\\frac{\\ln 2}{k_1}\\\\\\left(t_{1/2}\\right)_2&=\\frac{1}{k_2[A]_0}\\\\\\left(t_{1/2}\\right)_3&=\\frac{3}{2k_3[A]_0^2}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "MWG allgemein",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{[C]_{\\mathrm{gl}}[D]_{\\mathrm{gl}}}{[A]_{\\mathrm{gl}}[B]_{\\mathrm{gl}}}=\\frac{k_2}{k_{-2}}=K"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Arrhenius-Gleichung",
+      "answer": {
+        "type": "latex",
+        "content": "k_n=k_0\\exp\\!\\left(-\\frac{A\\,k}{kT}\\right)=k_0\\exp\\!\\left(-\\frac{\\varepsilon_A}{kT}\\right)=k_0\\exp\\!\\left(-\\frac{N_A\\varepsilon_A}{RT}\\right)"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Arrhenius-Gleichung und linearisierte Form",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}k_n&=k_0\\exp\\!\\left(-\\frac{\\varepsilon_A}{kT}\\right)=k_0\\exp\\!\\left(-\\frac{N_A\\varepsilon_A}{RT}\\right)\\\\E_A&=N_A\\varepsilon_A\\\\\\ln k_n&=\\ln k_0-\\frac{E_A}{RT}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Fließstromapparatur: Gleichung 1. Ordnung",
+      "answer": {
+        "type": "latex",
+        "content": "\\ln\\!\\left(\\frac{[A]}{[A]_0}\\right)=-k_1\\frac{V_R}{u}=-k_1\\tau"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Relaxationsverfahren: Gleichung für γ",
+      "answer": {
+        "type": "latex",
+        "content": "\\gamma=\\gamma_0\\exp\\!\\left(-\\left\\{k_2\\bigl([A]_G+[B]_G\\bigr)+k_{-1}\\right\\}t\\right)"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Relaxationszeit",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{\\tau}=k_2\\bigl([A]_G+[B]_G\\bigr)+k_{-1}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Relaxationszeit mithilfe der Gleichgewichtskonstante K",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}K&=\\frac{k_2}{k_{-1}}\\\\[3pt]\\frac{1}{\\tau}&=k_2\\left([A]_G+[B]_G+\\frac{1}{K}\\right)\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Geschwindigkeitsgesetze Folgereaktion",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}&=-k_1[A]\\\\\\frac{\\mathrm{d}[B]}{\\mathrm{d}t}&=k_1[A]-k_1^{*}[B]\\\\\\frac{\\mathrm{d}[C]}{\\mathrm{d}t}&=k_1^{*}[B]\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Zeitgesetz Komponente B in Folgereaktion A→B→C",
+      "answer": {
+        "type": "latex",
+        "content": "[B]=\\frac{k_1[A]_0}{k_1^{*}-k_1}\\left(\\mathrm{e}^{-k_1t}-\\mathrm{e}^{-k_1^{*}t}\\right)"
+      }
+    },
+    {
+      "heading": "Reaktionskinetik",
+      "question": "Zeitgesetz Komponente C in Folgereaktion A→B→C",
+      "answer": {
+        "type": "latex",
+        "content": "[C]=[A]_0\\left(1-\\frac{k_1^{*}}{k_1^{*}-k_1}\\mathrm{e}^{-k_1t}+\\frac{k_1}{k_1^{*}-k_1}\\mathrm{e}^{-k_1^{*}t}\\right)"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Ausschließungsvolumen",
+      "answer": {
+        "type": "latex",
+        "content": "V_A=\\frac{1}{2}N_A\\frac{4\\pi}{3}r_{1,2}^{3}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Stoßquerschnitt",
+      "answer": {
+        "type": "latex",
+        "content": "\\sigma=\\pi r_{12}^{2}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Stoßwahrscheinlichkeit auf der Strecke Δx",
+      "answer": {
+        "type": "latex",
+        "content": "W=\\frac{\\sigma\\,{}^{1}\\!N\\,A\\,\\Delta x}{A}={}^1\\!N\\sigma\\Delta x"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Anteil der Teilchen ohne Stoß als Funktion von x",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{\\dot N(x)}{\\dot N(0)}=\\mathrm{e}^{-\\alpha x}=\\mathrm{e}^{-{}^1\\!N\\sigma x}"
+        },
+        {
+          "type": "text",
+          "content": "Anteil der Teilchen, die bis zur Strecke x noch keinen Stoß erlitten haben."
+        }
+      ]
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Einfache mittlere freie Weglänge",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{1}{\\alpha}=\\frac{1}{{}^1\\!N\\sigma}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Anteil der Teilchen, die den Weg x zurücklegen, als Funktion der mittleren freien Weglänge",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\dot N(x)}{\\dot N(0)}=\\mathrm{e}^{-x/\\lambda}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Mittlere quadratische Geschwindigkeit eines Teilchens",
+      "answer": {
+        "type": "latex",
+        "content": "\\sqrt{\\overline{v^2}}=\\sqrt{\\frac{3kT}{m}}=\\sqrt{\\frac{3RT}{M}}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Maxwell'sche freie Weglänge",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,{}^1\\!N\\sigma}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Mittlere Teilchengeschwindigkeit",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\sqrt{\\overline{v^2}}&=\\sqrt{\\frac{3kT}{m}}=\\sqrt{\\frac{3RT}{M}}\\\\[4pt]\\overline v&=\\sqrt{\\frac{8kT}{\\pi m}}=\\sqrt{\\frac{8RT}{\\pi M}}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "kritischer Stoßparameter bₖᵣ",
+      "answer": {
+        "type": "latex",
+        "content": "b_{\\mathrm{kr}}^2=r_{12}^2\\left(1-\\frac{2}{3}\\frac{\\varepsilon_p(r_{12})}{kT}\\right)=r_{12}^2\\left(1+\\frac{C}{T}\\right)"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Sutherland-Konstante",
+      "answer": {
+        "type": "latex",
+        "content": "C=-\\frac{2}{3}\\frac{\\varepsilon_p(r_{12})}{k}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "mittlere freie Weglänge unter Berücksichtigung attraktiver intermolekularer Wechselwirkungen",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,{}^1\\!N\\sigma\\left(1+\\frac{C}{T}\\right)}=\\frac{1}{\\sqrt{2}\\,{}^1\\!N\\sigma_T}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Formel für σ_T",
+      "answer": {
+        "type": "latex",
+        "content": "\\sigma_T=\\sigma\\left(1+\\frac{C}{T}\\right)"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Was ist ¹Z_AB?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "{}^1\\!Z_{AB}"
+        },
+        {
+          "type": "text",
+          "content": "Zahl der Stöße zwischen Molekülen pro Zeit und Volumeneinheit."
+        }
+      ]
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Formel für ¹Z_AA",
+      "answer": {
+        "type": "latex",
+        "content": "{}^1\\!Z_{AA}=2\\left({}^1\\!N\\right)^2\\sigma\\sqrt{\\frac{RT}{M_A\\pi}}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Formel für ¹Z_AB",
+      "answer": {
+        "type": "latex",
+        "content": "{}^1\\!Z_{AB}=2\\,{}^1\\!N_A\\,{}^1\\!N_B\\,\\sigma_{AB}\\sqrt{\\frac{2RT}{\\mu\\pi}}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Was ist Z_A und wie lautet die Formel?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Z_A ist die Zahl der Stöße pro Zeit für ein Molekül."
+        },
+        {
+          "type": "latex",
+          "content": "\\begin{aligned}Z_A\\lambda_M&=\\overline v\\\\Z_A&=\\frac{\\overline v}{\\lambda_M}=\\frac{\\sqrt{\\frac{8RT}{M_A\\pi}}}{\\frac{1}{\\sqrt{2}\\sigma\\,{}^1\\!N}}=4\\,{}^1\\!N\\sigma\\sqrt{\\frac{RT}{M_A\\pi}}\\end{aligned}"
+        }
+      ]
+    },
+    {
+      "heading": "Stoßtheorie und Gase",
+      "question": "Formel für Wandstöße ¹Z_W",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Zahl der Wandstöße pro Zeit:"
+        },
+        {
+          "type": "latex",
+          "content": "\\begin{aligned}{}^1\\!Z_W&=\\frac{1}{4}{}^1\\!N\\overline v={}^1\\!N\\sqrt{\\frac{RT}{2\\pi M_A}}\\\\{}^1\\!N&=\\frac{p}{kT}\\\\{}^1\\!Z_{AA}&\\sim p^2,\\qquad {}^1\\!Z_W\\sim p\\end{aligned}"
+        }
+      ]
+    },
+    {
+      "heading": "Allgemeine Transportgleichungen",
+      "question": "Allgemeine Gleichung für den Fluss",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{\\Gamma}=-a\\,\\operatorname{grad}\\Gamma"
+      }
+    },
+    {
+      "heading": "Allgemeine Transportgleichungen",
+      "question": "Allgemeine Transportgleichung",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{\\Gamma}=\\frac{\\mathrm{d}\\Gamma}{\\mathrm{d}t\\,A}=-\\frac{1}{2}{}^1\\!N\\overline v\\lambda_M\\left(\\frac{\\mathrm{d}\\overline\\Gamma}{\\mathrm{d}z}\\right)_{z_0}"
+      }
+    },
+    {
+      "heading": "Allgemeine Transportgleichungen",
+      "question": "Proportionalität des Flusses",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\vec J_{\\Gamma}=\\frac{\\mathrm{d}\\Gamma}{\\mathrm{d}t\\,A}=-\\frac{1}{2}{}^1\\!N\\overline v\\lambda_M\\left(\\frac{\\mathrm{d}\\overline\\Gamma}{\\mathrm{d}z}\\right)_{z_0}"
+        },
+        {
+          "type": "latex",
+          "content": "\\vec J_{\\Gamma}\\propto{}^1\\!N,\\;\\overline v,\\;\\lambda_M,\\;\\frac{\\mathrm{d}\\Gamma}{\\mathrm{d}z}"
+        }
+      ]
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Erstes Fick'sches Gesetz",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\vec J_{N_1}&=\\frac{\\mathrm{d}N_1}{A\\,\\mathrm{d}t}=-D_{12}\\frac{\\mathrm{d}{}^1\\!N_1}{\\mathrm{d}z}\\\\\\vec J_{N_2}&=\\frac{\\mathrm{d}N_2}{A\\,\\mathrm{d}t}=-D_{21}\\frac{\\mathrm{d}{}^1\\!N_2}{\\mathrm{d}z}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Formel Massefluss",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{M_i}=\\frac{\\mathrm{d}M_i}{A\\,\\mathrm{d}t}=-\\frac{1}{2}{}^1\\!N\\overline v\\lambda_M\\left(\\frac{\\mathrm{d}\\overline M_i}{\\mathrm{d}z}\\right)_{z_0}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Formel für Massefluss mit Teilchengradient",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}M_i&=N_i m_i\\\\\\overline M_i&=\\frac{{}^1\\!N_i m_i}{{}^1\\!N}\\\\\\vec J_{M_i}&=m_i\\frac{\\mathrm{d}N_i}{A\\,\\mathrm{d}t}=-\\frac{1}{2}{}^1\\!N\\overline v\\lambda_M\\frac{m_i}{{}^1\\!N}\\left(\\frac{\\mathrm{d}{}^1\\!N_i}{\\mathrm{d}z}\\right)_{z_0}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Teilchenfluss und Diffusionskoeffizient",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\vec J_{N_i}&=\\frac{\\mathrm{d}N_i}{A\\,\\mathrm{d}t}=-\\frac{1}{2}\\overline v\\lambda_M\\left(\\frac{\\mathrm{d}{}^1\\!N_i}{\\mathrm{d}z}\\right)_{z_0}\\\\D_i&=\\frac{1}{2}\\overline v\\lambda_M\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie verhalten sich D₁₂ und D₂₁?",
+      "answer": {
+        "type": "latex",
+        "content": "D_{12}=D_{21}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Teilchenfluss im stationären System",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}{}^1\\!N_1+{}^1\\!N_2&={}^1\\!N=\\mathrm{const}\\\\\\frac{\\mathrm{d}({}^1\\!N_1+{}^1\\!N_2)}{\\mathrm{d}z}&=\\frac{\\mathrm{d}{}^1\\!N_1}{\\mathrm{d}z}+\\frac{\\mathrm{d}{}^1\\!N_2}{\\mathrm{d}z}=0\\\\\\vec J_{N_1}+\\vec J_{N_2}&=0\\\\\\vec J_{N_1}&=-\\vec J_{N_2}=D_{21}\\frac{\\mathrm{d}{}^1\\!N_2}{\\mathrm{d}z}=-D_{12}\\frac{\\mathrm{d}{}^1\\!N_1}{\\mathrm{d}z}\\\\D_{12}&=D_{21}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Selbstdiffusionskoeffizient",
+      "answer": {
+        "type": "latex",
+        "content": "D=\\frac{1}{2}\\sqrt{\\frac{8kT}{\\pi m}}\\frac{1}{\\sqrt{2}\\,{}^1\\!N\\sigma}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Diffusionskoeffizient für binäre Gasmischungen",
+      "answer": {
+        "type": "latex",
+        "content": "D_{12}=D_{21}=\\frac{1}{2}\\frac{{}^1\\!N_1\\lambda_{M_2}\\overline v_2+{}^1\\!N_2\\lambda_{M_1}\\overline v_1}{{}^1\\!N_1+{}^1\\!N_2}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Zweites Ficksches Gesetz und Geltungsbereich",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{d}{}^1\\!N_1}{\\mathrm{d}t}=D_{12}\\frac{\\mathrm{d}^2({}^1\\!N_1)}{\\mathrm{d}z^2}"
+        },
+        {
+          "type": "text",
+          "content": "Das zweite Ficksche Gesetz gilt für alle Aggregatzustände; die zugrunde liegenden Mechanismen können sich unterscheiden."
+        }
+      ]
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Diffusionskoeffizient für kondensierte Phasen",
+      "answer": {
+        "type": "latex",
+        "content": "D=D_0\\,\\mathrm{e}^{-E_a/(kT)}"
+      }
+    },
+    {
+      "heading": "Viskosität und Strömung",
+      "question": "Impulsfluss",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}{}^1\\!\\vec J_{m u_x}&=-\\frac{1}{2}{}^1\\!N\\overline v\\lambda_M\\frac{\\mathrm{d}(m u_x)}{\\mathrm{d}z}\\\\{}^1\\!\\vec J_{m u_x}&=\\frac{\\mathrm{d}(m u_x)}{A\\,\\mathrm{d}t}=P_R=-\\eta\\frac{\\mathrm{d}u_x}{\\mathrm{d}z}\\\\\\eta&=\\frac{1}{2}{}^1\\!N\\overline v\\lambda_Mm=\\frac{1}{2}\\rho\\overline v\\lambda_M\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Viskosität und Strömung",
+      "question": "Impulsfluss und Viskositätskoeffizient",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\lambda_M&=\\frac{1}{\\sqrt{2}\\,{}^1\\!N\\sigma_T}\\\\\\eta&=\\frac{\\overline v\\,m}{2\\sqrt{2}\\,\\sigma_T}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Viskosität und Strömung",
+      "question": "Viskositätskoeffizient für Flüssigkeiten",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{\\eta}=A\\,\\mathrm{e}^{-E_a/(RT)}"
+      }
+    },
+    {
+      "heading": "Viskosität und Strömung",
+      "question": "Hagen-Poiseuille-Gesetz",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}V}{\\mathrm{d}t}=\\frac{\\pi}{8\\eta l}(p_1-p_2)r_R^4"
+      }
+    },
+    {
+      "heading": "Viskosität und Strömung",
+      "question": "Hagen-Poiseuille-Gesetz für Gase",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\eta&=\\frac{\\pi}{16Vl}\\frac{p_1^2-p_2^2}{p_0}r_R^4t\\\\p_0&=\\frac{p_1+p_2}{2}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Wärmeleitung und Transportkoeffizienten",
+      "question": "Wärmefluss",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_U=-\\lambda\\left(\\frac{\\mathrm{d}T}{\\mathrm{d}z}\\right)_{z_0}"
+      }
+    },
+    {
+      "heading": "Wärmeleitung und Transportkoeffizienten",
+      "question": "Herleitung und Formel Wärmeleitungskoeffizient",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\vec J_U&=\\frac{\\mathrm{d}U}{A\\,\\mathrm{d}t}=-\\frac{1}{2}{}^1\\!N\\overline v\\lambda_M\\left(\\frac{\\mathrm{d}\\overline U}{\\mathrm{d}z}\\right)_{z_0}\\\\\\overline U&=\\frac{u}{N_A}\\\\\\frac{\\mathrm{d}u}{\\mathrm{d}z}&=\\frac{\\mathrm{d}u}{\\mathrm{d}T}\\frac{\\mathrm{d}T}{\\mathrm{d}z}=c_v\\frac{\\mathrm{d}T}{\\mathrm{d}z}\\\\\\vec J_U&=-\\frac{1}{2}{}^1\\!C_v\\overline v\\lambda_M\\left(\\frac{\\mathrm{d}T}{\\mathrm{d}z}\\right)_{z_0}\\\\\\lambda&=\\frac{1}{2}{}^1\\!C_v\\overline v\\lambda_M\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Wärmeleitung und Transportkoeffizienten",
+      "question": "Druckabhängigkeit des Wärmeleitungskoeffizienten",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\lambda_M\\ll\\text{Gefäßabmessungen:}\\quad &\\lambda_M\\sim\\frac{1}{{}^1\\!N},\\;{}^1\\!C_v\\sim{}^1\\!N\\;\\Rightarrow\\;\\lambda\\neq f(p)\\\\\\lambda_M\\sim\\text{Gefäßabmessungen:}\\quad &\\lambda_M=\\mathrm{const}\\neq f(p)\\;\\Rightarrow\\;\\lambda\\sim p\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Wärmeleitung und Transportkoeffizienten",
+      "question": "Beziehungen zwischen den Transportkoeffizienten",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\frac{\\eta}{D}&=\\rho\\\\\\frac{\\lambda}{D}&={}^1\\!C_v\\\\\\frac{\\lambda}{\\eta}&=\\frac{{}^1\\!C_v}{\\rho}=\\frac{c_v}{M}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Elektrischer Fluss",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_Q=\\vec j=-\\kappa\\frac{\\mathrm{d}\\Phi}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Ohmsches Gesetz in ungewohnter Schreibweise",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\vec E&=-\\frac{\\mathrm{d}\\Phi}{\\mathrm{d}z}\\\\\\vec j&=\\kappa\\vec E\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Stromdichte",
+      "answer": {
+        "type": "latex",
+        "content": "j=\\frac{I}{A}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Widerstand",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}R&=\\rho\\frac{l}{A}=\\frac{1}{\\kappa}\\frac{l}{A}\\\\\\kappa&=\\frac{l}{RA}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wie werden die Elektronen nach Drude modelliert?",
+      "answer": {
+        "type": "text",
+        "content": "Nach Drude und Lorentz werden die Elektronen als klassisches Elektronengas modelliert."
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Mittlere Zeit zwischen Stößen der Elektronen mit dem Gitter",
+      "answer": {
+        "type": "latex",
+        "content": "\\tau_s=\\frac{l}{\\overline v_t}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Geschwindigkeit der Elektronen v_E durch das elektrische Feld E",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}v_{\\tau_s}&=\\tau_s a=\\tau_s\\frac{eE}{m}\\\\F&=ma=eE\\\\\\overline v_E&=\\frac{1}{2}v_{\\max}=\\frac{1}{2}v_{\\tau_s}=\\frac{1}{2}\\tau_s\\frac{eE}{m}=\\frac{eEl}{2m\\overline v_t}\\\\\\tau_s&=\\frac{l}{\\overline v_t}\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Stromdichte, vollständige Formel als Funktion von E",
+      "answer": {
+        "type": "latex",
+        "content": "j=\\frac{\\mathrm{d}Q}{A\\,\\mathrm{d}t}=\\kappa E={}^1\\!Ne\\overline v_E=\\frac{{}^1\\!Ne^2l}{2m\\overline v_t}E"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Elektrische Leitfähigkeit (klassische Drude-Theorie)",
+      "answer": {
+        "type": "latex",
+        "content": "\\kappa=\\frac{{}^1\\!Ne^2l}{2m\\overline v_t}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wärmeleitfähigkeit",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\lambda&=\\frac{1}{2}{}^1\\!C_v\\overline v\\lambda_M\\\\c_v&=\\frac{3}{2}R\\;\\Rightarrow\\;{}^1\\!C_v=\\frac{{}^1\\!Nc_v}{N_A}=\\frac{3}{2}k{}^1\\!N\\\\v_t^2&=\\frac{8kT}{\\pi m},\\qquad \\lambda_M=l\\\\\\lambda&=\\frac{1}{2}\\cdot\\frac{3}{2}k{}^1\\!N\\cdot\\frac{1}{\\overline v_t}\\cdot\\frac{8kT}{\\pi m}\\cdot l\\\\\\lambda&=\\frac{6k^2T}{\\pi m\\overline v_t}{}^1\\!N\\,l\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wiedemann-Franz-Gesetz",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\lambda}{\\kappa}=\\frac{12}{\\pi}\\left(\\frac{k}{e}\\right)^2T"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Matthiessensche Regel",
+      "answer": {
+        "type": "latex",
+        "content": "\\rho=\\rho_T+\\rho_{\\mathrm{Rest}}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Elektrische Leitfähigkeit von Halbleitern",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Für einen Eigenhalbleiter erfolgt die Leitung durch thermische Anregung über die Bandlücke."
+        },
+        {
+          "type": "latex",
+          "content": "\\kappa=\\kappa_0\\,\\mathrm{e}^{-\\Delta\\varepsilon/(2kT)}"
+        }
+      ]
+    }
+  ]
+}

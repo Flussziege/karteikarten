@@ -442,7 +442,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "n\\equiv {}^{1}N=\\frac{N}{V}"
+          "content": "{}^{1}N=\\frac{N}{V}"
         },
         {
           "type": "text",
@@ -472,7 +472,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "W=n\\sigma\\Delta x"
+          "content": "W={}^{1}N\\sigma\\Delta x"
         },
         {
           "type": "text",
@@ -485,7 +485,7 @@
       "question": "Welcher Anteil eines Teilchenstroms hat nach der Strecke x noch keinen Stoß erlitten?",
       "answer": {
         "type": "latex",
-        "content": "\\frac{\\dot N(x)}{\\dot N(0)}=\\mathrm{e}^{-n\\sigma x}=\\mathrm{e}^{-x/\\lambda}"
+        "content": "\\frac{\\dot N(x)}{\\dot N(0)}=\\mathrm{e}^{-{}^{1}N\\sigma x}=\\mathrm{e}^{-x/\\lambda}"
       }
     },
     {
@@ -493,7 +493,7 @@
       "question": "Wie lautet die einfache mittlere freie Weglänge?",
       "answer": {
         "type": "latex",
-        "content": "\\lambda=\\frac{1}{n\\sigma}"
+        "content": "\\lambda=\\frac{1}{{}^{1}N\\sigma}"
       }
     },
     {
@@ -502,7 +502,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,n\\sigma}"
+          "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,{}^{1}N\\sigma}"
         },
         {
           "type": "text",
@@ -571,7 +571,7 @@
       "question": "Wie lautet die Maxwell'sche mittlere freie Weglänge mit Sutherland-Korrektur?",
       "answer": {
         "type": "latex",
-        "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,n\\sigma\\left(1+\\frac{C}{T}\\right)}=\\frac{1}{\\sqrt{2}\\,n\\sigma_T}"
+        "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,{}^{1}N\\sigma\\left(1+\\frac{C}{T}\\right)}=\\frac{1}{\\sqrt{2}\\,{}^{1}N\\sigma_T}"
       }
     },
     {
@@ -587,7 +587,7 @@
       "question": "Wie lautet die volumenbezogene Stoßzahl identischer Teilchen A?",
       "answer": {
         "type": "latex",
-        "content": "{}^{1}Z_{AA}=2n_A^{2}\\sigma_{AA}\\sqrt{\\frac{RT}{\\pi M_A}}"
+        "content": "{}^{1}Z_{AA}=2{}^{1}N_A^{2}\\sigma_{AA}\\sqrt{\\frac{RT}{\\pi M_A}}"
       }
     },
     {
@@ -595,7 +595,7 @@
       "question": "Wie lautet die volumenbezogene Stoßzahl verschiedener Teilchen A und B?",
       "answer": {
         "type": "latex",
-        "content": "{}^{1}Z_{AB}=2n_An_B\\sigma_{AB}\\sqrt{\\frac{2RT}{\\pi\\mu}}"
+        "content": "{}^{1}Z_{AB}=2{}^{1}N_A{}^{1}N_B\\sigma_{AB}\\sqrt{\\frac{2RT}{\\pi\\mu}}"
       }
     },
     {
@@ -612,7 +612,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "Z_A=\\frac{\\overline v}{\\lambda_M}=4n_A\\sigma_{AA}\\sqrt{\\frac{RT}{\\pi M_A}}"
+          "content": "Z_A=\\frac{\\overline v}{\\lambda_M}=4{}^{1}N_A\\sigma_{AA}\\sqrt{\\frac{RT}{\\pi M_A}}"
         },
         {
           "type": "text",
@@ -625,7 +625,7 @@
       "question": "Wie lautet die Zahl der Wandstöße pro Zeit und Fläche?",
       "answer": {
         "type": "latex",
-        "content": "{}^{1}Z_W=\\frac{1}{4}n\\overline v=n\\sqrt{\\frac{RT}{2\\pi M}}"
+        "content": "{}^{1}Z_W=\\frac{1}{4}{}^{1}N\\overline v={}^{1}N\\sqrt{\\frac{RT}{2\\pi M}}"
       }
     },
     {
@@ -684,7 +684,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "\\vec J_\\Gamma=-\\frac{1}{2}n\\overline v\\,\\lambda_M\\left(\\frac{\\mathrm{d}\\overline\\Gamma}{\\mathrm{d}z}\\right)_{z_0}"
+          "content": "\\vec J_\\Gamma=-\\frac{1}{2}{}^{1}N\\overline v\\,\\lambda_M\\left(\\frac{\\mathrm{d}\\overline\\Gamma}{\\mathrm{d}z}\\right)_{z_0}"
         },
         {
           "type": "text",
@@ -746,7 +746,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "n_1+n_2=n=\\mathrm{const}"
+          "content": "{}^{1}N_1+{}^{1}N_2={}^{1}N=\\mathrm{const}"
         },
         {
           "type": "latex",
@@ -767,7 +767,7 @@
       "question": "Wie lautet der Selbstdiffusionskoeffizient eines idealisierten Gases?",
       "answer": {
         "type": "latex",
-        "content": "D=\\frac{1}{2}\\sqrt{\\frac{8k_\\mathrm{B}T}{\\pi m}}\\,\\frac{1}{\\sqrt{2}\\,n\\sigma}"
+        "content": "D=\\frac{1}{2}\\sqrt{\\frac{8k_\\mathrm{B}T}{\\pi m}}\\,\\frac{1}{\\sqrt{2}\\,{}^{1}N\\sigma}"
       }
     },
     {
@@ -775,7 +775,7 @@
       "question": "Wie lautet der Diffusionskoeffizient einer binären Gasmischung im verwendeten kinetischen Modell?",
       "answer": {
         "type": "latex",
-        "content": "D_{12}=D_{21}=\\frac{1}{2}\\frac{n_1\\lambda_{M,2}\\overline v_2+n_2\\lambda_{M,1}\\overline v_1}{n_1+n_2}"
+        "content": "D_{12}=D_{21}=\\frac{1}{2}\\frac{{}^{1}N_1\\lambda_{M,2}\\overline v_2+{}^{1}N_2\\lambda_{M,1}\\overline v_1}{{}^{1}N_1+{}^{1}N_2}"
       }
     },
     {
@@ -940,7 +940,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "C_v^{(V)}=\\frac{n\\,c_v}{N_A}"
+          "content": "C_v^{(V)}=\\frac{{}^{1}N\\,c_v}{N_A}"
         },
         {
           "type": "text",
@@ -962,7 +962,7 @@
       "answer": [
         {
           "type": "latex",
-          "content": "\\lambda_M\\propto\\frac{1}{n},\\qquad C_v^{(V)}\\propto n"
+          "content": "\\lambda_M\\propto\\frac{1}{{}^{1}N},\\qquad C_v^{(V)}\\propto {}^{1}N"
         },
         {
           "type": "text",

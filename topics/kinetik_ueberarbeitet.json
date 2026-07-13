@@ -1,0 +1,1172 @@
+{
+  "title": "Chemische Reaktionskinetik",
+  "description": "Karteikarten von Flo mit Überarbeitung.",
+  "cards": [
+    {
+      "heading": "Grundlagen der Reaktionskinetik",
+      "question": "Wie ist die Reaktionsgeschwindigkeit unter Berücksichtigung der stöchiometrischen Koeffizienten definiert?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Für eine Reaktion a A + b B → Produkte wird die Reaktionsgeschwindigkeit so definiert, dass sie unabhängig von der betrachteten Komponente ist."
+        },
+        {
+          "type": "latex",
+          "content": "v=-\\frac{1}{a}\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=-\\frac{1}{b}\\frac{\\mathrm{d}[B]}{\\mathrm{d}t}"
+        }
+      ]
+    },
+    {
+      "heading": "Grundlagen der Reaktionskinetik",
+      "question": "Was bedeutet das Minuszeichen vor der Konzentrationsänderung eines Edukts?",
+      "answer": {
+        "type": "text",
+        "content": "Die Eduktkonzentration nimmt mit der Zeit ab. Daher ist d[A]/dt negativ; das zusätzliche Minuszeichen macht die Reaktionsgeschwindigkeit v positiv."
+      }
+    },
+    {
+      "heading": "Grundlagen der Reaktionskinetik",
+      "question": "Was ist der Unterschied zwischen Reaktionsordnung und Molekularität?",
+      "answer": {
+        "type": "markdown",
+        "content": "Die **Reaktionsordnung** wird experimentell aus dem Geschwindigkeitsgesetz bestimmt und kann auch nichtganzzahlig sein. Die **Molekularität** beschreibt die Zahl der an einem elementaren Reaktionsschritt beteiligten Teilchen und ist immer ganzzahlig."
+      }
+    },
+    {
+      "heading": "Grundlagen der Reaktionskinetik",
+      "question": "Wie lautet ein allgemeines Geschwindigkeitsgesetz und wie ergibt sich die Gesamtordnung?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "v=k[A]^\\alpha[B]^\\beta"
+        },
+        {
+          "type": "text",
+          "content": "Die Gesamtordnung ist n = α + β. Die Exponenten müssen nur bei einem elementaren Schritt mit den stöchiometrischen Koeffizienten übereinstimmen."
+        }
+      ]
+    },
+    {
+      "heading": "Grundlagen der Reaktionskinetik",
+      "question": "Welche Einheit besitzt die Geschwindigkeitskonstante k bei einer Gesamtordnung n?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "[k]=(\\mathrm{mol\\,L^{-1}})^{1-n}\\,\\mathrm{s^{-1}}"
+        },
+        {
+          "type": "markdown",
+          "content": "Damit gilt beispielsweise: 0. Ordnung: mol L⁻¹ s⁻¹; 1. Ordnung: s⁻¹; 2. Ordnung: L mol⁻¹ s⁻¹; 3. Ordnung: L² mol⁻² s⁻¹."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 0. Ordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz einer Reaktion 0. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=k_0"
+      }
+    },
+    {
+      "heading": "Reaktion 0. Ordnung",
+      "question": "Wie lautet das integrierte Zeitgesetz einer Reaktion 0. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "[A]=[A]_0-k_0t"
+      }
+    },
+    {
+      "heading": "Reaktion 0. Ordnung",
+      "question": "Welche Auftragung ist bei einer Reaktion 0. Ordnung linear?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "[A]\\ \\text{gegen}\\ t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt −k₀ und der Achsenabschnitt [A]₀."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 0. Ordnung",
+      "question": "Wie lautet die Halbwertszeit einer Reaktion 0. Ordnung?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "t_{1/2}=\\frac{[A]_0}{2k_0}"
+        },
+        {
+          "type": "text",
+          "content": "Die Halbwertszeit ist proportional zur Anfangskonzentration."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 1. Ordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz einer Reaktion 1. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=k_1[A]"
+      }
+    },
+    {
+      "heading": "Reaktion 1. Ordnung",
+      "question": "Wie lautet das integrierte Zeitgesetz einer Reaktion 1. Ordnung?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "[A]=[A]_0\\mathrm{e}^{-k_1t}"
+        },
+        {
+          "type": "latex",
+          "content": "\\ln[A]=\\ln[A]_0-k_1t"
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 1. Ordnung",
+      "question": "Welche Auftragung ist bei einer Reaktion 1. Ordnung linear?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\ln[A]\\ \\text{gegen}\\ t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt −k₁ und der Achsenabschnitt ln[A]₀."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 1. Ordnung",
+      "question": "Wie lautet die Halbwertszeit einer Reaktion 1. Ordnung?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "t_{1/2}=\\frac{\\ln 2}{k_1}"
+        },
+        {
+          "type": "text",
+          "content": "Sie ist unabhängig von der Anfangskonzentration."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz für A + B → Produkte bei [A]₀ = [B]₀?",
+      "answer": {
+        "type": "latex",
+        "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=k_2[A][B]=k_2[A]^2"
+      }
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Wie lautet das Zeitgesetz für A + B → Produkte bei [A]₀ = [B]₀?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]}-\\frac{1}{[A]_0}=k_2t"
+      }
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Welche Auftragung ist für A + B → Produkte bei gleichen Anfangskonzentrationen linear?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{1}{[A]}\\ \\text{gegen}\\ t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt k₂ und der Achsenabschnitt 1/[A]₀."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Warum tritt bei 2 A → Produkte im Konzentrationsabbau ein Faktor 2 auf?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "v=k_2[A]^2=-\\frac{1}{2}\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}"
+        },
+        {
+          "type": "latex",
+          "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=2k_2[A]^2"
+        },
+        {
+          "type": "text",
+          "content": "Pro Reaktionsereignis werden zwei Moleküle A verbraucht."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Wie lautet das Zeitgesetz für 2 A → Produkte?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]}-\\frac{1}{[A]_0}=2k_2t"
+      }
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Wie lautet das Zeitgesetz für A + B → Produkte bei [A]₀ ≠ [B]₀ und einer 1:1-Stöchiometrie?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{1}{[B]_0-[A]_0}\\ln\\!\\left(\\frac{[A]_0[B]}{[B]_0[A]}\\right)=k_2t"
+        },
+        {
+          "type": "text",
+          "content": "Dabei gilt [A] = [A]₀ − x und [B] = [B]₀ − x."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 2. Ordnung",
+      "question": "Wie lautet die Halbwertszeit einer Reaktion 2. Ordnung für den Spezialfall −d[A]/dt = k₂[A]²?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "t_{1/2}=\\frac{1}{k_2[A]_0}"
+        },
+        {
+          "type": "text",
+          "content": "Die Halbwertszeit nimmt mit steigender Anfangskonzentration ab."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 3. Ordnung",
+      "question": "Wie lautet ein allgemeines Geschwindigkeitsgesetz 3. Ordnung für A + B + C → Produkte?",
+      "answer": {
+        "type": "latex",
+        "content": "v=k_3[A][B][C]"
+      }
+    },
+    {
+      "heading": "Reaktion 3. Ordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz für den Spezialfall −d[A]/dt = k₃[A]³?",
+      "answer": {
+        "type": "latex",
+        "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=k_3[A]^3"
+      }
+    },
+    {
+      "heading": "Reaktion 3. Ordnung",
+      "question": "Wie lautet das Zeitgesetz für den Spezialfall −d[A]/dt = k₃[A]³?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]^2}-\\frac{1}{[A]_0^2}=2k_3t"
+      }
+    },
+    {
+      "heading": "Reaktion 3. Ordnung",
+      "question": "Welche Auftragung ist für den Spezialfall einer Reaktion 3. Ordnung linear?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{1}{[A]^2}\\ \\text{gegen}\\ t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt 2k₃ und der Achsenabschnitt 1/[A]₀²."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktion 3. Ordnung",
+      "question": "Wie lautet die Halbwertszeit für den Spezialfall −d[A]/dt = k₃[A]³?",
+      "answer": {
+        "type": "latex",
+        "content": "t_{1/2}=\\frac{3}{2k_3[A]_0^2}"
+      }
+    },
+    {
+      "heading": "Chemisches Gleichgewicht",
+      "question": "Wie lautet das Massenwirkungsgesetz für a A + b B ⇌ c C + d D?",
+      "answer": {
+        "type": "latex",
+        "content": "K_c=\\frac{[C]_\\mathrm{G}^{\\,c}[D]_\\mathrm{G}^{\\,d}}{[A]_\\mathrm{G}^{\\,a}[B]_\\mathrm{G}^{\\,b}}"
+      }
+    },
+    {
+      "heading": "Chemisches Gleichgewicht",
+      "question": "Wie hängt die Gleichgewichtskonstante eines elementaren reversiblen Schritts mit den Geschwindigkeitskonstanten zusammen?",
+      "answer": {
+        "type": "latex",
+        "content": "K=\\frac{k_\\mathrm{hin}}{k_\\mathrm{rück}}"
+      }
+    },
+    {
+      "heading": "Temperaturabhängigkeit",
+      "question": "Wie lautet die Arrhenius-Gleichung?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "k=A\\exp\\!\\left(-\\frac{E_A}{RT}\\right)"
+        },
+        {
+          "type": "text",
+          "content": "A ist der präexponentielle Faktor, E_A die molare Aktivierungsenergie, R die Gaskonstante und T die absolute Temperatur."
+        }
+      ]
+    },
+    {
+      "heading": "Temperaturabhängigkeit",
+      "question": "Wie lautet die Arrhenius-Gleichung mit der Aktivierungsenergie pro Teilchen?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "k=A\\exp\\!\\left(-\\frac{\\varepsilon_A}{k_\\mathrm{B}T}\\right)"
+        },
+        {
+          "type": "latex",
+          "content": "E_A=N_A\\varepsilon_A"
+        }
+      ]
+    },
+    {
+      "heading": "Temperaturabhängigkeit",
+      "question": "Wie wird die Arrhenius-Gleichung linearisiert?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\ln k=\\ln A-\\frac{E_A}{R}\\frac{1}{T}"
+        },
+        {
+          "type": "text",
+          "content": "In einer Auftragung von ln k gegen 1/T ist die Steigung −E_A/R und der Achsenabschnitt ln A."
+        }
+      ]
+    },
+    {
+      "heading": "Temperaturabhängigkeit",
+      "question": "Warum steigt die Geschwindigkeitskonstante meist mit der Temperatur?",
+      "answer": {
+        "type": "text",
+        "content": "Mit steigender Temperatur wächst der Anteil der Teilchen, deren Energie die Aktivierungsbarriere erreicht oder überschreitet. Der Boltzmann-Faktor exp(−E_A/RT) wird dadurch größer."
+      }
+    },
+    {
+      "heading": "Fließstromapparatur",
+      "question": "Wie ist die mittlere Verweilzeit τ in einer idealen Fließstromapparatur definiert?",
+      "answer": {
+        "type": "latex",
+        "content": "\\tau=\\frac{V_R}{u}"
+      }
+    },
+    {
+      "heading": "Fließstromapparatur",
+      "question": "Wie lautet das Zeitgesetz für eine Reaktion 1. Ordnung in einer idealen Fließstromapparatur?",
+      "answer": {
+        "type": "latex",
+        "content": "\\ln\\!\\left(\\frac{[A]}{[A]_0}\\right)=-k_1\\frac{V_R}{u}=-k_1\\tau"
+      }
+    },
+    {
+      "heading": "Relaxationsverfahren",
+      "question": "Wie klingt eine kleine Störung y eines chemischen Gleichgewichts zeitlich ab?",
+      "answer": {
+        "type": "latex",
+        "content": "y(t)=y_0\\mathrm{e}^{-t/\\tau}"
+      }
+    },
+    {
+      "heading": "Relaxationsverfahren",
+      "question": "Wie lautet die Relaxationsrate für A + B ⇌ C mit Hinreaktion 2. Ordnung und Rückreaktion 1. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{\\tau}=k_2\\bigl([A]_\\mathrm{G}+[B]_\\mathrm{G}\\bigr)+k_{-1}"
+      }
+    },
+    {
+      "heading": "Relaxationsverfahren",
+      "question": "Wie lässt sich die Relaxationsrate mit der Gleichgewichtskonstante K ausdrücken?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "K=\\frac{k_2}{k_{-1}}"
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{1}{\\tau}=k_2\\left([A]_\\mathrm{G}+[B]_\\mathrm{G}+\\frac{1}{K}\\right)"
+        }
+      ]
+    },
+    {
+      "heading": "Folgereaktion A → B → C",
+      "question": "Welche Differentialgleichungen beschreiben die irreversible Folgereaktion A → B → C?",
+      "answer": {
+        "type": "latex",
+        "content": "\\begin{aligned}\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}&=-k_1[A]\\\\[2pt]\\frac{\\mathrm{d}[B]}{\\mathrm{d}t}&=k_1[A]-k_1^{*}[B]\\\\[2pt]\\frac{\\mathrm{d}[C]}{\\mathrm{d}t}&=k_1^{*}[B]\\end{aligned}"
+      }
+    },
+    {
+      "heading": "Folgereaktion A → B → C",
+      "question": "Wie lautet das Zeitgesetz für die Ausgangskomponente A?",
+      "answer": {
+        "type": "latex",
+        "content": "[A](t)=[A]_0\\mathrm{e}^{-k_1t}"
+      }
+    },
+    {
+      "heading": "Folgereaktion A → B → C",
+      "question": "Wie lautet das Zeitgesetz für die Zwischenkomponente B?",
+      "answer": {
+        "type": "latex",
+        "content": "[B](t)=\\frac{k_1[A]_0}{k_1^{*}-k_1}\\left(\\mathrm{e}^{-k_1t}-\\mathrm{e}^{-k_1^{*}t}\\right)"
+      }
+    },
+    {
+      "heading": "Folgereaktion A → B → C",
+      "question": "Wie lautet das Zeitgesetz für die Endkomponente C?",
+      "answer": {
+        "type": "latex",
+        "content": "[C](t)=[A]_0\\left[1-\\frac{k_1^{*}}{k_1^{*}-k_1}\\mathrm{e}^{-k_1t}+\\frac{k_1}{k_1^{*}-k_1}\\mathrm{e}^{-k_1^{*}t}\\right]"
+      }
+    },
+    {
+      "heading": "Folgereaktion A → B → C",
+      "question": "Zu welchem Zeitpunkt erreicht die Zwischenkomponente B ihr Maximum?",
+      "answer": {
+        "type": "latex",
+        "content": "t_\\mathrm{max}=\\frac{\\ln(k_1^{*}/k_1)}{k_1^{*}-k_1}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Was bedeutet die Teilchenzahldichte n beziehungsweise die Vorlesungsnotation ¹N?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "n\\equiv {}^{1}N=\\frac{N}{V}"
+        },
+        {
+          "type": "text",
+          "content": "Die Einheit ist m⁻³."
+        }
+      ]
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet das Ausschließungsvolumen für harte Kugeln mit dem Kollisionsabstand r₁₂?",
+      "answer": {
+        "type": "latex",
+        "content": "V_A=\\frac{1}{2}N_A\\frac{4\\pi}{3}r_{12}^{3}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet der Stoßquerschnitt zweier harter Kugeln?",
+      "answer": {
+        "type": "latex",
+        "content": "\\sigma=\\pi r_{12}^{2}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie groß ist für eine kurze Strecke Δx die Stoßwahrscheinlichkeit eines Teilchens?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "W=n\\sigma\\Delta x"
+        },
+        {
+          "type": "text",
+          "content": "Die Beziehung gilt für eine hinreichend kleine Strecke, sodass W deutlich kleiner als 1 ist."
+        }
+      ]
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Welcher Anteil eines Teilchenstroms hat nach der Strecke x noch keinen Stoß erlitten?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\dot N(x)}{\\dot N(0)}=\\mathrm{e}^{-n\\sigma x}=\\mathrm{e}^{-x/\\lambda}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die einfache mittlere freie Weglänge?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{1}{n\\sigma}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die Maxwell'sche mittlere freie Weglänge eines Gases identischer Teilchen?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,n\\sigma}"
+        },
+        {
+          "type": "text",
+          "content": "Der Faktor √2 berücksichtigt, dass sich nicht nur das betrachtete Teilchen, sondern auch seine Stoßpartner bewegen."
+        }
+      ]
+    },
+    {
+      "heading": "Maxwell-Boltzmann-Verteilung",
+      "question": "Wie lautet die quadratisch gemittelte Geschwindigkeit?",
+      "answer": {
+        "type": "latex",
+        "content": "v_\\mathrm{rms}=\\sqrt{\\overline{v^2}}=\\sqrt{\\frac{3k_\\mathrm{B}T}{m}}=\\sqrt{\\frac{3RT}{M}}"
+      }
+    },
+    {
+      "heading": "Maxwell-Boltzmann-Verteilung",
+      "question": "Wie lautet die mittlere Teilchengeschwindigkeit?",
+      "answer": {
+        "type": "latex",
+        "content": "\\overline v=\\sqrt{\\frac{8k_\\mathrm{B}T}{\\pi m}}=\\sqrt{\\frac{8RT}{\\pi M}}"
+      }
+    },
+    {
+      "heading": "Maxwell-Boltzmann-Verteilung",
+      "question": "Wie lautet die wahrscheinlichste Teilchengeschwindigkeit?",
+      "answer": {
+        "type": "latex",
+        "content": "v_\\mathrm{mp}=\\sqrt{\\frac{2k_\\mathrm{B}T}{m}}=\\sqrt{\\frac{2RT}{M}}"
+      }
+    },
+    {
+      "heading": "Maxwell-Boltzmann-Verteilung",
+      "question": "Wie sind wahrscheinlichste, mittlere und quadratisch gemittelte Geschwindigkeit geordnet?",
+      "answer": {
+        "type": "latex",
+        "content": "v_\\mathrm{mp}<\\overline v<v_\\mathrm{rms}"
+      }
+    },
+    {
+      "heading": "Reale Gase und Sutherland-Korrektur",
+      "question": "Wie lautet der kritische Stoßparameter unter Berücksichtigung attraktiver Wechselwirkungen?",
+      "answer": {
+        "type": "latex",
+        "content": "b_\\mathrm{kr}^{2}=r_{12}^{2}\\left(1-\\frac{2\\varepsilon_p(r_{12})}{3k_\\mathrm{B}T}\\right)=r_{12}^{2}\\left(1+\\frac{C}{T}\\right)"
+      }
+    },
+    {
+      "heading": "Reale Gase und Sutherland-Korrektur",
+      "question": "Wie ist die Sutherland-Konstante C definiert?",
+      "answer": {
+        "type": "latex",
+        "content": "C=-\\frac{2\\varepsilon_p(r_{12})}{3k_\\mathrm{B}}"
+      }
+    },
+    {
+      "heading": "Reale Gase und Sutherland-Korrektur",
+      "question": "Wie lautet der temperaturabhängige effektive Stoßquerschnitt?",
+      "answer": {
+        "type": "latex",
+        "content": "\\sigma_T=\\sigma\\left(1+\\frac{C}{T}\\right)"
+      }
+    },
+    {
+      "heading": "Reale Gase und Sutherland-Korrektur",
+      "question": "Wie lautet die Maxwell'sche mittlere freie Weglänge mit Sutherland-Korrektur?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,n\\sigma\\left(1+\\frac{C}{T}\\right)}=\\frac{1}{\\sqrt{2}\\,n\\sigma_T}"
+      }
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Was bedeutet die volumenbezogene Stoßzahl ¹Z_AB?",
+      "answer": {
+        "type": "text",
+        "content": "¹Z_AB ist die Zahl der Stöße zwischen Teilchen der Sorten A und B pro Zeit und Volumeneinheit. Die Einheit ist m⁻³ s⁻¹."
+      }
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Wie lautet die volumenbezogene Stoßzahl identischer Teilchen A?",
+      "answer": {
+        "type": "latex",
+        "content": "{}^{1}Z_{AA}=2n_A^{2}\\sigma_{AA}\\sqrt{\\frac{RT}{\\pi M_A}}"
+      }
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Wie lautet die volumenbezogene Stoßzahl verschiedener Teilchen A und B?",
+      "answer": {
+        "type": "latex",
+        "content": "{}^{1}Z_{AB}=2n_An_B\\sigma_{AB}\\sqrt{\\frac{2RT}{\\pi\\mu}}"
+      }
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Wie ist die reduzierte molare Masse μ eines Teilchenpaares A/B definiert?",
+      "answer": {
+        "type": "latex",
+        "content": "\\mu=\\frac{M_AM_B}{M_A+M_B}"
+      }
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Wie lautet die Stoßfrequenz Z_A eines einzelnen Teilchens A in einem Gas identischer Teilchen?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "Z_A=\\frac{\\overline v}{\\lambda_M}=4n_A\\sigma_{AA}\\sqrt{\\frac{RT}{\\pi M_A}}"
+        },
+        {
+          "type": "text",
+          "content": "Z_A besitzt die Einheit s⁻¹."
+        }
+      ]
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Wie lautet die Zahl der Wandstöße pro Zeit und Fläche?",
+      "answer": {
+        "type": "latex",
+        "content": "{}^{1}Z_W=\\frac{1}{4}n\\overline v=n\\sqrt{\\frac{RT}{2\\pi M}}"
+      }
+    },
+    {
+      "heading": "Stoßzahlen",
+      "question": "Wie hängen die Stoßzahl im Gas und die Wandstoßzahl vom Druck ab?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "{}^{1}Z_{AA}\\propto p^2,\\qquad {}^{1}Z_W\\propto p"
+        },
+        {
+          "type": "text",
+          "content": "Daher ist das Verhältnis ¹Z_AA/¹Z_W stark druckabhängig."
+        }
+      ]
+    },
+    {
+      "heading": "Allgemeine Transporttheorie",
+      "question": "Wie ist ein gerichteter Fluss einer Transportgröße Γ definiert?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\vec J_\\Gamma=\\frac{\\mathrm{d}\\Gamma}{A\\,\\mathrm{d}t}"
+        },
+        {
+          "type": "text",
+          "content": "Ein Fluss gibt an, wie viel einer Größe pro Zeit durch eine Flächeneinheit transportiert wird."
+        }
+      ]
+    },
+    {
+      "heading": "Allgemeine Transporttheorie",
+      "question": "Wie lautet die allgemeine lineare Transportgleichung?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\vec J_\\Gamma=-a\\,\\operatorname{grad}\\Gamma"
+        },
+        {
+          "type": "text",
+          "content": "Der Transportkoeffizient a verknüpft den Fluss mit dem Gradienten der transportierten Größe."
+        }
+      ]
+    },
+    {
+      "heading": "Allgemeine Transporttheorie",
+      "question": "Was bedeutet das Minuszeichen in einer Transportgleichung?",
+      "answer": {
+        "type": "text",
+        "content": "Der Fluss verläuft in Richtung abnehmender Transportgröße, also entlang des Gefälles."
+      }
+    },
+    {
+      "heading": "Allgemeine Transporttheorie",
+      "question": "Wie lautet die kinetische Modellgleichung für den Transport durch eine Ebene?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\vec J_\\Gamma=-\\frac{1}{2}n\\overline v\\,\\lambda_M\\left(\\frac{\\mathrm{d}\\overline\\Gamma}{\\mathrm{d}z}\\right)_{z_0}"
+        },
+        {
+          "type": "text",
+          "content": "Dabei ist Γ̄ die von einem Teilchen transportierte Größe."
+        }
+      ]
+    },
+    {
+      "heading": "Allgemeine Transporttheorie",
+      "question": "Welche Größen und Transportkoeffizienten gehören zusammen?",
+      "answer": {
+        "type": "markdown",
+        "content": "Teilchenzahl bzw. Masse → **Diffusionskoeffizient D**; Impuls → **Viskosität η**; Energie → **Wärmeleitfähigkeit λ**; elektrische Ladung → **elektrische Leitfähigkeit κ**."
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet das erste Ficksche Gesetz für die Teilchenzahldichte nᵢ?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{N_i}=-D_{ij}\\frac{\\mathrm{d}n_i}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet das erste Ficksche Gesetz in der üblichen Konzentrationsschreibweise?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_i=-D\\frac{\\mathrm{d}c_i}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Welche Einheit besitzt der Diffusionskoeffizient D?",
+      "answer": {
+        "type": "latex",
+        "content": "[D]=\\mathrm{m^2\\,s^{-1}}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie hängen Massefluss und Teilchenfluss einer Teilchensorte i zusammen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{M_i}=m_i\\vec J_{N_i}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet der Diffusionskoeffizient im einfachen kinetischen Modell der Vorlesung?",
+      "answer": {
+        "type": "latex",
+        "content": "D_i=\\frac{1}{2}\\overline v_i\\lambda_{M,i}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Welche Bedingungen gelten in einem stationären binären Diffusionssystem bei konstantem Druck und konstanter Temperatur?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "n_1+n_2=n=\\mathrm{const}"
+        },
+        {
+          "type": "latex",
+          "content": "\\vec J_{N_1}+\\vec J_{N_2}=0"
+        }
+      ]
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie verhalten sich die gegenseitigen Diffusionskoeffizienten D₁₂ und D₂₁?",
+      "answer": {
+        "type": "latex",
+        "content": "D_{12}=D_{21}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet der Selbstdiffusionskoeffizient eines idealisierten Gases?",
+      "answer": {
+        "type": "latex",
+        "content": "D=\\frac{1}{2}\\sqrt{\\frac{8k_\\mathrm{B}T}{\\pi m}}\\,\\frac{1}{\\sqrt{2}\\,n\\sigma}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet der Diffusionskoeffizient einer binären Gasmischung im verwendeten kinetischen Modell?",
+      "answer": {
+        "type": "latex",
+        "content": "D_{12}=D_{21}=\\frac{1}{2}\\frac{n_1\\lambda_{M,2}\\overline v_2+n_2\\lambda_{M,1}\\overline v_1}{n_1+n_2}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet das zweite Ficksche Gesetz in einer Dimension?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{\\partial n_i}{\\partial t}=D_{ij}\\frac{\\partial^2n_i}{\\partial z^2}"
+        },
+        {
+          "type": "text",
+          "content": "Diese Form setzt einen orts- und zeitunabhängigen Diffusionskoeffizienten voraus."
+        }
+      ]
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Was unterscheidet das erste und das zweite Ficksche Gesetz?",
+      "answer": {
+        "type": "markdown",
+        "content": "Das **erste Ficksche Gesetz** verknüpft den momentanen Fluss mit einem Konzentrationsgradienten. Das **zweite Ficksche Gesetz** beschreibt, wie sich eine nichtstationäre Konzentrationsverteilung mit der Zeit verändert."
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie hängt der Diffusionskoeffizient in kondensierten Phasen bei einem aktivierten Platzwechsel von der Temperatur ab?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "D=D_0\\exp\\!\\left(-\\frac{\\varepsilon_A}{k_\\mathrm{B}T}\\right)=D_0\\exp\\!\\left(-\\frac{E_A}{RT}\\right)"
+        },
+        {
+          "type": "text",
+          "content": "ε_A ist die Aktivierungsenergie pro Teilchen, E_A die molare Aktivierungsenergie."
+        }
+      ]
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wie lautet das Newtonsche Gesetz für den Impulsfluss in einer Scherströmung?",
+      "answer": {
+        "type": "latex",
+        "content": "J_{p_x}=-\\eta\\frac{\\mathrm{d}u_x}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Welche Einheit besitzt der dynamische Viskositätskoeffizient η?",
+      "answer": {
+        "type": "latex",
+        "content": "[\\eta]=\\mathrm{Pa\\,s}=\\mathrm{kg\\,m^{-1}\\,s^{-1}}"
+      }
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wie lautet die Viskosität eines Gases im einfachen kinetischen Modell?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\eta=\\frac{1}{2}\\rho\\overline v\\lambda_M"
+        },
+        {
+          "type": "latex",
+          "content": "\\eta=\\frac{\\overline v\\,m}{2\\sqrt{2}\\,\\sigma_T}"
+        }
+      ]
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Warum ist die Gasviskosität bei mittleren Drücken näherungsweise druckunabhängig?",
+      "answer": {
+        "type": "text",
+        "content": "Mit steigendem Druck nimmt die Dichte proportional zu, während die mittlere freie Weglänge umgekehrt proportional abnimmt. In η = ½ρv̄λ_M kompensieren sich beide Effekte."
+      }
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wann versagt die einfache druckunabhängige Beschreibung der Gasviskosität?",
+      "answer": {
+        "type": "markdown",
+        "content": "Bei **sehr hohen Drücken** ist das Modell der freien Weglänge nicht mehr ausreichend. Bei **sehr niedrigen Drücken** wird die freie Weglänge durch die Gefäßabmessungen begrenzt."
+      }
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wie wird die Temperaturabhängigkeit der Viskosität einer Flüssigkeit näherungsweise beschrieben?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{1}{\\eta}=A\\exp\\!\\left(-\\frac{E_A}{RT}\\right)"
+        },
+        {
+          "type": "latex",
+          "content": "\\eta=\\eta_0\\exp\\!\\left(\\frac{E_A}{RT}\\right)"
+        }
+      ]
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wie lautet das Hagen-Poiseuille-Gesetz für eine Flüssigkeit?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}V}{\\mathrm{d}t}=\\frac{\\pi r_R^4}{8\\eta l}(p_1-p_2)"
+      }
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Unter welchen Bedingungen gilt das Hagen-Poiseuille-Gesetz für Flüssigkeiten?",
+      "answer": {
+        "type": "markdown",
+        "content": "Für eine **laminare**, stationäre Strömung einer **newtonschen, inkompressiblen Flüssigkeit** durch ein langes, starres Rohr mit kreisförmigem Querschnitt und Haftbedingung an der Wand."
+      }
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wie stark hängt der Volumenstrom nach Hagen-Poiseuille vom Rohrradius ab?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{d}V}{\\mathrm{d}t}\\propto r_R^4"
+        },
+        {
+          "type": "text",
+          "content": "Eine Verdopplung des Radius erhöht den Volumenstrom bei sonst gleichen Bedingungen um den Faktor 16."
+        }
+      ]
+    },
+    {
+      "heading": "Viskosität",
+      "question": "Wie lautet die Hagen-Poiseuille-Auswertung für ein kompressibles Gas?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\eta=\\frac{\\pi r_R^4t}{16Vl}\\frac{p_1^2-p_2^2}{p_0}"
+        },
+        {
+          "type": "latex",
+          "content": "p_0=\\frac{p_1+p_2}{2}"
+        }
+      ]
+    },
+    {
+      "heading": "Wärmeleitung",
+      "question": "Wie lautet das Fouriersche Gesetz der Wärmeleitung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_U=-\\lambda\\frac{\\mathrm{d}T}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Wärmeleitung",
+      "question": "Welche Einheit besitzt die Wärmeleitfähigkeit λ?",
+      "answer": {
+        "type": "latex",
+        "content": "[\\lambda]=\\mathrm{W\\,m^{-1}\\,K^{-1}}"
+      }
+    },
+    {
+      "heading": "Wärmeleitung",
+      "question": "Wie ist die volumenbezogene Wärmekapazität Cᵥ^(V) definiert?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "C_v^{(V)}=\\frac{n\\,c_v}{N_A}"
+        },
+        {
+          "type": "text",
+          "content": "Dabei ist c_v die molare Wärmekapazität bei konstantem Volumen."
+        }
+      ]
+    },
+    {
+      "heading": "Wärmeleitung",
+      "question": "Wie lautet die Wärmeleitfähigkeit eines Gases im einfachen kinetischen Modell?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{1}{2}C_v^{(V)}\\overline v\\lambda_M"
+      }
+    },
+    {
+      "heading": "Wärmeleitung",
+      "question": "Wie hängt die Wärmeleitfähigkeit eines Gases vom Druck ab, solange λ_M viel kleiner als die Gefäßabmessungen ist?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\lambda_M\\propto\\frac{1}{n},\\qquad C_v^{(V)}\\propto n"
+        },
+        {
+          "type": "text",
+          "content": "Die beiden Druckabhängigkeiten kompensieren sich; λ ist näherungsweise druckunabhängig."
+        }
+      ]
+    },
+    {
+      "heading": "Wärmeleitung",
+      "question": "Wie hängt die Wärmeleitfähigkeit im sehr niedrigen Druckbereich vom Druck ab?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\lambda_M\\approx\\text{Gefäßabmessung}=\\mathrm{const}\\quad\\Rightarrow\\quad\\lambda\\propto p"
+        },
+        {
+          "type": "text",
+          "content": "Dieser Bereich wird beim Wärmeleitungsmanometer ausgenutzt."
+        }
+      ]
+    },
+    {
+      "heading": "Transportkoeffizienten",
+      "question": "Welche Beziehungen gelten im einfachen kinetischen Modell zwischen D, η und λ?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\eta}{D}=\\rho,\\qquad \\frac{\\lambda}{D}=C_v^{(V)},\\qquad \\frac{\\lambda}{\\eta}=\\frac{C_v^{(V)}}{\\rho}=\\frac{c_v}{M}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wie hängt die elektrische Feldstärke vom elektrischen Potential ab?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec E=-\\operatorname{grad}\\Phi"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wie lautet das lokale Ohmsche Gesetz?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec j=\\kappa\\vec E=-\\kappa\\operatorname{grad}\\Phi"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wie ist die Stromdichte definiert?",
+      "answer": {
+        "type": "latex",
+        "content": "j=\\frac{I}{A}=\\frac{\\mathrm{d}Q}{A\\,\\mathrm{d}t}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Welche Einheit besitzt die elektrische Leitfähigkeit κ?",
+      "answer": {
+        "type": "latex",
+        "content": "[\\kappa]=\\mathrm{S\\,m^{-1}}=\\mathrm{\\Omega^{-1}\\,m^{-1}}"
+      }
+    },
+    {
+      "heading": "Elektrischer Transport",
+      "question": "Wie hängen Widerstand R, spezifischer Widerstand ρ und Leitfähigkeit κ zusammen?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "R=\\rho\\frac{l}{A}=\\frac{1}{\\kappa}\\frac{l}{A}"
+        },
+        {
+          "type": "latex",
+          "content": "\\kappa=\\frac{l}{RA},\\qquad \\rho=\\frac{1}{\\kappa}"
+        }
+      ]
+    },
+    {
+      "heading": "Drude-Modell",
+      "question": "Wie werden Leitungselektronen im klassischen Drude-Modell beschrieben?",
+      "answer": {
+        "type": "text",
+        "content": "Die Leitungselektronen werden als klassisches, nahezu ideales Elektronengas betrachtet. Zwischen zufälligen Stößen mit dem Gitter bewegen sie sich frei und werden durch ein elektrisches Feld beschleunigt."
+      }
+    },
+    {
+      "heading": "Drude-Modell",
+      "question": "Wie lautet die mittlere Zeit τₛ zwischen zwei Elektronenstößen mit dem Gitter?",
+      "answer": {
+        "type": "latex",
+        "content": "\\tau_s=\\frac{l}{\\overline v_t}"
+      }
+    },
+    {
+      "heading": "Drude-Modell",
+      "question": "Wie lautet die mittlere Driftgeschwindigkeit im in der Vorlesung verwendeten einfachen Beschleunigungsmodell?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\overline v_E=\\frac{1}{2}\\tau_s\\frac{eE}{m}=\\frac{eEl}{2m\\overline v_t}"
+        },
+        {
+          "type": "text",
+          "content": "Der Faktor 1/2 entsteht hier aus der mittleren Geschwindigkeit während der linearen Beschleunigung zwischen zwei Stößen."
+        }
+      ]
+    },
+    {
+      "heading": "Drude-Modell",
+      "question": "Wie lautet die Stromdichte als Funktion des elektrischen Feldes im klassischen Modell?",
+      "answer": {
+        "type": "latex",
+        "content": "j=ne\\overline v_E=\\frac{ne^2l}{2m\\overline v_t}E"
+      }
+    },
+    {
+      "heading": "Drude-Modell",
+      "question": "Wie lautet die elektrische Leitfähigkeit im klassischen Drude-Modell der Vorlesung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\kappa=\\frac{ne^2l}{2m\\overline v_t}"
+      }
+    },
+    {
+      "heading": "Drude-Modell",
+      "question": "Wie lautet die elektronische Wärmeleitfähigkeit im klassischen Modell der Vorlesung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{6k_\\mathrm{B}^{2}T}{\\pi m\\overline v_t}\\,n\\,l"
+      }
+    },
+    {
+      "heading": "Wiedemann-Franz-Gesetz",
+      "question": "Wie lautet das Wiedemann-Franz-Gesetz im klassischen Drude-Modell?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{\\lambda}{\\kappa}=\\frac{12}{\\pi}\\left(\\frac{k_\\mathrm{B}}{e}\\right)^2T"
+        },
+        {
+          "type": "text",
+          "content": "Das Verhältnis λ/κ ist proportional zur absoluten Temperatur. Der klassische Proportionalitätsfaktor stimmt quantitativ nicht exakt mit dem Experiment überein."
+        }
+      ]
+    },
+    {
+      "heading": "Elektrischer Widerstand",
+      "question": "Wie lautet die Matthiessensche Regel?",
+      "answer": {
+        "type": "latex",
+        "content": "\\rho=\\rho_T+\\rho_\\mathrm{Rest}"
+      }
+    },
+    {
+      "heading": "Elektrischer Widerstand",
+      "question": "Was bedeuten ρ_T und ρ_Rest in der Matthiessenschen Regel?",
+      "answer": {
+        "type": "markdown",
+        "content": "ρ_T ist der **temperaturabhängige** Anteil durch Gitterschwingungen. ρ_Rest ist der weitgehend **temperaturunabhängige** Restwiderstand durch Defekte und Verunreinigungen."
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie entsteht die Eigenleitung eines Halbleiters?",
+      "answer": {
+        "type": "text",
+        "content": "Durch thermische Anregung gelangt ein Elektron vom Valenzband in das Leitungsband. Es entstehen gleichzeitig ein bewegliches Elektron im Leitungsband und ein bewegliches Loch im Valenzband; beide tragen zum Stromtransport bei."
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie hängt die elektrische Leitfähigkeit eines Eigenhalbleiters von der Temperatur ab?",
+      "answer": {
+        "type": "latex",
+        "content": "\\kappa=\\kappa_0\\exp\\!\\left(-\\frac{\\Delta\\varepsilon}{2k_\\mathrm{B}T}\\right)"
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie wird die Leitfähigkeitsgleichung eines Eigenhalbleiters linearisiert?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\ln\\kappa=\\ln\\kappa_0-\\frac{\\Delta\\varepsilon}{2k_\\mathrm{B}}\\frac{1}{T}"
+        },
+        {
+          "type": "text",
+          "content": "Eine Auftragung von ln κ gegen 1/T ergibt eine Gerade."
+        }
+      ]
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie lässt sich die Bandlücke Δε aus der Steigung m einer Auftragung ln κ gegen 1/T bestimmen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\Delta\\varepsilon=-2k_\\mathrm{B}m"
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie wirkt sich die Größe der Bandlücke auf die Leitfähigkeit aus?",
+      "answer": {
+        "type": "text",
+        "content": "Je größer die Bandlücke, desto weniger Ladungsträger werden bei einer gegebenen Temperatur thermisch erzeugt. Sehr große Bandlücken führen zu isolierendem Verhalten."
+      }
+    }
+  ]
+}

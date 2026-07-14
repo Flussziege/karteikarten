@@ -1,0 +1,964 @@
+{
+  "title": "Formeln der chemischen Kinetik und Transportprozesse",
+  "description": "Karteikarten zu Reaktionsordnungen, Quasistationarität, Reaktionsmechanismen, Transportgleichungen, Diffusion, Viskosität, Wärmeleitung, Stoßtheorie, elektrischer Leitfähigkeit und Eyring-Theorie.",
+  "cards": [
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz einer Reaktion 0. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=-k_0"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Zeitgesetz einer Reaktion 0. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "[A]_t=[A]_0-k_0t"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die Halbwertszeit einer Reaktion 0. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "t_{1/2}=\\frac{[A]_0}{2k_0}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz einer Reaktion 1. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=-k_1[A]"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Zeitgesetz einer Reaktion 1. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "[A]_t=[A]_0\\mathrm{e}^{-k_1t}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die linearisierte Form des Zeitgesetzes 1. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\ln[A]_t=\\ln[A]_0-k_1t"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die Halbwertszeit einer Reaktion 1. Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "t_{1/2}=\\frac{\\ln 2}{k_1}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Geschwindigkeitsgesetz für A + B → Produkte mit [A]₀ = [B]₀?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=-k_2[A][B]=-k_2[A]^2"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Zeitgesetz für A + B → Produkte mit [A]₀ = [B]₀?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]_t}=\\frac{1}{[A]_0}+k_2t"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die Halbwertszeit für A + B → Produkte mit [A]₀ = [B]₀?",
+      "answer": {
+        "type": "latex",
+        "content": "t_{1/2}=\\frac{1}{k_2[A]_0}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die Verbrauchsgeschwindigkeit von A für die Reaktion 2A → Produkte?",
+      "answer": {
+        "type": "latex",
+        "content": "-\\frac{\\mathrm{d}[A]}{\\mathrm{d}t}=2k_2[A]^2"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Zeitgesetz für die Reaktion 2A → Produkte?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]_t}=\\frac{1}{[A]_0}+2k_2t"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die Halbwertszeit für die Reaktion 2A → Produkte?",
+      "answer": {
+        "type": "latex",
+        "content": "t_{1/2}=\\frac{1}{2k_2[A]_0}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die allgemeine Geschwindigkeitsgleichung einer Reaktion 3. Ordnung in Abhängigkeit vom Reaktionsfortschritt x?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}x}{\\mathrm{d}t}=k_3\\left([A]_0+\\nu_Ax\\right)\\left([B]_0+\\nu_Bx\\right)\\left([C]_0+\\nu_Cx\\right)"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet das Zeitgesetz 3. Ordnung, wenn alle drei Edukte dieselbe Anfangskonzentration besitzen und im Verhältnis 1:1:1 reagieren?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{1}{[A]_t^2}=\\frac{1}{[A]_0^2}+2k_3t"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Wie lautet die Halbwertszeit einer Reaktion 3. Ordnung für gleiche Anfangskonzentrationen?",
+      "answer": {
+        "type": "latex",
+        "content": "t_{1/2}=\\frac{3}{2k_3[A]_0^2}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Welche Auftragung ist für eine Reaktion 0. Ordnung linear?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Die Konzentration [A] wird gegen die Zeit t aufgetragen."
+        },
+        {
+          "type": "latex",
+          "content": "[A]_t=[A]_0-k_0t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt −k₀."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Welche Auftragung ist für eine Reaktion 1. Ordnung linear?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Der natürliche Logarithmus der Konzentration wird gegen die Zeit aufgetragen."
+        },
+        {
+          "type": "latex",
+          "content": "\\ln[A]_t=\\ln[A]_0-k_1t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt −k₁."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Welche Auftragung ist für eine Reaktion 2. Ordnung linear?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Der Kehrwert der Konzentration wird gegen die Zeit aufgetragen."
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{1}{[A]_t}=\\frac{1}{[A]_0}+k_2t"
+        },
+        {
+          "type": "text",
+          "content": "Die Steigung beträgt bei A + B mit gleichen Anfangskonzentrationen k₂."
+        }
+      ]
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Welche Auftragung ist für eine Reaktion 3. Ordnung linear?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Das Quadrat des Konzentrationskehrwertes wird gegen die Zeit aufgetragen."
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{1}{[A]_t^2}=\\frac{1}{[A]_0^2}+2k_3t"
+        }
+      ]
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Welche Einheit besitzt die Geschwindigkeitskonstante einer Reaktion n-ter Ordnung?",
+      "answer": {
+        "type": "latex",
+        "content": "[k_n]=\\left(\\mathrm{Konzentration}\\right)^{1-n}\\left(\\mathrm{Zeit}\\right)^{-1}"
+      }
+    },
+    {
+      "heading": "Reaktionsordnung",
+      "question": "Ist die Reaktionsordnung immer gleich den stöchiometrischen Koeffizienten?",
+      "answer": {
+        "type": "markdown",
+        "content": "Nein. Die Reaktionsordnung wird **experimentell** aus dem Geschwindigkeitsgesetz bestimmt. Nur bei einem einzelnen elementaren Reaktionsschritt entsprechen die Exponenten des Geschwindigkeitsgesetzes gewöhnlich den stöchiometrischen Koeffizienten."
+      }
+    },
+    {
+      "heading": "Arrhenius-Gleichung",
+      "question": "Wie lautet die Arrhenius-Gleichung?",
+      "answer": {
+        "type": "latex",
+        "content": "k=A\\exp\\left(-\\frac{E_A}{RT}\\right)"
+      }
+    },
+    {
+      "heading": "Arrhenius-Gleichung",
+      "question": "Welche Bedeutung besitzt der präexponentielle Faktor A?",
+      "answer": {
+        "type": "text",
+        "content": "A wird als Frequenzfaktor oder präexponentieller Faktor bezeichnet. Er berücksichtigt unter anderem die Häufigkeit geeigneter Zusammenstöße und die richtige Orientierung der reagierenden Teilchen."
+      }
+    },
+    {
+      "heading": "Arrhenius-Gleichung",
+      "question": "Was ist die Aktivierungsenergie E_A?",
+      "answer": {
+        "type": "text",
+        "content": "Die Aktivierungsenergie ist die Energiebarriere, die für eine Reaktion überwunden werden muss. Wird E_A molar angegeben, steht in der Arrhenius-Gleichung R; für die Energie eines einzelnen Teilchens wird k_B verwendet."
+      }
+    },
+    {
+      "heading": "Arrhenius-Gleichung",
+      "question": "Wie lautet die linearisierte Arrhenius-Gleichung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\ln k=\\ln A-\\frac{E_A}{R}\\frac{1}{T}"
+      }
+    },
+    {
+      "heading": "Arrhenius-Gleichung",
+      "question": "Wie kann die Aktivierungsenergie aus einem Arrhenius-Diagramm bestimmt werden?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Man trägt ln(k) gegen 1/T auf. Die Steigung m der Geraden ist:"
+        },
+        {
+          "type": "latex",
+          "content": "m=-\\frac{E_A}{R}"
+        },
+        {
+          "type": "latex",
+          "content": "E_A=-mR"
+        }
+      ]
+    },
+    {
+      "heading": "Quasistationarität",
+      "question": "Was bedeutet die quasistationäre Näherung für ein reaktives Zwischenprodukt B?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Die Konzentration des Zwischenproduktes bleibt während des größten Teils der Reaktion klein und nahezu konstant."
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{d}[B]}{\\mathrm{d}t}\\approx 0"
+        }
+      ]
+    },
+    {
+      "heading": "Quasistationarität",
+      "question": "Unter welcher Bedingung ist die quasistationäre Näherung für A → B → C besonders sinnvoll?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "A\\xrightarrow{k_1}B\\xrightarrow{k_2}C"
+        },
+        {
+          "type": "text",
+          "content": "Das Zwischenprodukt B muss wesentlich schneller verbraucht als gebildet werden."
+        },
+        {
+          "type": "latex",
+          "content": "k_2\\gg k_1"
+        }
+      ]
+    },
+    {
+      "heading": "Quasistationarität",
+      "question": "Welche Konzentration besitzt das Zwischenprodukt B unter quasistationären Bedingungen bei A → B → C?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{d}[B]}{\\mathrm{d}t}=k_1[A]-k_2[B]\\approx 0"
+        },
+        {
+          "type": "latex",
+          "content": "[B]\\approx\\frac{k_1[A]}{k_2}"
+        }
+      ]
+    },
+    {
+      "heading": "Quasistationarität",
+      "question": "Wie lautet die Geschwindigkeit der Produktbildung für A → B → C unter quasistationären Bedingungen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}[C]}{\\mathrm{d}t}=k_2[B]\\approx k_1[A]"
+      }
+    },
+    {
+      "heading": "Quasistationarität",
+      "question": "Wie lautet die Produktkonzentration für A → B → C unter quasistationären Bedingungen?",
+      "answer": {
+        "type": "latex",
+        "content": "[C]_t=[A]_0\\left(1-\\mathrm{e}^{-k_1t}\\right)"
+      }
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Wie lautet der Lindemann-Mechanismus für eine unimolekulare Gasreaktion?",
+      "answer": {
+        "type": "latex",
+        "content": "A+A\\underset{k_{-2}}{\\stackrel{k_2}{\\rightleftharpoons}}A^*+A,\\qquad A^*\\xrightarrow{k_1}P"
+      }
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Was ist A* im Lindemann-Mechanismus?",
+      "answer": {
+        "type": "text",
+        "content": "A* ist ein durch einen Stoß aktiviertes Molekül. Es kann entweder zum Produkt zerfallen oder durch einen weiteren Stoß wieder deaktiviert werden."
+      }
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Wie lautet die quasistationäre Bedingung für A* im Lindemann-Mechanismus?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}[A^*]}{\\mathrm{d}t}=k_2[A]^2-k_{-2}[A^*][A]-k_1[A^*]\\approx 0"
+      }
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Wie lautet die Konzentration von A* unter quasistationären Bedingungen?",
+      "answer": {
+        "type": "latex",
+        "content": "[A^*]=\\frac{k_2[A]^2}{k_{-2}[A]+k_1}"
+      }
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Wie lautet das resultierende Geschwindigkeitsgesetz des Lindemann-Mechanismus?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}[P]}{\\mathrm{d}t}=\\frac{k_1k_2[A]^2}{k_{-2}[A]+k_1}"
+      }
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Welches Grenzgesetz ergibt sich beim Lindemann-Mechanismus bei niedrigem Druck?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Bei niedriger Konzentration beziehungsweise niedrigem Druck gilt k₁ ≫ k₋₂[A]."
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{d}[P]}{\\mathrm{d}t}\\approx k_2[A]^2"
+        },
+        {
+          "type": "text",
+          "content": "Die Reaktion erscheint als Reaktion 2. Ordnung."
+        }
+      ]
+    },
+    {
+      "heading": "Lindemann-Mechanismus",
+      "question": "Welches Grenzgesetz ergibt sich beim Lindemann-Mechanismus bei hohem Druck?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Bei hoher Konzentration beziehungsweise hohem Druck gilt k₋₂[A] ≫ k₁."
+        },
+        {
+          "type": "latex",
+          "content": "\\frac{\\mathrm{d}[P]}{\\mathrm{d}t}\\approx\\frac{k_1k_2}{k_{-2}}[A]"
+        },
+        {
+          "type": "text",
+          "content": "Die Reaktion erscheint als Reaktion 1. Ordnung."
+        }
+      ]
+    },
+    {
+      "heading": "Oberflächenreaktionen",
+      "question": "Was beschreibt der Eley-Rideal-Mechanismus?",
+      "answer": {
+        "type": "text",
+        "content": "Beim Eley-Rideal-Mechanismus reagiert ein Teilchen aus der Gasphase direkt mit einem bereits an der Oberfläche adsorbierten Teilchen."
+      }
+    },
+    {
+      "heading": "Oberflächenreaktionen",
+      "question": "Wie kann der Eley-Rideal-Mechanismus schematisch dargestellt werden?",
+      "answer": {
+        "type": "latex",
+        "content": "A+*\\rightleftharpoons A{-}*,\\qquad A{-}*+B\\longrightarrow P+*"
+      }
+    },
+    {
+      "heading": "Oberflächenreaktionen",
+      "question": "Was beschreibt der Langmuir-Hinshelwood-Mechanismus?",
+      "answer": {
+        "type": "text",
+        "content": "Beim Langmuir-Hinshelwood-Mechanismus werden beide Reaktionspartner zunächst an benachbarten Oberflächenplätzen adsorbiert. Anschließend reagieren die adsorbierten Teilchen miteinander."
+      }
+    },
+    {
+      "heading": "Oberflächenreaktionen",
+      "question": "Wie kann der Langmuir-Hinshelwood-Mechanismus schematisch dargestellt werden?",
+      "answer": {
+        "type": "latex",
+        "content": "A+*\\rightleftharpoons A{-}*,\\qquad B+*\\rightleftharpoons B{-}*,\\qquad A{-}*+B{-}*\\longrightarrow P+2*"
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Welche Größe wird bei der Wärmeleitung transportiert und welcher Gradient ist die treibende Kraft?",
+      "answer": {
+        "type": "text",
+        "content": "Transportiert wird thermische beziehungsweise innere Energie. Die treibende Kraft ist ein Temperaturgradient."
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Welche Größe wird bei der Diffusion transportiert und welcher Gradient ist die treibende Kraft?",
+      "answer": {
+        "type": "text",
+        "content": "Transportiert werden Teilchenzahl, Stoffmenge oder Masse. Die treibende Kraft ist ein Konzentrations- beziehungsweise Dichtegradient."
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Welche Größe wird beim Impulstransport transportiert und welcher Gradient ist die treibende Kraft?",
+      "answer": {
+        "type": "text",
+        "content": "Transportiert wird Impuls. Die treibende Kraft ist ein Geschwindigkeitsgradient."
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Welche Größe wird beim Ladungstransport transportiert und welcher Gradient ist die treibende Kraft?",
+      "answer": {
+        "type": "text",
+        "content": "Transportiert wird elektrische Ladung. Die treibende Kraft ist ein Gradient des elektrischen Potentials beziehungsweise ein elektrisches Feld."
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Wie ist der allgemeine Fluss einer Transportgröße Γ definiert?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{\\Gamma}=\\frac{\\mathrm{d}\\Gamma}{A\\,\\mathrm{d}t}"
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Wie lautet die allgemeine mikroskopische Transportgleichung der kinetischen Gastheorie?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{\\Gamma}=-\\frac{1}{2}\\,{}^1N\\,\\overline v\\,\\lambda_M\\frac{\\mathrm{d}\\overline\\Gamma}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Welche Bedeutung besitzt das Minuszeichen in einer Transportgleichung?",
+      "answer": {
+        "type": "text",
+        "content": "Der Fluss erfolgt entgegen dem Gradienten, also von einem Bereich mit hohem Wert der betrachteten Größe zu einem Bereich mit niedrigerem Wert."
+      }
+    },
+    {
+      "heading": "Transportprozesse",
+      "question": "Was bedeuten die Größen in der allgemeinen Transportgleichung?",
+      "answer": {
+        "type": "markdown",
+        "content": "**A:** Querschnittsfläche  \n**¹N:** Teilchenzahldichte  \n**v̄:** mittlere Teilchengeschwindigkeit  \n**λ_M:** Maxwell'sche mittlere freie Weglänge  \n**Γ̄:** mittlere transportierte Größe pro Teilchen"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet das erste Ficksche Gesetz auf Teilchenebene?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{N_i}=\\frac{\\mathrm{d}N_i}{A\\,\\mathrm{d}t}=-D\\frac{\\mathrm{d}{}^1N_i}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet das erste Ficksche Gesetz auf molarer Ebene?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{n_i}=\\frac{\\mathrm{d}n_i}{A\\,\\mathrm{d}t}=-D\\frac{\\mathrm{d}c_i}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet der Diffusionskoeffizient nach der einfachen kinetischen Gastheorie?",
+      "answer": {
+        "type": "latex",
+        "content": "D=\\frac{1}{2}\\overline v\\lambda_M"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Wie lautet das zweite Ficksche Gesetz für einen konstanten Diffusionskoeffizienten?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\partial c}{\\partial t}=D\\frac{\\partial^2c}{\\partial z^2}"
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Was beschreibt das erste Ficksche Gesetz?",
+      "answer": {
+        "type": "text",
+        "content": "Das erste Ficksche Gesetz beschreibt den momentanen Diffusionsfluss als Folge eines räumlichen Konzentrationsgradienten. Es wird besonders für stationäre Diffusion verwendet."
+      }
+    },
+    {
+      "heading": "Diffusion",
+      "question": "Was beschreibt das zweite Ficksche Gesetz?",
+      "answer": {
+        "type": "text",
+        "content": "Das zweite Ficksche Gesetz beschreibt, wie sich eine Konzentrationsverteilung zeitlich verändert. Es wird für instationäre Diffusionsvorgänge verwendet."
+      }
+    },
+    {
+      "heading": "Impulstransport",
+      "question": "Wie lautet die mikroskopische Gleichung für den Impulsfluss?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{mv_x}=-\\frac{1}{2}\\,{}^1N\\,\\overline v\\,\\lambda_M\\frac{\\mathrm{d}(mv_x)}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Impulstransport",
+      "question": "Wie lautet das Newtonsche Reibungsgesetz?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_{mv_x}=-\\eta\\frac{\\mathrm{d}v_x}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Impulstransport",
+      "question": "Wie lautet der Viskositätskoeffizient nach der einfachen kinetischen Gastheorie?",
+      "answer": {
+        "type": "latex",
+        "content": "\\eta=\\frac{1}{2}\\rho\\overline v\\lambda_M"
+      }
+    },
+    {
+      "heading": "Impulstransport",
+      "question": "Was ist die dynamische Viskosität η?",
+      "answer": {
+        "type": "text",
+        "content": "Die dynamische Viskosität beschreibt den Widerstand eines Fluids gegen die Verschiebung benachbarter Schichten mit unterschiedlichen Geschwindigkeiten."
+      }
+    },
+    {
+      "heading": "Wärmetransport",
+      "question": "Wie lautet das Fouriersche Gesetz der Wärmeleitung?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_U=-\\lambda\\frac{\\mathrm{d}T}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Wärmetransport",
+      "question": "Wie lautet der mikroskopische Ausdruck für den Wärmefluss?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_U=-\\frac{1}{2}\\,{}^1N\\,\\overline v\\,\\lambda_M\\frac{\\mathrm{d}\\overline U}{\\mathrm{d}z}"
+      }
+    },
+    {
+      "heading": "Wärmetransport",
+      "question": "Wie lautet der Wärmeleitungskoeffizient nach der einfachen kinetischen Gastheorie?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{1}{2}\\,{}^1C_V\\,\\overline v\\,\\lambda_M"
+      }
+    },
+    {
+      "heading": "Wärmetransport",
+      "question": "Was bedeutet ¹C_V in der Gleichung für die Wärmeleitfähigkeit?",
+      "answer": {
+        "type": "text",
+        "content": "¹C_V ist die Wärmekapazität bei konstantem Volumen pro Volumeneinheit."
+      }
+    },
+    {
+      "heading": "Ladungstransport",
+      "question": "Wie hängen elektrisches Feld und elektrisches Potential zusammen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec E=-\\operatorname{grad}\\Phi"
+      }
+    },
+    {
+      "heading": "Ladungstransport",
+      "question": "Wie lautet das Ohmsche Gesetz in lokaler Form?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec j=\\kappa\\vec E"
+      }
+    },
+    {
+      "heading": "Ladungstransport",
+      "question": "Wie lautet der Ladungsfluss in Abhängigkeit vom Potentialgradienten?",
+      "answer": {
+        "type": "latex",
+        "content": "\\vec J_Q=\\vec j=-\\kappa\\operatorname{grad}\\Phi"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie lautet die mittlere Geschwindigkeit von Gasteilchen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\overline v=\\sqrt{\\frac{8RT}{\\pi M}}"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie lautet der geometrische Stoßquerschnitt zweier kugelförmiger Teilchen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\sigma_{12}=\\pi r_{12}^2=\\pi(r_1+r_2)^2"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie hängt der gemeinsame Stoßradius von den Teilchenradien ab?",
+      "answer": {
+        "type": "latex",
+        "content": "r_{12}=r_1+r_2"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie lautet der temperaturabhängige Stoßquerschnitt unter Berücksichtigung attraktiver Wechselwirkungen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\sigma_T=\\sigma\\left(1+\\frac{C}{T}\\right)"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Was beschreibt die Sutherland-Konstante C?",
+      "answer": {
+        "type": "text",
+        "content": "Die Sutherland-Konstante berücksichtigt die Vergrößerung des effektiven Stoßquerschnitts durch attraktive intermolekulare Wechselwirkungen. Ihr Wert besitzt die Einheit Kelvin."
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie kann die Sutherland-Konstante mithilfe der attraktiven Wechselwirkungsenergie ausgedrückt werden?",
+      "answer": {
+        "type": "latex",
+        "content": "C=\\frac{2\\left|\\varepsilon_p(r_{12})\\right|}{3k_B}"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Was ist die mittlere freie Weglänge?",
+      "answer": {
+        "type": "text",
+        "content": "Die mittlere freie Weglänge ist der Mittelwert der Strecke, die ein Teilchen zwischen zwei aufeinanderfolgenden Stößen zurücklegt."
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie lautet die einfache mittlere freie Weglänge für ruhende Stoßpartner?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{1}{{}^1N\\sigma}"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie lautet die Maxwell'sche mittlere freie Weglänge?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda_M=\\frac{1}{\\sqrt{2}\\,{}^1N\\sigma_T}"
+      }
+    },
+    {
+      "heading": "Kinetische Gastheorie",
+      "question": "Wie hängt die mittlere freie Weglänge bei konstanter Temperatur vom Druck ab?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda_M\\propto\\frac{1}{p}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die Stoßfrequenz eines einzelnen A-Moleküls mit anderen A-Molekülen?",
+      "answer": {
+        "type": "latex",
+        "content": "Z_A={}^1N_A\\sigma_{AA}\\sqrt{\\frac{16RT}{\\pi M_A}}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Welche Einheit besitzt die Stoßfrequenz Z_A eines einzelnen Moleküls?",
+      "answer": {
+        "type": "latex",
+        "content": "[Z_A]=\\mathrm{s}^{-1}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die Zahl der A-A-Stöße pro Zeit und Volumen?",
+      "answer": {
+        "type": "latex",
+        "content": "{}^1Z_{AA}=\\left({}^1N_A\\right)^2\\sigma_{AA}\\sqrt{\\frac{4RT}{\\pi M_A}}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die Zahl der A-B-Stöße pro Zeit und Volumen?",
+      "answer": {
+        "type": "latex",
+        "content": "{}^1Z_{AB}={}^1N_A\\,{}^1N_B\\sigma_{AB}\\sqrt{\\frac{8RT}{\\pi\\mu_{AB}}}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die reduzierte Masse zweier Teilchen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\mu_{AB}=\\frac{m_Am_B}{m_A+m_B}"
+      }
+    },
+    {
+      "heading": "Stoßtheorie",
+      "question": "Wie lautet die Zahl der Wandstöße pro Zeit und Fläche?",
+      "answer": {
+        "type": "latex",
+        "content": "{}^1Z_W={}^1N_A\\sqrt{\\frac{RT}{2\\pi M_A}}"
+      }
+    },
+    {
+      "heading": "Hagen-Poiseuille-Gesetz",
+      "question": "Wie lautet das Hagen-Poiseuille-Gesetz für eine inkompressible Flüssigkeit?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}V}{\\mathrm{d}t}=\\frac{\\pi r^4}{8\\eta l}\\Delta p"
+      }
+    },
+    {
+      "heading": "Hagen-Poiseuille-Gesetz",
+      "question": "Wie hängt der Volumenstrom einer Flüssigkeit vom Rohrradius ab?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}V}{\\mathrm{d}t}\\propto r^4"
+      }
+    },
+    {
+      "heading": "Hagen-Poiseuille-Gesetz",
+      "question": "Wie lautet das Hagen-Poiseuille-Gesetz für ein kompressibles ideales Gas?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\mathrm{d}V}{\\mathrm{d}t}=\\frac{\\pi r^4}{16\\eta l}\\frac{p_1^2-p_2^2}{p_0}"
+      }
+    },
+    {
+      "heading": "Drude-Theorie",
+      "question": "Wie lautet die elektrische Leitfähigkeit in der klassischen Drude-Theorie?",
+      "answer": {
+        "type": "latex",
+        "content": "\\kappa=\\frac{{}^1Ne^2l}{2m\\overline v_t}"
+      }
+    },
+    {
+      "heading": "Drude-Theorie",
+      "question": "Wie lautet die Wärmeleitfähigkeit des Elektronengases in der klassischen Drude-Theorie?",
+      "answer": {
+        "type": "latex",
+        "content": "\\lambda=\\frac{6k_B^2T}{\\pi m\\overline v_t}\\,{}^1N\\,l"
+      }
+    },
+    {
+      "heading": "Drude-Theorie",
+      "question": "Wie lautet das klassische Wiedemann-Franz-Gesetz in der Drude-Theorie?",
+      "answer": {
+        "type": "latex",
+        "content": "\\frac{\\lambda}{\\kappa}=\\frac{12}{\\pi}\\left(\\frac{k_B}{e}\\right)^2T"
+      }
+    },
+    {
+      "heading": "Drude-Theorie",
+      "question": "Welche qualitative Aussage macht das Wiedemann-Franz-Gesetz?",
+      "answer": {
+        "type": "text",
+        "content": "Metalle, die elektrische Ladung gut leiten, leiten in der Regel auch Wärme gut, da in beiden Fällen hauptsächlich die freien Elektronen für den Transport verantwortlich sind."
+      }
+    },
+    {
+      "heading": "Elektrischer Widerstand",
+      "question": "Wie lautet die Matthiessensche Regel?",
+      "answer": {
+        "type": "latex",
+        "content": "\\rho=\\rho_T+\\rho_{\\mathrm{Rest}}"
+      }
+    },
+    {
+      "heading": "Elektrischer Widerstand",
+      "question": "Welche Beiträge werden in der Matthiessenschen Regel unterschieden?",
+      "answer": {
+        "type": "markdown",
+        "content": "**ρ_T:** temperaturabhängiger Widerstandsbeitrag durch Gitterschwingungen  \n**ρ_Rest:** näherungsweise temperaturunabhängiger Restwiderstand durch Defekte, Verunreinigungen und Grenzflächen"
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie hängt die elektrische Leitfähigkeit eines Eigenhalbleiters von der Temperatur ab?",
+      "answer": {
+        "type": "latex",
+        "content": "\\kappa=\\kappa_0\\exp\\left(-\\frac{\\Delta\\varepsilon}{2k_BT}\\right)"
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Warum steht bei einem Eigenhalbleiter der Faktor 2 im Exponenten?",
+      "answer": {
+        "type": "text",
+        "content": "Zur Bildung eines Elektron-Loch-Paares muss die Bandlücke überwunden werden. Die thermisch erzeugte Ladungsträgerkonzentration ist proportional zu exp(−Δε/(2kBT))."
+      }
+    },
+    {
+      "heading": "Halbleiter",
+      "question": "Wie kann die Bandlücke eines Eigenhalbleiters aus Leitfähigkeitsmessungen bestimmt werden?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Man trägt ln(κ) gegen 1/T auf."
+        },
+        {
+          "type": "latex",
+          "content": "\\ln\\kappa=\\ln\\kappa_0-\\frac{\\Delta\\varepsilon}{2k_B}\\frac{1}{T}"
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta\\varepsilon=-2k_Bm"
+        },
+        {
+          "type": "text",
+          "content": "Dabei ist m die Steigung der Ausgleichsgeraden."
+        }
+      ]
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Was ist der aktivierte Komplex in der Eyring-Theorie?",
+      "answer": {
+        "type": "text",
+        "content": "Der aktivierte Komplex ist eine kurzlebige Konfiguration am Maximum der freien Aktivierungsenergie. Er befindet sich näherungsweise im Gleichgewicht mit den Edukten und kann anschließend zum Produkt zerfallen."
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Wie wird eine Reaktion in der Theorie des aktivierten Komplexes dargestellt?",
+      "answer": {
+        "type": "latex",
+        "content": "A+B\\rightleftharpoons M^{\\ddagger}\\longrightarrow P"
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Wie lautet die Eyring-Gleichung in Abhängigkeit von der freien Aktivierungsenthalpie?",
+      "answer": {
+        "type": "latex",
+        "content": "k=\\frac{k_BT}{h}\\exp\\left(-\\frac{\\Delta G^{\\ddagger}}{RT}\\right)"
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Wie lautet die Eyring-Gleichung in Abhängigkeit von Aktivierungsenthalpie und Aktivierungsentropie?",
+      "answer": {
+        "type": "latex",
+        "content": "k=\\frac{k_BT}{h}\\exp\\left(\\frac{\\Delta S^{\\ddagger}}{R}\\right)\\exp\\left(-\\frac{\\Delta H^{\\ddagger}}{RT}\\right)"
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Wie hängen freie Aktivierungsenthalpie, Aktivierungsenthalpie und Aktivierungsentropie zusammen?",
+      "answer": {
+        "type": "latex",
+        "content": "\\Delta G^{\\ddagger}=\\Delta H^{\\ddagger}-T\\Delta S^{\\ddagger}"
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Welche Bedeutung besitzt der Faktor k_BT/h in der Eyring-Gleichung?",
+      "answer": {
+        "type": "text",
+        "content": "Der Faktor k_BT/h beschreibt die charakteristische Frequenz, mit der der aktivierte Komplex die Energiebarriere in Richtung der Produkte überschreitet."
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Welche Bedeutung besitzt die Aktivierungsentropie ΔS‡?",
+      "answer": {
+        "type": "text",
+        "content": "Die Aktivierungsentropie beschreibt die Änderung der Zahl zugänglicher Mikrozustände beim Übergang von den Edukten zum aktivierten Komplex. Eine stark negative Aktivierungsentropie weist häufig auf einen stark geordneten Übergangszustand hin."
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Wie lautet die statistisch-thermodynamische Form der Eyring-Gleichung schematisch?",
+      "answer": {
+        "type": "latex",
+        "content": "k=\\frac{k_BT}{h}\\frac{q^{\\ddagger}}{q_Aq_B}\\exp\\left(-\\frac{E_A}{RT}\\right)"
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Was sind Zustandssummen beziehungsweise molekulare Zustandssummen?",
+      "answer": {
+        "type": "text",
+        "content": "Eine Zustandssumme erfasst alle zugänglichen Energiezustände eines Systems und gewichtet sie mit ihrem Boltzmann-Faktor. Sie verbindet die mikroskopischen Energiezustände mit makroskopischen thermodynamischen Größen."
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Aus welchen Beiträgen setzt sich eine molekulare Zustandssumme typischerweise zusammen?",
+      "answer": {
+        "type": "latex",
+        "content": "q=q_{\\mathrm{trans}}q_{\\mathrm{rot}}q_{\\mathrm{vib}}q_{\\mathrm{el}}"
+      }
+    },
+    {
+      "heading": "Eyring-Theorie",
+      "question": "Was ist der wesentliche Unterschied zwischen Arrhenius- und Eyring-Gleichung?",
+      "answer": {
+        "type": "markdown",
+        "content": "Die **Arrhenius-Gleichung** beschreibt die Temperaturabhängigkeit empirisch mit dem Frequenzfaktor A und der Aktivierungsenergie E_A. Die **Eyring-Gleichung** leitet die Geschwindigkeitskonstante mithilfe des aktivierten Komplexes sowie der Aktivierungsenthalpie und Aktivierungsentropie statistisch-thermodynamisch her."
+      }
+    }
+  ]
+}

@@ -488,6 +488,128 @@
           "content": "rH\\approx 54\\,\\%"
         }
       ]
+    },
+    {
+      "heading": "E1 – Transistorschaltung",
+      "question": [
+        {
+          "type": "image",
+          "content": "../media/E1_transistorschaltung.png",
+          "caption": "Schaltung mit Transistor, Vorwiderstand und Lastwiderstand"
+        },
+        {
+          "type": "markdown",
+          "content": "Welche Aussagen zur abgebildeten Transistorschaltung sind richtig?\n\nA. Es handelt sich um einen npn-Transistor.\n\nB. Die Versorgungsspannung V muss negativ sein.\n\nC. Die Basis muss stets positiv gegenüber dem Emitter sein, damit die Schaltung funktioniert.\n\nD. Wenn die Basis um 700 mV positiver als der Emitter ist, fließt durch den Lastwiderstand ein erheblicher Kollektorstrom."
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "content": "Nur B ist richtig."
+        },
+        {
+          "type": "markdown",
+          "content": "Es handelt sich um einen **pnp-Transistor**. Damit er leitet, muss die Basis gegenüber dem Emitter negativer sein. Bei einem Siliziumtransistor beträgt die erforderliche Basis-Emitter-Spannung ungefähr −0,7 V."
+        },
+        {
+          "type": "latex",
+          "content": "U_{\\mathrm{BE}}=U_{\\mathrm{B}}-U_{\\mathrm{E}}\\approx -0{,}7\\,\\mathrm{V}"
+        }
+      ]
+    },
+    {
+      "heading": "E2 – Beugungsordnungen",
+      "question": [
+        {
+          "type": "text",
+          "content": "Ein Gitter mit der Gitterkonstanten G wird mit monochromatischem Licht der Wellenlänge λ beleuchtet. Der Einfallswinkel beträgt α."
+        },
+        {
+          "type": "latex",
+          "content": "G=602{,}3\\,\\mathrm{mm}^{-1},\\qquad \\lambda=411{,}2\\,\\mathrm{nm},\\qquad \\alpha=7{,}500^{\\circ}"
+        },
+        {
+          "type": "text",
+          "content": "Wie groß ist die Winkeldifferenz zwischen den Austrittswinkeln der zweiten und dritten negativen Gitterordnung?"
+        },
+        {
+          "type": "markdown",
+          "content": "A. 0,3861°\n\nB. 17,23°\n\nC. 22,12°\n\nD. Keine der anderen Antworten ist auch nur annähernd richtig."
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "content": "C ist richtig. Die Winkeldifferenz beträgt ungefähr 22,12°."
+        },
+        {
+          "type": "latex",
+          "content": "d=\\frac{1}{G}"
+        },
+        {
+          "type": "latex",
+          "content": "\\sin(\\beta_m)=m\\lambda G-\\sin(\\alpha)"
+        },
+        {
+          "type": "latex",
+          "content": "\\beta_{-2}\\approx -38{,}75^{\\circ}"
+        },
+        {
+          "type": "latex",
+          "content": "\\beta_{-3}\\approx -60{,}87^{\\circ}"
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta\\beta_{2,3}=\\left|\\beta_{-3}-\\beta_{-2}\\right|\\approx 22{,}12^{\\circ}"
+        }
+      ]
+    },
+    {
+      "heading": "E3 – Photostrom",
+      "question": [
+        {
+          "type": "text",
+          "content": "Am Ausgang eines Photomultipliers wird ein elektrischer Strom gemessen. Der Photomultiplier besitzt 10 Dynoden. Der mittlere Verstärkungsfaktor je Dynode beträgt f und die Konversionseffizienz von Photonen zu Photoelektronen beträgt η."
+        },
+        {
+          "type": "latex",
+          "content": "I_{\\mathrm{A}}=170\\,\\mathrm{\\mu A},\\qquad n=10,\\qquad f=3{,}10,\\qquad \\eta=0{,}020"
+        },
+        {
+          "type": "latex",
+          "content": "\\lambda=480\\,\\mathrm{nm}"
+        },
+        {
+          "type": "text",
+          "content": "Wie viele Photonen treffen pro Sekunde auf die Photokathode des Detektors?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\dot N_{\\mathrm{Photon}}\\approx 6{,}47\\cdot 10^{11}\\,\\mathrm{s}^{-1}"
+        },
+        {
+          "type": "text",
+          "content": "Die Gesamtverstärkung des Photomultipliers ergibt sich aus dem Verstärkungsfaktor der einzelnen Dynoden."
+        },
+        {
+          "type": "latex",
+          "content": "M=f^n=(3{,}10)^{10}\\approx 8{,}20\\cdot 10^4"
+        },
+        {
+          "type": "latex",
+          "content": "I_{\\mathrm{A}}=e\\,\\eta\\,M\\,\\dot N_{\\mathrm{Photon}}"
+        },
+        {
+          "type": "latex",
+          "content": "\\dot N_{\\mathrm{Photon}}=\\frac{I_{\\mathrm{A}}}{e\\eta f^n}"
+        },
+        {
+          "type": "latex",
+          "content": "\\dot N_{\\mathrm{Photon}}=\\frac{170\\cdot 10^{-6}\\,\\mathrm{A}}{1{,}602\\cdot 10^{-19}\\,\\mathrm{C}\\cdot 0{,}020\\cdot (3{,}10)^{10}}\\approx 6{,}47\\cdot 10^{11}\\,\\mathrm{s}^{-1}"
+        }
+      ]
     }
   ]
 }

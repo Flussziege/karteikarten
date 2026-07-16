@@ -207,6 +207,31 @@
       ]
     },
     {
+      "heading": "Q2-18 – Relativer Fehler des Produktes zweier Größen",
+      "question": {
+        "type": "markdown",
+        "content": "Der Impuls eines Körpers ist im unrelativistischen Grenzfall durch $p=m\\cdot v$ definiert. Welche Aussage über den maximalen relativen Fehler ist richtig?\n\nA. $\\delta p_{\\max}=\\delta m+\\delta v$\n\nB. $\\delta p_{\\max}=\\delta m\\cdot\\delta v$\n\nC. $\\delta p_{\\max}=\\Delta m+\\Delta v$\n\nD. $\\delta p_{\\max}=\\Delta m\\cdot\\Delta v$"
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A ist richtig."
+        },
+        {
+          "type": "latex",
+          "content": "p=m\\cdot v"
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta p_{\\max}=\\left|\\frac{\\partial p}{\\partial v}\\right|\\Delta v+\\left|\\frac{\\partial p}{\\partial m}\\right|\\Delta m=m\\Delta v+v\\Delta m"
+        },
+        {
+          "type": "latex",
+          "content": "\\delta p_{\\max}=\\frac{\\Delta p_{\\max}}{p}=\\frac{\\Delta m}{m}+\\frac{\\Delta v}{v}=\\delta m+\\delta v"
+        }
+      ]
+    },
+    {
       "heading": "Q4-1 – Elektrische Leistung",
       "question": "Eine Glühlampe besitzt eine Leistungsaufnahme von 60 W und eine Betriebsspannung von 240 V. Welchen elektrischen Widerstand besitzt sie im laufenden Betrieb?",
       "answer": [
@@ -259,6 +284,38 @@
       ]
     },
     {
+      "heading": "Q5-1 – Hitzdraht-Amperemeter",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen über Hitzdraht-Amperemeter treffen zu?\n\nA. Das Hitzdraht-Amperemeter beruht auf der Wärmewirkung des elektrischen Stroms.\n\nB. Bei einer gegebenen Stromstärke besteht ein Kräftegleichgewicht zwischen einem ausgelenkten Draht und einer Feder.\n\nC. Das Hitzdraht-Amperemeter kann die Richtung des Stromes nicht bestimmen.\n\nD. Das Hitzdraht-Amperemeter eignet sich nur für niederfrequente Ströme."
+      },
+      "answer": [
+        {
+          "type": "text",
+          "content": "A, B und C sind richtig. D ist falsch."
+        },
+        {
+          "type": "markdown",
+          "content": "Die Erwärmung des Drahtes hängt von der elektrischen Leistung und damit vom Quadrat der Stromstärke ab. Deshalb ist die Anzeige unabhängig von der Stromrichtung. Hitzdraht-Amperemeter können auch für hochfrequente Wechselströme eingesetzt werden."
+        },
+        {
+          "type": "latex",
+          "content": "P=I^2R"
+        }
+      ]
+    },
+    {
+      "heading": "Drehspul-Amperemeter",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen über Drehspul-Amperemeter treffen zu?\n\nA. Das Drehspul-Amperemeter beruht auf magnetischen Wirkungen des elektrischen Stroms.\n\nB. Im Drehspul-Amperemeter befindet sich eine stromdurchflossene Spule zwischen den Polbacken eines Permanentmagneten.\n\nC. Das Drehspul-Amperemeter kann die Richtung des elektrischen Stromes bestimmen.\n\nD. Wegen der Trägheit der Zeigernadel kann es hochfrequente Wechselströme nicht messen."
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "A, B, C und D sind richtig. Die Stromrichtung bestimmt die Richtung des magnetischen Drehmoments und damit die Auslenkungsrichtung. Bei schnell wechselnden Strömen kann die mechanische Zeigernadel den Änderungen nicht folgen."
+      }
+    },
+    {
       "heading": "Q5-11 – Multimeter NANJING MODEL MF47",
       "question": {
         "type": "markdown",
@@ -296,36 +353,47 @@
       ]
     },
     {
-      "heading": "Q5-1 – Hitzdraht-Amperemeter",
+      "heading": "Q5-13 – Parallelschaltung von Batterien",
       "question": {
         "type": "markdown",
-        "content": "Welche Aussagen über Hitzdraht-Amperemeter treffen zu?\n\nA. Das Hitzdraht-Amperemeter beruht auf der Wärmewirkung des elektrischen Stroms.\n\nB. Bei einer gegebenen Stromstärke besteht ein Kräftegleichgewicht zwischen einem ausgelenkten Draht und einer Feder.\n\nC. Das Hitzdraht-Amperemeter kann die Richtung des Stromes nicht bestimmen.\n\nD. Das Hitzdraht-Amperemeter eignet sich nur für niederfrequente Ströme."
+        "content": "Zwei baugleiche Batterien mit jeweils 1,5 V werden parallel geschaltet. Welche Aussage trifft zu?\n\nA. Der Kurzschlussstrom bleibt gleich, während sich die Leerlaufspannung verdoppelt.\n\nB. Der Kurzschlussstrom verdoppelt sich, während die Leerlaufspannung gleich bleibt.\n\nC. Kurzschlussstrom und Leerlaufspannung verdoppeln sich.\n\nD. Kurzschlussstrom und Leerlaufspannung bleiben beide gleich."
       },
       "answer": [
         {
           "type": "text",
-          "content": "A, B und C sind richtig. D ist falsch."
+          "content": "B ist richtig."
         },
         {
-          "type": "markdown",
-          "content": "Die Erwärmung des Drahtes hängt von der elektrischen Leistung und damit vom Quadrat der Stromstärke ab. Deshalb ist die Anzeige unabhängig von der Stromrichtung. Hitzdraht-Amperemeter können auch für hochfrequente Wechselströme eingesetzt werden."
+          "type": "text",
+          "content": "Bei der Parallelschaltung baugleicher Batterien bleibt die Leerlaufspannung gleich. Die beiden Innenwiderstände liegen parallel, sodass sich der Gesamtinnenwiderstand halbiert."
         },
         {
           "type": "latex",
-          "content": "P=I^2R"
+          "content": "U_0(AB)=U_0(A)"
+        },
+        {
+          "type": "latex",
+          "content": "R_{AB}=\\frac{R_A}{2}"
+        },
+        {
+          "type": "latex",
+          "content": "I_K(AB)=\\frac{U_0}{R_A/2}=2\\frac{U_0}{R_A}=2I_K(A)"
         }
       ]
     },
     {
-      "heading": "Drehspul-Amperemeter",
-      "question": {
-        "type": "markdown",
-        "content": "Welche Aussagen über Drehspul-Amperemeter treffen zu?\n\nA. Das Drehspul-Amperemeter beruht auf magnetischen Wirkungen des elektrischen Stroms.\n\nB. Im Drehspul-Amperemeter befindet sich eine stromdurchflossene Spule zwischen den Polbacken eines Permanentmagneten.\n\nC. Das Drehspul-Amperemeter kann die Richtung des elektrischen Stromes bestimmen.\n\nD. Wegen der Trägheit der Zeigernadel kann es hochfrequente Wechselströme nicht messen."
-      },
-      "answer": {
-        "type": "markdown",
-        "content": "A, B, C und D sind richtig. Die Stromrichtung bestimmt die Richtung des magnetischen Drehmoments und damit die Auslenkungsrichtung. Bei schnell wechselnden Strömen kann die mechanische Zeigernadel den Änderungen nicht folgen."
-      }
+      "heading": "Q6-1 – Diode BAY41",
+      "question": "Welche Spannung muss bei 70 °C an eine Diode BAY41 angelegt werden, damit ein Durchlassstrom von 1 mA fließt?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "U_{\\mathrm{F}}\\approx 500\\,\\mathrm{mV}"
+        },
+        {
+          "type": "text",
+          "content": "Die richtige Antwort ist D. Der Wert wird aus der temperaturabhängigen Durchlasskennlinie im Datenblatt der Diode abgelesen."
+        }
+      ]
     },
     {
       "heading": "Q6-7 – Transistoren",
@@ -353,16 +421,71 @@
       ]
     },
     {
-      "heading": "Q6-1 – Diode BAY41",
-      "question": "Welche Spannung muss bei 70 °C an eine Diode BAY41 angelegt werden, damit ein Durchlassstrom von 1 mA fließt?",
-      "answer": [
-        {
-          "type": "latex",
-          "content": "U_{\\mathrm{F}}\\approx 500\\,\\mathrm{mV}"
-        },
+      "heading": "Q14-1 – Luftfeuchte: Messmethoden",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Messmethoden der Luftfeuchte sind richtig?\n\nA. Das Kapazitäts-Hygrometer beruht auf der Änderung der Resonanzfrequenz einer dielektrischen Schicht in einem Kondensator.\n\nB. Das Bistreifen-Hygrometer beruht auf der Durchbiegung eines Bistreifens aufgrund der Wasseraufnahme durch eine hygroskopische Schicht.\n\nC. Das Schwingquarz-Hygrometer beruht auf der Änderung der Resonanzfrequenz eines mit einer hygroskopischen Schicht versehenen Schwingquarzes.\n\nD. Bei der Carbid-Methode wird eine Gasentwicklung genutzt, um die Luftfeuchte zu bestimmen."
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**B und C sind richtig.**\n\nA ist falsch: Beim Kapazitäts-Hygrometer wird die Änderung der Kapazität durch die Wasseraufnahme des Dielektrikums gemessen.\n\nD ist falsch: Mit der Carbid-Methode wird die Feuchte eines Materials, beispielsweise einer Wand, und nicht die Luftfeuchte bestimmt."
+      }
+    },
+    {
+      "heading": "Q14-4 – Luftfeuchte: Taumethode",
+      "question": [
         {
           "type": "text",
-          "content": "Die richtige Antwort ist D. Der Wert wird aus der temperaturabhängigen Durchlasskennlinie im Datenblatt der Diode abgelesen."
+          "content": "Die Lufttemperatur beträgt 27,4 °C. Bei der Taumethode beginnt ein gekühlter Spiegel bei 16,3 °C zu beschlagen. Wie hoch ist die relative Luftfeuchtigkeit? Verwende die Antoine-Gleichung."
+        },
+        {
+          "type": "latex",
+          "content": "\\log_{10}(p^D)=8{,}07131-\\frac{1730{,}63}{233{,}426+\\vartheta}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "content": "Die relative Luftfeuchtigkeit beträgt ungefähr 50,7 %. Antwort C ist richtig."
+        },
+        {
+          "type": "latex",
+          "content": "p^D(27{,}4\\,^{\\circ}\\mathrm{C})\\approx 27{,}30\\,\\mathrm{mmHg}"
+        },
+        {
+          "type": "latex",
+          "content": "p^D(16{,}3\\,^{\\circ}\\mathrm{C})\\approx 13{,}84\\,\\mathrm{mmHg}"
+        },
+        {
+          "type": "latex",
+          "content": "\\varphi=\\frac{p^D(16{,}3\\,^{\\circ}\\mathrm{C})}{p^D(27{,}4\\,^{\\circ}\\mathrm{C})}\\cdot 100\\,\\%\\approx 50{,}7\\,\\%"
+        }
+      ]
+    },
+    {
+      "heading": "Q14-7 – Feuchtemessung: Psychrometer",
+      "question": [
+        {
+          "type": "text",
+          "content": "Bei einer psychrometrischen Messung beträgt die Temperatur des trockenen Thermometers 42 °C und die Temperatur des feuchten Thermometers 34 °C. Wie groß ist die relative Luftfeuchtigkeit laut Psychrometer-Kennlinienfeld?"
+        },
+        {
+          "type": "latex",
+          "content": "T_1=42\\,^{\\circ}\\mathrm{C},\\qquad T_2=34\\,^{\\circ}\\mathrm{C}"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "content": "Die relative Luftfeuchtigkeit beträgt ungefähr 54 %. Antwort B ist richtig."
+        },
+        {
+          "type": "latex",
+          "content": "\\Delta T=T_1-T_2=42\\,^{\\circ}\\mathrm{C}-34\\,^{\\circ}\\mathrm{C}=8\\,^{\\circ}\\mathrm{C}"
+        },
+        {
+          "type": "latex",
+          "content": "rH\\approx 54\\,\\%"
         }
       ]
     }

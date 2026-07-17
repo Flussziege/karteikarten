@@ -431,7 +431,7 @@ def render_menu() -> None:
     if current_category is None:
         st.markdown(
             "<div class='app-subtitle'>Wähle ein Thema aus der Kategorie.</div>",
-            unsafe_html=True,
+            unsafe_allow_html=True,
         )
         
         # Extrahiere eindeutige Kategorien und nutze categories_order aus config

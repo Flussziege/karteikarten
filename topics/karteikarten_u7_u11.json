@@ -1,11 +1,18 @@
 {
   "title": "Elektronik und Optik – Übungsbögen U7 bis U11",
-  "description": "60 Karteikarten zu Transistoren, Kippstufen, Logikgattern, Beugungsgittern, Monochromatoren und Photodetektoren auf Grundlage der bereitgestellten Lösungsblätter.",
+  "description": "Karteikarten zu Elektronik, Logikschaltungen, Optik und Photodetektoren aus den Übungsbögen U7 bis U11. Alle Multiple-Choice-Fragen enthalten die vollständigen Antwortmöglichkeiten; die Lösungen nennen ausdrücklich die richtigen Optionen.",
   "cards": [
     {
       "heading": "U7-0 – BC547-Kennlinien",
-      "question": "Welche Kernaussagen lassen sich aus den Kennlinien des BC547 ablesen?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche der folgenden Aussagen zu den Kennlinien des Transistors BC547 treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Das Ausgangs-Kennlinienfeld befindet sich in Abbildung 4 (Figure 4).\n- **(B)** Bei einem Basisstrom von I_B = 50 µA ist der Kollektorstrom nahezu unabhängig von der Kollektor-Emitter-Spannung und beträgt ungefähr I_C = 18 mA.\n- **(C)** Bei U_CE = 5 V und U_BE = 800 mV beträgt der Kollektorstrom ungefähr 100 mA.\n- **(D)** Die maximale Emitter-Basis-Spannung des BC547 beträgt 4 V."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** Bei U_CE = 5 V und U_BE = 800 mV beträgt der Kollektorstrom ungefähr 100 mA."
+        },
         {
           "type": "text",
           "content": "Nur die folgende Kennlinienaussage ist richtig:"
@@ -22,8 +29,15 @@
     },
     {
       "heading": "U7-1 – Arbeitsgerade eines Transistors",
-      "question": "Welche Eckpunkte und welcher Arbeitspunkt ergeben sich bei 14 V Betriebsspannung und 175 Ω Lastwiderstand?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein BC547 wird mit 14 V Betriebsspannung und einem ohmschen Lastwiderstand von 175 Ω betrieben. Welche Aussagen treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Wenn der Transistor vollständig sperrt, beträgt die Emitter-Kollektor-Spannung 14 V.\n- **(B)** Ist die Emitter-Kollektor-Strecke ideal vollständig leitend, beträgt der Kollektorstrom 80 mA.\n- **(C)** Die Achsenpunkte I_C = 0 und U_CE = 0 können durch eine Gerade verbunden werden; diese heißt Arbeitsgerade.\n- **(D)** Für I_B = 50 µA liegt der Arbeitspunkt ungefähr bei U_CE = 11,8 V und I_C = 12 mA."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig:** Alle Aussagen **(A)–(D)**."
+        },
         {
           "type": "text",
           "content": "Im Sperrzustand gilt U_CE = 14 V und I_C = 0. Bei ideal vollständiger Durchsteuerung gilt U_CE = 0 und der Lastwiderstand begrenzt den Strom."
@@ -40,8 +54,15 @@
     },
     {
       "heading": "U7-2 – Transistor-Grundschaltung",
-      "question": "Welche Zusammenhänge gelten in einer Transistor-Grundschaltung mit Basis-Spannungsteiler?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen gelten für die Transistor-Grundschaltung mit Basis-Spannungsteiler?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Wenn R3 = R2 gilt, ist die Basisvorspannung ungefähr halb so groß wie die Versorgungsspannung.\n- **(B)** Der Kollektorstrom durch R1 ist von der Basisvorspannung unabhängig.\n- **(C)** Wenn ein Kollektorstrom I_K fließt, gilt für den Spannungsabfall an R1: U = R1 · I_K.\n- **(D)** Liegt die Basisvorspannung deutlich unter der Schleusenspannung der Basis-Emitter-Strecke, fließt höchstens ein sehr kleiner Kollektorstrom."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (C) und (D):**\n\n- **(A)** Wenn R3 = R2 gilt, ist die Basisvorspannung ungefähr halb so groß wie die Versorgungsspannung.\n- **(C)** Wenn ein Kollektorstrom I_K fließt, gilt für den Spannungsabfall an R1: U = R1 · I_K.\n- **(D)** Liegt die Basisvorspannung deutlich unter der Schleusenspannung der Basis-Emitter-Strecke, fließt höchstens ein sehr kleiner Kollektorstrom."
+        },
         {
           "type": "text",
           "content": "Bei R3 = R2 ist die Basisvorspannung ungefähr halb so groß wie die Versorgungsspannung. Sie ist nicht exakt die Hälfte, weil die Basis-Emitter-Strecke den Spannungsteiler belastet."
@@ -58,8 +79,15 @@
     },
     {
       "heading": "U7-3 – Transistor als Verstärker",
-      "question": "Welche Funktionen erfüllen Potentiometer und Koppelkondensatoren in einer Transistor-Verstärkerschaltung?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf die gezeigten Transistor-Verstärkerschaltungen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die Basisvorspannung kann in einer der Schaltungen mit einem Potentiometer optimiert werden.\n- **(B)** Die Kondensatoren C1 und C2 trennen Gleichspannungsanteile ab und lassen Wechselspannungssignale passieren.\n- **(C)** In einer Schaltung wird das Signal an R1 über C2 abgegriffen; in der anderen ist ein Lautsprecher direkt in den Kollektorzweig integriert.\n- **(D)** Die Schaltungen schwächen die Amplitude des Eingangssignals am Ausgang auf einen handhabbaren Wert ab."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (B) und (C):**\n\n- **(A)** Die Basisvorspannung kann in einer der Schaltungen mit einem Potentiometer optimiert werden.\n- **(B)** Die Kondensatoren C1 und C2 trennen Gleichspannungsanteile ab und lassen Wechselspannungssignale passieren.\n- **(C)** In einer Schaltung wird das Signal an R1 über C2 abgegriffen; in der anderen ist ein Lautsprecher direkt in den Kollektorzweig integriert."
+        },
         {
           "type": "text",
           "content": "Mit einem Potentiometer kann die Basisvorspannung und damit der Arbeitspunkt optimiert werden."
@@ -76,8 +104,15 @@
     },
     {
       "heading": "U7-4 – Basisstrom",
-      "question": "Wie groß ist der Basisstrom bei 4,5 V Versorgung, 0,8 V Basis-Emitter-Spannung und 680 Ω Basiswiderstand?",
+      "question": {
+        "type": "markdown",
+        "content": "Wie groß ist der Basisstrom bei 4,5 V Versorgung, 0,8 V Basis-Emitter-Spannung und 680 Ω Basiswiderstand?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 5,15 mA\n- **(B)** 5,4 mA\n- **(C)** 183 mA\n- **(D)** 6,8 mA"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 5,4 mA"
+        },
         {
           "type": "latex",
           "content": "I_B=\\frac{4{,}5\\,\\mathrm{V}-0{,}8\\,\\mathrm{V}}{680\\,\\Omega}=5{,}44\\,\\mathrm{mA}\\approx5{,}4\\,\\mathrm{mA}"
@@ -90,8 +125,15 @@
     },
     {
       "heading": "U7-5 – Emitter-Kollektor-Widerstand",
-      "question": "Welcher Widerstand ergibt sich bei 0,15 V über der Emitter-Kollektor-Strecke und 0,5 A Strom?",
+      "question": {
+        "type": "markdown",
+        "content": "Wie groß ist der Widerstand der Emitter-Kollektor-Strecke bei U_EK = 0,15 V und I_EK = 0,5 A in der Einheit mΩ?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 0,2 mΩ\n- **(B)** 0,3 mΩ\n- **(C)** 300 mΩ\n- **(D)** 130 mΩ"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 300 mΩ"
+        },
         {
           "type": "latex",
           "content": "R_{EK}=\\frac{U_{EK}}{I_{EK}}=\\frac{0{,}15\\,\\mathrm{V}}{0{,}5\\,\\mathrm{A}}=0{,}3\\,\\Omega=300\\,\\mathrm{m}\\Omega"
@@ -100,8 +142,15 @@
     },
     {
       "heading": "U7-6 – Stromverstärkung",
-      "question": "Wie groß ist die Stromverstärkung bei 500 mA Kollektorstrom und 5,4 mA Basisstrom?",
+      "question": {
+        "type": "markdown",
+        "content": "Wie groß ist die Stromverstärkung η_I = I_K/I_B bei I_K = 500 mA und I_B = 5,4 mA?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 65\n- **(B)** 110\n- **(C)** 210\n- **(D)** 93"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (D):** 93"
+        },
         {
           "type": "latex",
           "content": "\\eta_I=\\frac{I_K}{I_B}=\\frac{500\\,\\mathrm{mA}}{5{,}4\\,\\mathrm{mA}}\\approx93"
@@ -110,8 +159,15 @@
     },
     {
       "heading": "U7-7 – Transistor-Ausfallsicherung",
-      "question": "Wie reagiert die zweistufige Ausfallsicherung, wenn das überwachte Lämpchen durchbrennt?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf die zweistufige Transistor-Ausfallsicherung zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Wenn das Lämpchen L1 durchbrennt, fließt an T1 ein erheblicher Kollektorstrom.\n- **(B)** Wenn L1 durchbrennt, fällt an R2 keine nennenswerte Spannung ab.\n- **(C)** Wenn L1 leuchtet, ist die Basisvorspannung an T2 zu gering, damit durch T2 ein erheblicher Strom fließt.\n- **(D)** Der Kollektorausgang von T1 und der Basiseingang von T2 liegen auf demselben Potential."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (B), (C) und (D):**\n\n- **(B)** Wenn L1 durchbrennt, fällt an R2 keine nennenswerte Spannung ab.\n- **(C)** Wenn L1 leuchtet, ist die Basisvorspannung an T2 zu gering, damit durch T2 ein erheblicher Strom fließt.\n- **(D)** Der Kollektorausgang von T1 und der Basiseingang von T2 liegen auf demselben Potential."
+        },
         {
           "type": "text",
           "content": "Beim Durchbrennen liegt an der Basis von T1 keine wirksame Spannung an. T1 sperrt, daher fließt kein nennenswerter Kollektorstrom und an R2 fällt praktisch keine Spannung ab."
@@ -124,8 +180,15 @@
     },
     {
       "heading": "U7-8 – Zweistufiger Transistorverstärker",
-      "question": "Wie wird die zweite Stufe eines zweistufigen Transistorverstärkers vorgespannt und moduliert?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf den zweistufigen Transistorverstärker zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Der Spannungsteiler vor der Basis von T2 besteht aus R3, R5 und R6.\n- **(B)** Der Kollektorstrom von T1 verändert die Basisvorspannung von T2 nicht.\n- **(C)** Ein Signal am Eingang moduliert die an R7 abfallende Spannung.\n- **(D)** Die Basisvorspannung von T2 wird durch die Spannungsabfälle an R3, R5 und R6 festgelegt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (C) und (D):**\n\n- **(A)** Der Spannungsteiler vor der Basis von T2 besteht aus R3, R5 und R6.\n- **(C)** Ein Signal am Eingang moduliert die an R7 abfallende Spannung.\n- **(D)** Die Basisvorspannung von T2 wird durch die Spannungsabfälle an R3, R5 und R6 festgelegt."
+        },
         {
           "type": "text",
           "content": "Der Spannungsteiler vor T2 besteht aus R3, R5 und R6. Die Basis von T2 liegt am Knoten zwischen R5 und R6."
@@ -138,8 +201,15 @@
     },
     {
       "heading": "U7-9 – Differenzverstärker",
-      "question": "Welche Eigenschaften besitzt ein einfacher Differenzverstärker mit Nullabgleich?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf den einfachen Differenzverstärker mit Nullabgleich zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Das Potentiometer P1 dient zum Nullabgleich der Schaltung.\n- **(B)** Bei U = 0 V weisen die Punkte 1 und 2 nach dem Nullabgleich dasselbe Potential auf.\n- **(C)** Die Spannungsdifferenz zwischen den Punkten 1 und 2 ist viel größer als U.\n- **(D)** Bei U ≠ 0 werden R1 und R2 von unterschiedlich großen Strömen durchflossen."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig:** Alle Aussagen **(A)–(D)**."
+        },
         {
           "type": "text",
           "content": "Das Potentiometer dient dem Nullabgleich. Bei Eingangsdifferenz U = 0 V können die beiden Ausgangspunkte auf dasselbe Potential eingestellt werden."
@@ -152,8 +222,15 @@
     },
     {
       "heading": "U7-10 – Nichtinvertierender Operationsverstärker",
-      "question": "Welche Ausgangsspannung liefert ein nichtinvertierender Verstärker bei U_e = 35 mV und R2 = R1?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein nichtinvertierender Operationsverstärker hat U_e = 35 mV und R2 = R1. Welche Ausgangsspannung U_a ergibt sich?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 70 mV\n- **(B)** 35 mV\n- **(C)** 140 mV\n- **(D)** Nicht bestimmbar, da die absoluten Werte von R1 und R2 fehlen."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (A):** 70 mV"
+        },
         {
           "type": "latex",
           "content": "U_a=\\left(1+\\frac{R_2}{R_1}\\right)U_e=2\\,U_e=70\\,\\mathrm{mV}"
@@ -162,8 +239,15 @@
     },
     {
       "heading": "U7-11 – Spannungsfolger",
-      "question": "Was kennzeichnet einen Spannungsfolger beziehungsweise Impedanzwandler?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Spannungsfolgern beziehungsweise Impedanzwandlern treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Ein Spannungsfolger besitzt einen hochohmigen Ausgang und einen niederohmigen Eingang.\n- **(B)** Der Verstärkungsfaktor eines Spannungsfolgers ist null.\n- **(C)** Ein Spannungsfolger kann eine hochohmige Spannungsquelle stabilisieren.\n- **(D)** Spannungsfolger werden in elektronischen Voltmetern eingesetzt, damit die Messung das Quellensignal möglichst wenig verfälscht."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (C) und (D):**\n\n- **(C)** Ein Spannungsfolger kann eine hochohmige Spannungsquelle stabilisieren.\n- **(D)** Spannungsfolger werden in elektronischen Voltmetern eingesetzt, damit die Messung das Quellensignal möglichst wenig verfälscht."
+        },
         {
           "type": "text",
           "content": "Ein Spannungsfolger besitzt einen hochohmigen Eingang und einen niederohmigen Ausgang."
@@ -180,8 +264,15 @@
     },
     {
       "heading": "U8-0 – Kondensatoren",
-      "question": "Welche grundlegenden Aussagen gelten für Kondensatoren an Gleichspannung?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Kondensatoren treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Kondensatoren leiten Strom nur oberhalb einer vorgegebenen Mindestspannung.\n- **(B)** Kondensatoren weisen ein Metaelektrikum auf.\n- **(C)** Wird ein Kondensator mit einer Gleichspannungsquelle verbunden, fließt ein Strom, der nach einiger Zeit aufhört.\n- **(D)** Für C = 2,7 µF und Q = 23 µC ist eine Spannung von 13,5 V erforderlich."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** Wird ein Kondensator mit einer Gleichspannungsquelle verbunden, fließt ein Strom, der nach einiger Zeit aufhört."
+        },
         {
           "type": "text",
           "content": "Beim Anschließen an eine Gleichspannungsquelle fließt zunächst ein Ladestrom, der nach einiger Zeit aufhört. Ein Kondensator besitzt keine feste Mindestspannung zum Leiten."
@@ -194,8 +285,15 @@
     },
     {
       "heading": "U8-1 – Entladung eines RC-Gliedes",
-      "question": "Nach welcher Zeit fällt die Spannung eines RC-Gliedes von 6 V auf 3 V, wenn C = 25 µF und R = 27 kΩ?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein auf 6 V geladener Kondensator mit C = 25 µF wird über R = 27 kΩ entladen. Nach welcher Zeit ist seine Spannung auf 3 V gefallen?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 2,1 s\n- **(B)** 0,47 s\n- **(C)** 0,20 s\n- **(D)** 13 s"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 0,47 s"
+        },
         {
           "type": "latex",
           "content": "U(t)=U_0\\exp\\left(-\\frac{t}{RC}\\right)"
@@ -208,8 +306,15 @@
     },
     {
       "heading": "U8-2 – Transistor-NOR-Gatter",
-      "question": "Welche Logikfunktion realisiert eine Transistorschaltung, bei der jeder Eingang den gemeinsamen Transistor einschalten kann und der Ausgang am Kollektor liegt?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf die Transistorschaltung mit zwei Eingängen und Ausgang am Kollektor zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die Schaltung ist einer Abfolge OR–NOT äquivalent.\n- **(B)** Es handelt sich um ein NAND-Gatter.\n- **(C)** Eine Zeile der Wahrheitstabelle lautet: A = 1, B = 1, OUT = 0.\n- **(D)** Wird der 4,7-kΩ-Widerstand statt zwischen Kollektor und +6 V zwischen Emitter und Masse geschaltet, kehrt sich die Wahrheitstabelle um."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (C) und (D):**\n\n- **(A)** Die Schaltung ist einer Abfolge OR–NOT äquivalent.\n- **(C)** Eine Zeile der Wahrheitstabelle lautet: A = 1, B = 1, OUT = 0.\n- **(D)** Wird der 4,7-kΩ-Widerstand statt zwischen Kollektor und +6 V zwischen Emitter und Masse geschaltet, kehrt sich die Wahrheitstabelle um."
+        },
         {
           "type": "markdown",
           "content": "Die Schaltung realisiert ein **NOR-Gatter**, also OR gefolgt von NOT."
@@ -226,8 +331,15 @@
     },
     {
       "heading": "U8-3 – XOR-Gatter",
-      "question": "Wie lautet die Wahrheitstabelle eines XOR-Gatters?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf das dargestellte Logikgatter zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die Wahrheitstabelle lautet: (0,0→0), (1,0→1), (0,1→1), (1,1→0).\n- **(B)** Die Wahrheitstabelle lautet: (0,0→1), (1,0→0), (0,1→0), (1,1→0).\n- **(C)** Es handelt sich um ein XOR-Gatter.\n- **(D)** Es handelt sich um ein NOR-Gatter."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A) und (C):**\n\n- **(A)** Die Wahrheitstabelle lautet: (0,0→0), (1,0→1), (0,1→1), (1,1→0).\n- **(C)** Es handelt sich um ein XOR-Gatter."
+        },
         {
           "type": "latex",
           "content": "(I_1,I_2,O)\\in\\{(0,0,0),(1,0,1),(0,1,1),(1,1,0)\\}"
@@ -240,8 +352,15 @@
     },
     {
       "heading": "U8-4 – Monostabile Kippstufe",
-      "question": "Was kennzeichnet eine monostabile Kippstufe?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zur monostabilen Kippstufe treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Sie besitzt nur einen stabilen Zustand und kehrt nach einer vorgegebenen Zeit aus dem instabilen Zustand zurück.\n- **(B)** Sie kann zur Erzeugung einzelner Rechteckpulse verwendet werden.\n- **(C)** Im stabilen Zustand liegt an der Basis von T1 ungefähr eine Spannung von 700 mV an.\n- **(D)** Nach dem Umschalten kann eine Kondensatorplatte trotz positiver Versorgungsspannung ein negatives Potential gegenüber 0 V besitzen."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (B) und (D):**\n\n- **(A)** Sie besitzt nur einen stabilen Zustand und kehrt nach einer vorgegebenen Zeit aus dem instabilen Zustand zurück.\n- **(B)** Sie kann zur Erzeugung einzelner Rechteckpulse verwendet werden.\n- **(D)** Nach dem Umschalten kann eine Kondensatorplatte trotz positiver Versorgungsspannung ein negatives Potential gegenüber 0 V besitzen."
+        },
         {
           "type": "text",
           "content": "Sie besitzt genau einen stabilen Zustand. Nach einem Trigger wechselt sie vorübergehend in einen instabilen Zustand und kehrt nach einer festgelegten Zeit zurück."
@@ -254,8 +373,15 @@
     },
     {
       "heading": "U8-5 – Haltezeit einer monostabilen Kippstufe",
-      "question": "Wie groß ist die Haltezeit bei R2 = 1000 Ω und C1 = 2,7 µF?",
+      "question": {
+        "type": "markdown",
+        "content": "Für eine monostabile Kippstufe gelten R1 = 300 Ω, R2 = 1000 Ω, R4 = 5 kΩ und C1 = 2,7 µF. Wie groß ist die Haltezeit?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 0,56 ms\n- **(B)** 9,3 ms\n- **(C)** 12,8 ms\n- **(D)** 1,87 ms"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (D):** 1,87 ms"
+        },
         {
           "type": "latex",
           "content": "t_H=\\ln 2\\,R_2C_1=\\ln 2\\cdot1000\\,\\Omega\\cdot2{,}7\\,\\mu\\mathrm{F}\\approx1{,}87\\,\\mathrm{ms}"
@@ -264,8 +390,15 @@
     },
     {
       "heading": "U8-6 – Bistabile Kippstufe",
-      "question": "Welche Eigenschaften besitzt eine bistabile Kippstufe?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu bistabilen Kippstufen treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Eine bistabile Kippstufe besitzt genau zwei stabile Zustände und behält ihren Zustand bis zu einem äußeren Umschaltimpuls bei.\n- **(B)** Die beiden Transistoren sind durch Halbleiterdioden miteinander gekoppelt.\n- **(C)** Ist T1 bei einer npn-Schaltung vollständig leitend, kippt die Schaltung durch einen ausreichend hohen positiven Puls an der Basis von T1.\n- **(D)** Eine bistabile Kippstufe kann die logischen Zustände NULL und EINS darstellen."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A) und (D):**\n\n- **(A)** Eine bistabile Kippstufe besitzt genau zwei stabile Zustände und behält ihren Zustand bis zu einem äußeren Umschaltimpuls bei.\n- **(D)** Eine bistabile Kippstufe kann die logischen Zustände NULL und EINS darstellen."
+        },
         {
           "type": "text",
           "content": "Sie besitzt genau zwei stabile Zustände und speichert ihren Zustand, bis ein äußerer Impuls ein Umschalten auslöst."
@@ -278,8 +411,15 @@
     },
     {
       "heading": "U8-7 – Schmitt-Trigger",
-      "question": "Wie entsteht die Schalthysterese eines Transistor-Schmitt-Triggers?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Schmitt-Triggern treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die Emitter beider Transistoren liegen auf demselben Potential.\n- **(B)** Solange T1 gesperrt ist, liegt sein Emitter auf einem von T2 vorgegebenen positiven Potential.\n- **(C)** Die Schwellenspannung besteht aus dem Emitterpotential von T2 plus der Schleusenspannung der Basis-Emitter-Strecke von T1.\n- **(D)** Nach dem Durchschalten bricht das positive Potential am Emitter von T1 zusammen."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig:** Alle Aussagen **(A)–(D)**."
+        },
         {
           "type": "text",
           "content": "Die Emitter beider Transistoren liegen auf demselben Potential. Solange T1 sperrt, wird dieses positive Emitterpotential durch T2 bestimmt."
@@ -296,8 +436,15 @@
     },
     {
       "heading": "U8-8 – Schaltschwelle eines Schmitt-Triggers",
-      "question": "Bei welcher Eingangsvorspannung beginnt T1 zu leiten, wenn +V = 12 V, R2 = 1500 Ω und RE = 300 Ω?",
+      "question": {
+        "type": "markdown",
+        "content": "Bei einem Schmitt-Trigger gelten +V = 12 V, R2 = 1500 Ω und R_E = 300 Ω. Bei welcher Eingangsvorspannung beginnt T1 zu leiten, wenn T2 ideal durchgesteuert ist?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 0,7 V\n- **(B)** 2,7 V\n- **(C)** 1,4 V\n- **(D)** 0 V"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 2,7 V"
+        },
         {
           "type": "text",
           "content": "Am Emitter liegen wegen des Spannungsteilers 2,0 V an. Zum Leiten benötigt die Basis ungefähr weitere 0,7 V."
@@ -310,8 +457,15 @@
     },
     {
       "heading": "U8-9 – Grundlagen der Logikgatter",
-      "question": "Welche grundlegenden Aussagen gelten für digitale Logikgatter?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Logikgattern treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Ein Logikgatter verarbeitet binäre Eingangssignale zu einem ternären Ausgangssignal.\n- **(B)** Die möglichen Zustände eines Logikgatters lassen sich in einer Wahrheitstabelle darstellen.\n- **(C)** Ein NAND-Gatter entsteht durch Hintereinanderschaltung eines AND- und eines OR-Gatters.\n- **(D)** Ein NOT-Gatter invertiert das logische Eingangssignal."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (B) und (D):**\n\n- **(B)** Die möglichen Zustände eines Logikgatters lassen sich in einer Wahrheitstabelle darstellen.\n- **(D)** Ein NOT-Gatter invertiert das logische Eingangssignal."
+        },
         {
           "type": "text",
           "content": "Logikgatter verarbeiten binäre Eingänge zu einem binären Ausgang. Ihre möglichen Zustände werden in Wahrheitstabellen dargestellt."
@@ -324,8 +478,15 @@
     },
     {
       "heading": "U8-10 – AND-Gatter",
-      "question": "Wann liefert ein AND-Gatter den Ausgang 1 und wie kann es mit Transistoren realisiert werden?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu AND-Gattern treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die möglichen Zustände eines AND-Gatters lassen sich in einer Wahrheitstabelle darstellen.\n- **(B)** Die Wahrheitstabelle enthält die Zeile IN1 = 1, IN2 = 1, OUT = 0.\n- **(C)** Ein AND-Gatter kann durch Parallelschaltung der Emitter-Kollektor-Strecken zweier Transistoren realisiert werden.\n- **(D)** Das Ausgangssignal kann als Spannungsabfall an einem Widerstand realisiert werden."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A) und (D):**\n\n- **(A)** Die möglichen Zustände eines AND-Gatters lassen sich in einer Wahrheitstabelle darstellen.\n- **(D)** Das Ausgangssignal kann als Spannungsabfall an einem Widerstand realisiert werden."
+        },
         {
           "type": "text",
           "content": "Der Ausgang ist nur bei IN1 = 1 und IN2 = 1 gleich 1."
@@ -338,8 +499,15 @@
     },
     {
       "heading": "U8-11 – SN7402",
-      "question": "Welche Funktion und welches Gehäuse besitzt der Logikchip SN7402?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen treffen auf den Logikchip SN7402 zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Der Chip enthält vier AND-Gatter.\n- **(B)** Von insgesamt 16 Anschlüssen dienen zwei der Spannungsversorgung.\n- **(C)** Der Chip enthält vier NOR-Gatter.\n- **(D)** Der Chip ist in einem DIP-Gehäuse untergebracht."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (C) und (D):**\n\n- **(C)** Der Chip enthält vier NOR-Gatter.\n- **(D)** Der Chip ist in einem DIP-Gehäuse untergebracht."
+        },
         {
           "type": "text",
           "content": "Der SN7402 enthält vier NOR-Gatter. Er besitzt 14 Anschlüsse, von denen zwei der Spannungsversorgung dienen, und ist in einem DIP-Gehäuse verfügbar."
@@ -348,16 +516,32 @@
     },
     {
       "heading": "U9-0 – Sichtbares Licht",
-      "question": "In welchem Wellenlängenbereich liegt das für Menschen sichtbare Licht ungefähr?",
-      "answer": {
-        "type": "latex",
-        "content": "\\lambda\\approx380\\text{ bis }750\\,\\mathrm{nm}"
-      }
+      "question": {
+        "type": "markdown",
+        "content": "In welchem Wellenlängenbereich liegt das für Menschen sichtbare Licht ungefähr?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 400–800 µm\n- **(B)** 1,4–2,8 µm\n- **(C)** 380–750 nm\n- **(D)** 380–750 Å"
+      },
+      "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 380–750 nm"
+        },
+        {
+          "type": "latex",
+          "content": "\\lambda\\approx380\\text{ bis }750\\,\\mathrm{nm}"
+        }
+      ]
     },
     {
       "heading": "U9-1 – Wellenlänge und Wellenzahl",
-      "question": "Wie ändert sich die Wellenzahl bei einer kleinen Änderung der Wellenlänge?",
+      "question": {
+        "type": "markdown",
+        "content": "Wenn sich die Wellenlänge um dλ ändert, wie groß ist die Änderung der Wellenzahl dν̃?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** dν̃ = −dλ/λ²\n- **(B)** dν̃ = −dλ · λ²\n- **(C)** dν̃ = −dλ\n- **(D)** dν̃ = −dλ/λ"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (A):** dν̃ = −dλ/λ²"
+        },
         {
           "type": "latex",
           "content": "\\widetilde{\\nu}=\\frac{1}{\\lambda}"
@@ -374,8 +558,15 @@
     },
     {
       "heading": "U9-2 – Gitterkonstante",
-      "question": "Wie hängen Gitterkonstante, Linienabstand und Anzahl der Gitterlinien zusammen?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zur Gitterkonstante von Dispersionsgittern treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die Gitterkonstante ist gleich dem Abstand der Gitterlinien.\n- **(B)** Bei G = 1800/mm beträgt der Linienabstand ungefähr 556 nm.\n- **(C)** Bei G = 1200/mm und 6 cm aktiver Gitterbreite werden 72 000 Linien ausgeleuchtet.\n- **(D)** Die Gitterkonstante hängt von der Wellenlänge des eingestrahlten Lichtes ab."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (B) und (C):**\n\n- **(B)** Bei G = 1800/mm beträgt der Linienabstand ungefähr 556 nm.\n- **(C)** Bei G = 1200/mm und 6 cm aktiver Gitterbreite werden 72 000 Linien ausgeleuchtet."
+        },
         {
           "type": "latex",
           "content": "G=\\frac{1}{d}"
@@ -392,8 +583,15 @@
     },
     {
       "heading": "U9-3 – Beugungsordnungen",
-      "question": "Welche Eigenschaften besitzen die Beugungsordnungen eines Spektralgitters?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu den Beugungsordnungen eines Spektralgitters treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Beugungsordnungen sind eine Menge kleiner natürlicher Zahlen.\n- **(B)** Für eine gegebene Wellenlänge und ein gegebenes Gitter existieren eine maximale und eine minimale austretende Beugungsordnung.\n- **(C)** Die Zahl der möglichen Beugungsordnungen ist endlich.\n- **(D)** Licht in nullter Beugungsordnung wird durch das Gitter nicht spektral aufgelöst."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (B), (C) und (D):**\n\n- **(B)** Für eine gegebene Wellenlänge und ein gegebenes Gitter existieren eine maximale und eine minimale austretende Beugungsordnung.\n- **(C)** Die Zahl der möglichen Beugungsordnungen ist endlich.\n- **(D)** Licht in nullter Beugungsordnung wird durch das Gitter nicht spektral aufgelöst."
+        },
         {
           "type": "text",
           "content": "Beugungsordnungen sind ganze Zahlen und können positiv, null oder negativ sein."
@@ -406,8 +604,15 @@
     },
     {
       "heading": "U9-4 – Austrittswinkel am Gitter",
-      "question": "Unter welchem Winkel tritt Licht mit 589 nm bei senkrechtem Einfall aus einem Gitter mit G = 600/mm in der Ordnung k = -1 aus?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Liniengitter mit G = 600/mm wird bei α = 0 mit Licht der Wellenlänge 589 nm bestrahlt. Unter welchem Winkel tritt die erste negative Ordnung aus?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** +0,02025°\n- **(B)** −20,70°\n- **(C)** +20,70°\n- **(D)** −10,35°"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** −20,70°"
+        },
         {
           "type": "latex",
           "content": "\\sin\\alpha+\\sin\\beta=kG\\lambda"
@@ -420,8 +625,15 @@
     },
     {
       "heading": "U9-5 – Wellenlängenbestimmung am Gitter",
-      "question": "Welche Wellenlänge ergibt sich bei G = 1200/mm, α = 7°, β = -15° und k = -1?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Gitter mit G = 1200/mm wird unter α = 7° beleuchtet. Die nächsten Austrittswinkel liegen bei β = −7° und β = −15°. Welche Wellenlänge hat das Licht?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 608,43 nm\n- **(B)** 114,12 nm\n- **(C)** 57,062 nm\n- **(D)** 221,56 nm"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 114,12 nm"
+        },
         {
           "type": "latex",
           "content": "\\lambda=\\frac{\\sin\\alpha+\\sin\\beta}{kG}"
@@ -434,8 +646,15 @@
     },
     {
       "heading": "U9-6 – Littrow-Anordnung",
-      "question": "Welche Wellenlänge wird in erster Ordnung bei α = β = 11,125° und G = 1201,3/mm ausgewählt?",
+      "question": {
+        "type": "markdown",
+        "content": "In einer Littrow-Anordnung gilt α = β = 11,125° und G = 1201,3/mm. Höhere als die erste Ordnung werden unterdrückt. Welche Wellenlänge wird ausgewählt?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Jede beliebige Wellenlänge, da es sich um die nullte Ordnung handelt.\n- **(B)** 461,35 nm\n- **(C)** 160,62 nm\n- **(D)** 321,24 nm"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (D):** 321,24 nm"
+        },
         {
           "type": "latex",
           "content": "2\\sin\\alpha=G\\lambda"
@@ -448,8 +667,15 @@
     },
     {
       "heading": "U9-7 – Maximale Wellenlänge eines Gitters",
-      "question": "Welche maximale Wellenlänge kann bei senkrechtem Einfall in erster Ordnung aus einem Gitter mit G = 1802/mm austreten?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche maximale Wellenlänge kann bei senkrechtem Einfall in erster negativer Ordnung aus einem Gitter mit G = 1802/mm austreten?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Eine maximale Wellenlänge existiert nicht.\n- **(B)** 277,5 nm\n- **(C)** 554,9 nm\n- **(D)** 1109 nm"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 554,9 nm"
+        },
         {
           "type": "latex",
           "content": "\\lambda_{\\max}=\\frac{1}{G}"
@@ -462,8 +688,15 @@
     },
     {
       "heading": "U9-8 – Höchste Gitterordnung",
-      "question": "Welche höchste Ordnung ist bei G = 1802/mm, λ = 255,9 nm und senkrechtem Einfall möglich?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche höchste Gitterordnung ist bei G = 1802/mm, λ = 255,9 nm und senkrechtem Einfall möglich?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Eine maximale Ordnung existiert nicht.\n- **(B)** 2,16\n- **(C)** 2\n- **(D)** 4"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 2"
+        },
         {
           "type": "latex",
           "content": "|k|\\leq\\frac{1}{G\\lambda}=2{,}16"
@@ -476,8 +709,15 @@
     },
     {
       "heading": "U9-9 – Überlappung von Beugungsordnungen",
-      "question": "Welcher Bereich der ersten Ordnung ist bei einem Gesamtspektrum von 400 bis 900 nm wegen Überlappung mit der zweiten Ordnung nicht eindeutig?",
+      "question": {
+        "type": "markdown",
+        "content": "Licht von 400 bis 900 nm wird mit einem Gitter spektral aufgelöst. Welcher Bereich der ersten Ordnung ist wegen Überlappung mit der zweiten Ordnung nicht eindeutig?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Es gibt keine Uneindeutigkeit.\n- **(B)** 400–450 nm\n- **(C)** 800–900 nm\n- **(D)** 400–800 nm"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 800–900 nm"
+        },
         {
           "type": "latex",
           "content": "1\\cdot\\lambda_1=2\\cdot\\lambda_2"
@@ -490,8 +730,15 @@
     },
     {
       "heading": "U9-10 – Winkeldispersion",
-      "question": "Wovon hängt die Winkeldispersion eines Spektralgitters ab?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zur Winkeldispersion eines Spektralgitters treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Sie ergibt sich durch Auflösen der Gittergleichung nach β und Ableiten von β nach λ.\n- **(B)** Sie ist in nullter Gitterordnung am größten.\n- **(C)** Sie hängt von der Wellenlänge der einfallenden Strahlung ab.\n- **(D)** Für eine feste Ordnung nimmt sie mit wachsender Wellenlänge zu."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (C) und (D):**\n\n- **(A)** Sie ergibt sich durch Auflösen der Gittergleichung nach β und Ableiten von β nach λ.\n- **(C)** Sie hängt von der Wellenlänge der einfallenden Strahlung ab.\n- **(D)** Für eine feste Ordnung nimmt sie mit wachsender Wellenlänge zu."
+        },
         {
           "type": "latex",
           "content": "D_\\beta=\\frac{\\mathrm{d}\\beta}{\\mathrm{d}\\lambda}=\\frac{kG}{\\sqrt{1-(kG\\lambda-\\sin\\alpha)^2}}"
@@ -504,8 +751,15 @@
     },
     {
       "heading": "U9-11 – Berechnung der Winkeldispersion",
-      "question": "Welche Winkeldispersion besitzt ein Gitter mit G = 598,3/mm bei λ = 589,9 nm, α = 0 und k = 1?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Winkeldispersion besitzt ein Gitter mit G = 598,3/mm bei λ = 589,9 nm, α = 0 und k = +1?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 6,395 · 10⁻⁴ °/nm\n- **(B)** 0,2127 °/nm\n- **(C)** 0,03664 °/nm\n- **(D)** Nicht bestimmbar, da β nicht gegeben ist."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 0,03664 °/nm"
+        },
         {
           "type": "latex",
           "content": "\\beta=\\arcsin(G\\lambda)\\approx20{,}67^\\circ"
@@ -518,8 +772,15 @@
     },
     {
       "heading": "U9-12 – Wellenlänge aus der Winkeldispersion",
-      "question": "Für welche Wellenlänge gilt bei G = 600/mm, α = 0, k = 1 eine Winkeldispersion von 0,045°/nm?",
+      "question": {
+        "type": "markdown",
+        "content": "Für welche Wellenlänge gilt bei G = 600/mm, α = 0 und k = +1 eine Winkeldispersion von 0,045 °/nm?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 1075 nm\n- **(B)** 2090 nm\n- **(C)** 408 nm\n- **(D)** Keine der anderen Antworten ist annähernd richtig."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (A):** 1075 nm"
+        },
         {
           "type": "latex",
           "content": "\\lambda=\\sqrt{\\frac{1}{G^2}-\\frac{1}{D_\\beta^2}}"
@@ -532,8 +793,15 @@
     },
     {
       "heading": "U9-13 – Na-D-Dublett",
-      "question": "Wie groß ist die Winkeltrennung der Na-D-Linien bei G = 602,1/mm in erster und zweiter Ordnung?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Gitter mit G = 602,1/mm wird senkrecht mit dem Na-D-Dublett λ₁ = 589,593 nm und λ₂ = 589,996 nm beleuchtet. Wie groß ist die Winkeltrennung in erster und zweiter Ordnung?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Δβ₁ = 0,0148°, Δβ₂ = 0,0296°\n- **(B)** Δβ₁ = 0,0148°, Δβ₂ = 0,0395°\n- **(C)** Δβ₁ = 0,187°, Δβ₂ = 0,337°\n- **(D)** Keine der anderen Antworten ist annähernd richtig."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** Δβ₁ = 0,0148°, Δβ₂ = 0,0395°"
+        },
         {
           "type": "latex",
           "content": "\\Delta\\beta_1\\approx0{,}0148^\\circ"
@@ -550,8 +818,15 @@
     },
     {
       "heading": "U9-14 – Dispersion in höherer Ordnung",
-      "question": "Um welchen Faktor ist die Winkeldispersion der Na-D1-Linie in zweiter Ordnung gegenüber erster Ordnung erhöht?",
+      "question": {
+        "type": "markdown",
+        "content": "Um welchen Faktor ist die Winkeldispersion der Na-D₁-Linie bei G = 602,1/mm in zweiter Ordnung gegenüber erster Ordnung erhöht?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 2,000\n- **(B)** 1,927\n- **(C)** 2,655\n- **(D)** Keine der anderen Antworten ist annähernd richtig."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 2,655"
+        },
         {
           "type": "latex",
           "content": "f=\\frac{D_\\beta(k=2)}{D_\\beta(k=1)}\\approx2{,}655"
@@ -560,8 +835,15 @@
     },
     {
       "heading": "U10-0 – Monochromatoren",
-      "question": "Welche grundlegenden Aussagen gelten für Monochromatoren?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Monochromatoren treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Mit einem Monochromator kann Licht in seine spektralen Anteile zerlegt werden.\n- **(B)** Jeder Monochromator verwendet zwingend ein Beugungsgitter als dispergierendes Element.\n- **(C)** In einem Plangittermonochromator wird das Gitter von parallelem Licht ausgeleuchtet.\n- **(D)** Der Einbau eines Gitters in einen Monochromator unterdrückt die nullte Beugungsordnung vollständig."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A) und (C):**\n\n- **(A)** Mit einem Monochromator kann Licht in seine spektralen Anteile zerlegt werden.\n- **(C)** In einem Plangittermonochromator wird das Gitter von parallelem Licht ausgeleuchtet."
+        },
         {
           "type": "text",
           "content": "Ein Monochromator zerlegt Licht spektral und lässt einen ausgewählten Wellenlängenbereich austreten. Als dispergierendes Element können Gitter oder Prismen verwendet werden."
@@ -574,8 +856,15 @@
     },
     {
       "heading": "U10-1 – Spektrale Auflösung",
-      "question": "Welche Beziehungen gelten zwischen Bandbreite, Auflösung und Intensität eines Monochromators?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Bandbreite und spektraler Auflösung eines Monochromators treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Das Wellenlängenintervall Δλ am Austrittsspalt ist nie exakt null.\n- **(B)** Eine höhere spektrale Auflösung geht auf Kosten der Intensität.\n- **(C)** Bei λ = 335 nm und Δλ = 0,4 Å beträgt die Auflösung ungefähr 8400.\n- **(D)** Für eine gegebene Gitterordnung wächst die spektrale Auflösung mit der Gitterkonstante G."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig:** Alle Aussagen **(A)–(D)**."
+        },
         {
           "type": "latex",
           "content": "R=\\frac{\\lambda}{\\Delta\\lambda}"
@@ -592,8 +881,15 @@
     },
     {
       "heading": "U10-2 – Lineare Dispersion",
-      "question": "Wovon hängt die lineare Dispersion eines Monochromators ab?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zur linearen Dispersion Dₓ eines Monochromators treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Die lineare Dispersion Dₓ ist dimensionslos.\n- **(B)** Eine gebräuchliche Einheit der linearen Dispersion ist mm/nm.\n- **(C)** Die lineare Dispersion hängt sowohl von Eigenschaften des Gitters als auch des Monochromators ab.\n- **(D)** Die lineare Dispersion hängt vom Abstand zwischen Kollimatorspiegel und Gitter ab."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (B) und (C):**\n\n- **(A)** Die lineare Dispersion Dₓ ist dimensionslos.\n- **(B)** Eine gebräuchliche Einheit der linearen Dispersion ist mm/nm.\n- **(C)** Die lineare Dispersion hängt sowohl von Eigenschaften des Gitters als auch des Monochromators ab."
+        },
         {
           "type": "latex",
           "content": "D_x=\\frac{\\mathrm{d}x}{\\mathrm{d}\\lambda}=L\\,D_\\beta"
@@ -606,8 +902,15 @@
     },
     {
       "heading": "U10-3 – Sphärischer Hohlspiegel",
-      "question": "Welche paraxialen Abbildungseigenschaften besitzt ein sphärischer Hohlspiegel?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zum paraxialen Strahlengang an einem sphärischen Hohlspiegel treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Der Brennpunkt ist unabhängig von der Wellenlänge des Lichtes.\n- **(B)** Vom Brennpunkt ausgehende Strahlen werden zu Parallelstrahlen.\n- **(C)** Achsennahe, parallel zur Hauptachse einfallende Strahlen laufen nach der Reflexion durch den Brennpunkt.\n- **(D)** Die Brennweite ist gleich dem halben Abstand zwischen Spiegel-Scheitelpunkt und Kugelmittelpunkt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig:** Alle Aussagen **(A)–(D)**."
+        },
         {
           "type": "text",
           "content": "Der Brennpunkt ist bei idealer Reflexion unabhängig von der Wellenlänge. Strahlen aus dem Brennpunkt werden parallel; achsennahe parallele Strahlen werden in den Brennpunkt reflektiert."
@@ -620,8 +923,15 @@
     },
     {
       "heading": "U10-4 – Lineare Dispersion berechnen",
-      "question": "Wie groß ist die lineare Dispersion bei L = 35 cm und Dβ = 2,07 mrad/nm?",
+      "question": {
+        "type": "markdown",
+        "content": "Die Winkeldispersion beträgt Dβ = 2,07 mrad/nm und die Brennweite L = 35 cm. Wie groß ist die lineare Dispersion?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 3,25 mm/nm\n- **(B)** 720 mm/nm\n- **(C)** 0,72 mm/nm\n- **(D)** Nicht bestimmbar, da die Gitterordnung fehlt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 0,72 mm/nm"
+        },
         {
           "type": "latex",
           "content": "D_x=L\\,D_\\beta=0{,}35\\,\\mathrm{m}\\cdot2{,}07\\times10^{-3}\\,\\mathrm{rad/nm}\\approx0{,}72\\,\\mathrm{mm/nm}"
@@ -630,8 +940,15 @@
     },
     {
       "heading": "U10-5 – Spektrale Breite durch Spaltweite",
-      "question": "Welche scheinbare spektrale Breite ergibt sich bei S = 200 µm und Dx = 0,72 mm/nm?",
+      "question": {
+        "type": "markdown",
+        "content": "Die Spalte eines Monochromators sind 200 µm breit. Welche scheinbare spektrale Breite besitzt monochromatische Strahlung bei Dₓ = 0,72 mm/nm?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 1,48 Å\n- **(B)** 3,93 Å\n- **(C)** 0,19 Å\n- **(D)** Nicht bestimmbar, da die Gitterkonstante fehlt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 3,93 Å"
+        },
         {
           "type": "latex",
           "content": "\\Delta\\lambda=\\frac{\\sqrt{2}\\,S}{D_x}\\approx0{,}393\\,\\mathrm{nm}=3{,}93\\,\\mathrm{\\mathring{A}}"
@@ -640,8 +957,15 @@
     },
     {
       "heading": "U10-6 – Czerny-Turner-Wellenlänge",
-      "question": "Welche Wellenlänge ergibt sich bei G = 1201,5/mm, θ = 15,000°, φ = 4,7250° und k = -1?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Czerny-Turner-Monochromator hat G = 1201,5/mm, einen Strahlwinkel von 15,000°, eine Gitterdrehung φ = 4,7250° und arbeitet in erster negativer Ordnung. Welche Wellenlänge gelangt durch den Austrittsspalt?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 135,64 nm\n- **(B)** 632,80 nm\n- **(C)** 2312,4 Å\n- **(D)** Nicht bestimmbar, da die Brennweite des Refokussierspiegels fehlt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (A):** 135,64 nm"
+        },
         {
           "type": "latex",
           "content": "kG\\lambda=-2\\cos\\left(\\frac{\\theta}{2}\\right)\\sin\\varphi"
@@ -654,8 +978,15 @@
     },
     {
       "heading": "U10-7 – Sphärisches Gitter und Rowland-Kreis",
-      "question": "Welche Aussagen gelten für einen Monochromator mit sphärischem Gitter?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen gelten für einen Monochromator mit sphärischem Gitter und Rowland-Kreis?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Der Radius des Rowland-Kreises ist gleich dem Krümmungsradius des sphärischen Gitters.\n- **(B)** Divergentes Licht von einem Punkt des Rowland-Kreises wird durch das sphärische Gitter kollimiert.\n- **(C)** Ein sphärisches Gitter statt einer Spiegel-Gitter-Spiegel-Anordnung vermindert Reflexionsverluste.\n- **(D)** In einem Normal-Incidence-Monochromator wird das sphärische Gitter nahezu senkrecht ausgeleuchtet."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (C) und (D):**\n\n- **(C)** Ein sphärisches Gitter statt einer Spiegel-Gitter-Spiegel-Anordnung vermindert Reflexionsverluste.\n- **(D)** In einem Normal-Incidence-Monochromator wird das sphärische Gitter nahezu senkrecht ausgeleuchtet."
+        },
         {
           "type": "text",
           "content": "Der Radius des Rowland-Kreises ist halb so groß wie der Krümmungsradius des sphärischen Gitters."
@@ -668,8 +999,15 @@
     },
     {
       "heading": "U10-8 – Maximales Auflösungsvermögen eines Gitters",
-      "question": "Wie lautet das maximal mögliche Auflösungsvermögen eines gleichmäßig ausgeleuchteten Gitters der Breite W?",
+      "question": {
+        "type": "markdown",
+        "content": "Welcher Ausdruck beschreibt das maximal mögliche Auflösungsvermögen R_max eines gleichmäßig über die Breite W ausgeleuchteten Gitters für die Wellenlänge λ?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** λ²/(4W²)\n- **(B)** 2W/λ\n- **(C)** 4W²/λ²\n- **(D)** √(W/λ)"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 2W/λ"
+        },
         {
           "type": "latex",
           "content": "R=kN"
@@ -682,8 +1020,15 @@
     },
     {
       "heading": "U10-9 – Numerische maximale Gitterauflösung",
-      "question": "Wie groß ist Rmax bei W = 4,428 cm und λ = 588,9 nm?",
+      "question": {
+        "type": "markdown",
+        "content": "Wie groß ist R_max bei einer ausgeleuchteten Gitterbreite W = 4,428 cm und λ = 588,9 nm?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 2,261 · 10¹⁰\n- **(B)** 4,442 · 10⁻¹¹\n- **(C)** 1,504 · 10⁵\n- **(D)** Nicht bestimmbar, da die Gitterordnung fehlt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 1,504 · 10⁵"
+        },
         {
           "type": "latex",
           "content": "R_{\\max}=\\frac{2W}{\\lambda}=\\frac{2\\cdot4{,}428\\times10^{-2}\\,\\mathrm{m}}{588{,}9\\times10^{-9}\\,\\mathrm{m}}\\approx1{,}504\\times10^5"
@@ -692,8 +1037,15 @@
     },
     {
       "heading": "U10-10 – Winkel im Czerny-Turner-Monochromator",
-      "question": "Welche Einfalls- und Austrittswinkel ergeben sich bei |θ| = 15,000° und φ = +4,7250°?",
+      "question": {
+        "type": "markdown",
+        "content": "Bei einem Czerny-Turner-Monochromator gilt |θ| = 15,000° und φ = +4,7250°. Welche Einfalls- und Austrittswinkel ergeben sich?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** α = −2,775°, β = +2,775°\n- **(B)** α = +2,775°, β = −4,7250°\n- **(C)** α = +2,775°, β = −12,225°\n- **(D)** Keine der genannten Antworten ist annähernd richtig."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** α = +2,775°, β = −12,225°"
+        },
         {
           "type": "latex",
           "content": "\\alpha=\\frac{\\theta}{2}-\\varphi=+2{,}775^\\circ"
@@ -706,8 +1058,15 @@
     },
     {
       "heading": "U10-11 – Gitterdrehwinkel",
-      "question": "Um welchen Winkel muss ein Czerny-Turner-Gitter mit G = 1201,5/mm bei θ = 15,000° für λ = 387,5 nm in Ordnung k = -1 gedreht werden?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Czerny-Turner-Monochromator hat G = 1201,5/mm, |θ| = 15,000° und arbeitet bei λ = 387,5 nm in erster negativer Ordnung. Um welchen Winkel muss das Gitter gedreht werden?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** φ = +13,580°\n- **(B)** φ = −4,265°\n- **(C)** α = +4,265°\n- **(D)** Keine der genannten Antworten ist annähernd richtig."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (A):** φ = +13,580°"
+        },
         {
           "type": "latex",
           "content": "\\sin\\varphi=\\frac{-kG\\lambda}{2\\cos(\\theta/2)}"
@@ -720,13 +1079,32 @@
     },
     {
       "heading": "U11-0 – Channeltron",
-      "question": "Woran erinnert die Form eines Channeltrons?",
-      "answer": "An ein kleines, gebogenes Waldhorn."
+      "question": {
+        "type": "markdown",
+        "content": "Woran erinnert die Form eines Channeltrons am ehesten?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** An ein Bügeleisen.\n- **(B)** An einen Eierkocher.\n- **(C)** An ein kleines Waldhorn.\n- **(D)** An eine Zahnbürste."
+      },
+      "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** An ein kleines Waldhorn."
+        },
+        {
+          "type": "text",
+          "content": "An ein kleines, gebogenes Waldhorn."
+        }
+      ]
     },
     {
       "heading": "U11-1 – Photowiderstand",
-      "question": "Welche Eigenschaften besitzt ein Photowiderstand?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Photowiderständen treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Der Widerstandswert eines Photowiderstands ändert sich unter dem Einfluss von Licht.\n- **(B)** Das lichtempfindliche Material eines Photowiderstands ist ein Halbleiter.\n- **(C)** Bei Belichtung werden in der pn-Zone des Photowiderstands Elektron-Loch-Paare erzeugt.\n- **(D)** Photowiderstände reagieren deutlich träger als Photodioden."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (B) und (D):**\n\n- **(A)** Der Widerstandswert eines Photowiderstands ändert sich unter dem Einfluss von Licht.\n- **(B)** Das lichtempfindliche Material eines Photowiderstands ist ein Halbleiter.\n- **(D)** Photowiderstände reagieren deutlich träger als Photodioden."
+        },
         {
           "type": "text",
           "content": "Sein Widerstandswert ändert sich unter Lichteinfluss. Das lichtempfindliche Material ist ein Halbleiter."
@@ -739,8 +1117,15 @@
     },
     {
       "heading": "U11-2 – Photozelle",
-      "question": "Wie arbeitet eine Photozelle?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Photozellen treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Das Wirkprinzip beruht auf dem photoelektrischen Effekt.\n- **(B)** Die Photokathode wird mit dem Minuspol einer externen Spannungsquelle verbunden.\n- **(C)** Bei Lichteinfall verlassen Elektronen die Photoanode.\n- **(D)** Der Photostrom durch die Photozelle schließt einen Stromkreis."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (B) und (D):**\n\n- **(A)** Das Wirkprinzip beruht auf dem photoelektrischen Effekt.\n- **(B)** Die Photokathode wird mit dem Minuspol einer externen Spannungsquelle verbunden.\n- **(D)** Der Photostrom durch die Photozelle schließt einen Stromkreis."
+        },
         {
           "type": "text",
           "content": "Sie nutzt den äußeren photoelektrischen Effekt. Licht löst Elektronen aus der Photokathode, die mit dem Minuspol der äußeren Spannungsquelle verbunden ist."
@@ -753,8 +1138,15 @@
     },
     {
       "heading": "U11-3 – Photoelektrische Energie",
-      "question": "Mit welcher kinetischen Energie verlassen Elektronen eine Cäsium-Photokathode bei λ = 321 nm und WA = 1,76 eV?",
+      "question": {
+        "type": "markdown",
+        "content": "Cäsium hat die Austrittsarbeit W_A = 1,76 eV. Mit welcher kinetischen Energie verlassen Elektronen die Photokathode bei λ = 321 nm?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 541 eV\n- **(B)** 3,35 · 10⁻¹⁹ eV\n- **(C)** 2,09 eV\n- **(D)** 0,235 eV"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (C):** 2,09 eV"
+        },
         {
           "type": "latex",
           "content": "E_\\gamma=\\frac{hc}{\\lambda}\\approx3{,}85\\,\\mathrm{eV}"
@@ -767,13 +1159,32 @@
     },
     {
       "heading": "U11-4 – Quantenausbeute",
-      "question": "Wie groß ist ungefähr die Quantenausbeute von Gold bei 100 nm?",
-      "answer": "Ungefähr 10 %."
+      "question": {
+        "type": "markdown",
+        "content": "Wie groß ist ungefähr die Quantenausbeute von Gold bei einer Wellenlänge von 100 nm?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 10 %\n- **(B)** 2 %\n- **(C)** 85 %\n- **(D)** 230 %"
+      },
+      "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (A):** 10 %"
+        },
+        {
+          "type": "text",
+          "content": "Ungefähr 10 %."
+        }
+      ]
     },
     {
       "heading": "U11-5 – Photomultiplier-Verstärkung",
-      "question": "Welche Gesamtverstärkung besitzt ein Sekundärelektronen-Vervielfacher mit 10 Dynoden und mittlerem Faktor 4,10 je Dynode?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Sekundärelektronen-Vervielfacher besitzt 10 Dynoden und einen mittleren Verstärkungsfaktor von 4,10 pro Dynode. Wie groß ist die Gesamtverstärkung?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 1,36 · 10⁴\n- **(B)** 1,34 · 10⁶\n- **(C)** 2,28 · 10⁸\n- **(D)** Nicht berechenbar, da das Material der Photokathode fehlt."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (B):** 1,34 · 10⁶"
+        },
         {
           "type": "latex",
           "content": "F=\\overline{f}^{\\,N}=(4{,}10)^{10}\\approx1{,}34\\times10^6"
@@ -782,8 +1193,15 @@
     },
     {
       "heading": "U11-6 – Photodiode",
-      "question": "Welche Eigenschaften und Betriebsweise besitzt eine Photodiode?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Photodioden treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Das Wirkprinzip beruht auf der Erzeugung von Elektron-Loch-Paaren in der pn-Zone.\n- **(B)** Ein lichtinduzierter Strom kann bei Sperrbetrieb über den Spannungsabfall an einem Widerstand gemessen werden.\n- **(C)** Es gibt Photodioden, die Lichtpulse im Nanosekundenbereich detektieren können.\n- **(D)** Eine einfache Photodiode ist für weniger als 50 Cent erhältlich."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig:** Alle Aussagen **(A)–(D)**."
+        },
         {
           "type": "text",
           "content": "Licht erzeugt Elektron-Loch-Paare in der pn-Zone. Häufig wird die Diode in Sperrrichtung betrieben und der lichtinduzierte Strom über den Spannungsabfall an einem Widerstand gemessen."
@@ -796,8 +1214,15 @@
     },
     {
       "heading": "U11-7 – Mikrokanalplatte",
-      "question": "Welche Aussagen gelten für eine Mikrokanalplatte beziehungsweise ein Channelplate?",
+      "question": {
+        "type": "markdown",
+        "content": "Welche Aussagen zu Mikrokanalplatten beziehungsweise Channelplates treffen zu?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** Sie können zum Nachweis von Licht und von Ionen verwendet werden.\n- **(B)** Sie müssen im Hochvakuum betrieben werden.\n- **(C)** Für ein messbares Signal müssen immer mindestens zwei Channelplates hintereinander geschaltet werden.\n- **(D)** Die Sekundärelektronenvervielfachung erfolgt innerhalb der einzelnen Kanäle."
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig sind (A), (B) und (D):**\n\n- **(A)** Sie können zum Nachweis von Licht und von Ionen verwendet werden.\n- **(B)** Sie müssen im Hochvakuum betrieben werden.\n- **(D)** Die Sekundärelektronenvervielfachung erfolgt innerhalb der einzelnen Kanäle."
+        },
         {
           "type": "text",
           "content": "Sie kann Lichtteilchen beziehungsweise Photoelektronen und auch Ionen nachweisen und wird im Hochvakuum betrieben."
@@ -810,8 +1235,15 @@
     },
     {
       "heading": "U11-8 – Speicherbedarf eines CCD-Bildes",
-      "question": "Wie viel Speicher benötigt ein verlustfrei gespeichertes Schwarz-Weiß-Bild mit 1024 × 768 Pixeln und 2 Byte pro Pixel?",
+      "question": {
+        "type": "markdown",
+        "content": "Ein Schwarz-Weiß-CCD-Bild besitzt 1024 × 768 Pixel und benötigt 2 Byte pro Pixel. Wie viel Speicher wird ungefähr benötigt?\n\n**Antwortmöglichkeiten:**\n\n- **(A)** 0,2 MB\n- **(B)** 0,02 MB\n- **(C)** 4,7 MB\n- **(D)** 1,6 MB"
+      },
       "answer": [
+        {
+          "type": "markdown",
+          "content": "**Richtig ist (D):** 1,6 MB"
+        },
         {
           "type": "latex",
           "content": "1024\\cdot768\\cdot2\\,\\mathrm{Byte}=1\\,572\\,864\\,\\mathrm{Byte}\\approx1{,}6\\,\\mathrm{MB}"

@@ -389,7 +389,17 @@
     },
     {
       "heading": "Q6-1 – Diode BAY41",
-      "question": "Welche Spannung muss bei 70 °C an eine Diode BAY41 angelegt werden, damit ein Durchlassstrom von 1 mA fließt?",
+      "question": [
+        {
+          "type": "text",
+          "content": "Welche Spannung muss bei 70 °C an eine Diode BAY41 angelegt werden, damit ein Durchlassstrom von 1 mA fließt?"
+        },
+        {
+          "type": "image",
+          "content": "../media/q6-1.png",
+          "caption": "Durchlasskennlinie der Diode BAY41 (Datenblatt)"
+        }
+      ],
       "answer": [
         {
           "type": "latex",
@@ -443,6 +453,11 @@
         {
           "type": "text",
           "content": "Die Lufttemperatur beträgt 27,4 °C. Bei der Taumethode beginnt ein gekühlter Spiegel bei 16,3 °C zu beschlagen. Wie hoch ist die relative Luftfeuchtigkeit? Verwende die Antoine-Gleichung."
+        },
+        {
+          "type": "image",
+          "content": "../media/Q14-4.png",
+          "caption": "Beschlagender Spiegel bei der Taumethode"
         },
         {
           "type": "latex",

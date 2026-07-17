@@ -431,11 +431,22 @@ def render_menu() -> None:
     if current_category is None:
         st.markdown(
             "<div class='app-subtitle'>Wähle ein Thema aus der Kategorie.</div>",
-            unsafe_allow_html=True,
+            unsafe_html=True,
         )
         
-        # Extrahiere eindeutige Kategorien und sortiere sie
-        categories = sorted(set(topic["category"] for topic in topics))
+        # Extrahiere eindeutige Kategorien und nutze categories_order aus config
+        config = load_config()
+        categories_order = config.get("categories_order", [])
+        all_categories = set(topic["category"] for topic in topics)
+        
+        # Sortiere nach categories_order, dann alphabetisch für nicht definierte
+        def category_sort_key(cat: str) -> tuple:
+            if cat in categories_order:
+                return (0, categories_order.index(cat))
+            else:
+                return (1, cat)
+        
+        categories = sorted(all_categories, key=category_sort_key)
         
         for category in categories:
             category_topics = [t for t in topics if t["category"] == category]

@@ -1,0 +1,47 @@
+{
+  "categories_order": [
+    "Praktikum",
+    "Organische Chemie",
+    "Kinetik",
+    "Physikalische Chemie",
+    "Allgemein"
+  ],
+  "topics": {
+    "kinetik.json": {
+      "order": 1,
+      "category": "Kinetik"
+    },
+    "kinetik_ueberarbeitet.json": {
+      "order": 2,
+      "category": "Kinetik"
+    },
+    "kinetik-Nilvid.json": {
+      "order": 3,
+      "category": "Kinetik"
+    },
+    "messen.json": {
+      "order": 1,
+      "category": "Praktikum"
+    },
+    "karteikarten_u7_u11.json": {
+      "order": 2,
+      "category": "Praktikum"
+    },
+    "organische_chemie.json": {
+      "order": 1,
+      "category": "Organische Chemie"
+    },
+    "organische_chemie_3.json": {
+      "order": 2,
+      "category": "Organische Chemie"
+    },
+    "physikalische_chemie.json": {
+      "order": 1,
+      "category": "Physikalische Chemie"
+    }
+  },
+  "card_order": {
+    "kinetik.json": [],
+    "messen.json": []
+  }
+}

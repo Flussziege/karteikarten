@@ -455,11 +455,6 @@
           "content": "Die Lufttemperatur beträgt 27,4 °C. Bei der Taumethode beginnt ein gekühlter Spiegel bei 16,3 °C zu beschlagen. Wie hoch ist die relative Luftfeuchtigkeit? Verwende die Antoine-Gleichung."
         },
         {
-          "type": "image",
-          "content": "../media/Q14-4.png",
-          "caption": "Beschlagender Spiegel bei der Taumethode"
-        },
-        {
           "type": "latex",
           "content": "\\log_{10}(p^D)=8{,}07131-\\frac{1730{,}63}{233{,}426+\\vartheta}"
         }
@@ -489,6 +484,11 @@
         {
           "type": "text",
           "content": "Bei einer psychrometrischen Messung beträgt die Temperatur des trockenen Thermometers 42 °C und die Temperatur des feuchten Thermometers 34 °C. Wie groß ist die relative Luftfeuchtigkeit laut Psychrometer-Kennlinienfeld?"
+        },
+        {
+          "type": "image",
+          "content": "../media/Q14-4.png",
+          "caption": "Beschlagender Spiegel bei der Taumethode"
         },
         {
           "type": "latex",

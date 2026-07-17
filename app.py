@@ -66,6 +66,7 @@ if not require_password():
 
 BASE_DIR = Path(__file__).resolve().parent
 TOPICS_DIR = BASE_DIR / "topics"
+CONFIG_FILE = BASE_DIR / "config.json"
 
 
 # ------------------------------------------------------------
@@ -138,6 +139,7 @@ DEFAULT_STATE = {
     "card_index": 0,
     "show_answer": False,
     "shuffle_cards": False,
+    "current_category": None,  # Für Kategorie-Navigation
 }
 
 for key, value in DEFAULT_STATE.items():
@@ -148,6 +150,26 @@ for key, value in DEFAULT_STATE.items():
 # ------------------------------------------------------------
 # Datei- und Datenfunktionen
 # ------------------------------------------------------------
+def load_config() -> dict[str, Any]:
+    """Lädt die config.json mit Sortiereinstellungen."""
+    if not CONFIG_FILE.exists():
+        return {
+            "categories_order": [],
+            "topics": {},
+            "card_order": {}
+        }
+    
+    try:
+        with CONFIG_FILE.open("r", encoding="utf-8") as file:
+            return json.load(file)
+    except (json.JSONDecodeError, IOError):
+        return {
+            "categories_order": [],
+            "topics": {},
+            "card_order": {}
+        }
+
+
 def load_json(path: Path) -> dict[str, Any]:
     """Lädt und prüft eine Themen-Datei."""
     try:
@@ -188,6 +210,7 @@ def load_json(path: Path) -> dict[str, Any]:
 
 def discover_topics() -> list[dict[str, Any]]:
     """Findet automatisch alle JSON-Dateien im Ordner topics."""
+    config = load_config()
     topics: list[dict[str, Any]] = []
 
     if not TOPICS_DIR.exists():
@@ -196,25 +219,52 @@ def discover_topics() -> list[dict[str, Any]]:
     for path in sorted(TOPICS_DIR.glob("*.json")):
         try:
             data = load_json(path)
+            filename = path.name
+            
+            # Hole Einstellungen aus config.json, fallback auf JSON-Datei
+            topic_config = config.get("topics", {}).get(filename, {})
+            category = topic_config.get("category") or data.get("category", "Allgemein")
+            order = topic_config.get("order") or data.get("order", 999)
+            
             topics.append(
                 {
                     "path": path,
+                    "filename": filename,
                     "title": data["title"],
                     "description": data.get("description", ""),
                     "card_count": len(data["cards"]),
+                    "category": category,
+                    "order": order,
                 }
             )
         except ValueError as exc:
+            filename = path.name
+            topic_config = config.get("topics", {}).get(filename, {})
+            category = topic_config.get("category", "Allgemein")
+            order = topic_config.get("order", 999)
+            
             topics.append(
                 {
                     "path": path,
+                    "filename": filename,
                     "title": path.stem,
                     "description": "",
                     "card_count": 0,
+                    "category": category,
+                    "order": order,
                     "error": str(exc),
                 }
             )
 
+    # Sortiere nach: Kategorie (custom order oder alphabetisch), dann order, dann Title
+    categories_order = config.get("categories_order", [])
+    
+    def category_sort_key(t: dict) -> tuple:
+        cat = t["category"]
+        cat_index = categories_order.index(cat) if cat in categories_order else len(categories_order)
+        return (cat_index, t["order"], t["title"])
+    
+    topics.sort(key=category_sort_key)
     return topics
 
 
@@ -295,6 +345,26 @@ def open_topic(topic_path: Path) -> None:
     topic = load_json(topic_path)
     cards = list(topic["cards"])
 
+    # Sortiere Karten basierend auf config.json
+    config = load_config()
+    card_order = config.get("card_order", {}).get(topic_path.name, [])
+    
+    if card_order:
+        # Erstelle eine Mapping von Heading zu Card
+        card_map = {card["heading"]: card for card in cards}
+        ordered_cards = []
+        
+        for heading in card_order:
+            if heading in card_map:
+                ordered_cards.append(card_map[heading])
+        
+        # Füge Karten hinzu, die nicht in der Order-Liste sind (am Ende)
+        for card in cards:
+            if card["heading"] not in card_order:
+                ordered_cards.append(card)
+        
+        cards = ordered_cards
+
     if st.session_state.shuffle_cards:
         random.shuffle(cards)
 
@@ -313,6 +383,7 @@ def go_to_menu() -> None:
     st.session_state.cards = []
     st.session_state.card_index = 0
     st.session_state.show_answer = False
+    st.session_state.current_category = None
 
 
 def previous_card() -> None:
@@ -336,11 +407,7 @@ def toggle_answer() -> None:
 # ------------------------------------------------------------
 def render_menu() -> None:
     st.markdown("<h1 class='app-title'>🧠 Karteikarten-Trainer</h1>", unsafe_allow_html=True)
-    st.markdown(
-        "<div class='app-subtitle'>Wähle ein Thema und lerne Karte für Karte.</div>",
-        unsafe_allow_html=True,
-    )
-
+    
     topics = discover_topics()
 
     if not topics:
@@ -350,6 +417,7 @@ def render_menu() -> None:
         )
         return
 
+    # Shuffle-Toggle (oben anzeigen)
     st.session_state.shuffle_cards = st.toggle(
         "Karten beim Start mischen",
         value=st.session_state.shuffle_cards,
@@ -357,27 +425,73 @@ def render_menu() -> None:
 
     st.divider()
 
-    for topic_info in topics:
-        with st.container(border=True):
-            st.subheader(topic_info["title"])
-
-            if topic_info.get("error"):
-                st.error(topic_info["error"])
-                continue
-
-            if topic_info["description"]:
-                st.write(topic_info["description"])
-
-            st.caption(f"{topic_info['card_count']} Karte(n)")
-
-            if st.button(
-                "Thema öffnen",
-                key=f"open_{topic_info['path'].name}",
-                use_container_width=True,
-                type="primary",
-            ):
-                open_topic(topic_info["path"])
+    current_category = st.session_state.current_category
+    
+    # Wenn keine Kategorie ausgewählt: zeige Kategorien
+    if current_category is None:
+        st.markdown(
+            "<div class='app-subtitle'>Wähle ein Thema aus der Kategorie.</div>",
+            unsafe_allow_html=True,
+        )
+        
+        # Extrahiere eindeutige Kategorien und sortiere sie
+        categories = sorted(set(topic["category"] for topic in topics))
+        
+        for category in categories:
+            category_topics = [t for t in topics if t["category"] == category]
+            
+            with st.container(border=True):
+                st.subheader(f"📁 {category}")
+                
+                total_cards = sum(t["card_count"] for t in category_topics)
+                st.caption(f"{len(category_topics)} Thema(ta), {total_cards} Karte(n) insgesamt")
+                
+                if st.button(
+                    "Kategorie öffnen →",
+                    key=f"category_{category}",
+                    use_container_width=True,
+                    type="primary",
+                ):
+                    st.session_state.current_category = category
+                    st.rerun()
+    
+    # Wenn Kategorie ausgewählt: zeige Themen dieser Kategorie
+    else:
+        # Back-Button
+        back_col, title_col = st.columns([1, 5])
+        with back_col:
+            if st.button("←", help="Zurück zu Kategorien", use_container_width=True):
+                st.session_state.current_category = None
                 st.rerun()
+        
+        with title_col:
+            st.markdown(f"### 📁 {current_category}")
+        
+        st.divider()
+        
+        category_topics = [t for t in topics if t["category"] == current_category]
+        
+        for topic_info in category_topics:
+            with st.container(border=True):
+                st.subheader(topic_info["title"])
+
+                if topic_info.get("error"):
+                    st.error(topic_info["error"])
+                    continue
+
+                if topic_info["description"]:
+                    st.write(topic_info["description"])
+
+                st.caption(f"{topic_info['card_count']} Karte(n)")
+
+                if st.button(
+                    "Thema öffnen",
+                    key=f"open_{topic_info['path'].name}",
+                    use_container_width=True,
+                    type="primary",
+                ):
+                    open_topic(topic_info["path"])
+                    st.rerun()
 
 
 # ------------------------------------------------------------

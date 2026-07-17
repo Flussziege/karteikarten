@@ -305,7 +305,7 @@
       ]
     },
     {
-      "heading": "Drehspul-Amperemeter",
+      "heading": "Q5-3 - Drehspul-Amperemeter",
       "question": {
         "type": "markdown",
         "content": "Welche Aussagen über Drehspul-Amperemeter treffen zu?\n\nA. Das Drehspul-Amperemeter beruht auf magnetischen Wirkungen des elektrischen Stroms.\n\nB. Im Drehspul-Amperemeter befindet sich eine stromdurchflossene Spule zwischen den Polbacken eines Permanentmagneten.\n\nC. Das Drehspul-Amperemeter kann die Richtung des elektrischen Stromes bestimmen.\n\nD. Wegen der Trägheit der Zeigernadel kann es hochfrequente Wechselströme nicht messen."
@@ -317,10 +317,16 @@
     },
     {
       "heading": "Q5-11 – Multimeter NANJING MODEL MF47",
-      "question": {
+      "question": [ 
+      {
         "type": "markdown",
         "content": "Ein analoges Multimeter besitzt einen Messbereich von 0,25 V bei 50 µA. Welche Aussagen treffen zu?\n\nA. Das Multimeter kann nur entweder einen Strom oder eine Spannung messen.\n\nB. Der Innenwiderstand der Drehspule beträgt 5 kΩ.\n\nC. Der Vorwiderstand im 1-V-Messbereich beträgt 15 kΩ.\n\nD. Der Parallelwiderstand im 0,5-mA-Bereich beträgt 732 Ω."
-      },
+      },         
+      { "type": "image",
+          "content": "../media/multimeter.png",
+          "caption": "Photo des Multimeters NANJING MODEL MF47"
+      }
+      ],
       "answer": [
         {
           "type": "text",

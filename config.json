@@ -35,6 +35,10 @@
       "order": 2,
       "category": "Organische Chemie"
     },
+    "Schutzgruppen.json": {
+      "order": 3,
+      "category": "Organische Chemie"
+    },
     "physikalische_chemie.json": {
       "order": 1,
       "category": "Physikalische Chemie"

@@ -1,0 +1,1093 @@
+{
+  "title": "Schutzgruppen in der organischen Chemie",
+  "description": "Karteikarten zu wichtigen Schutzgruppen: Abkürzung ↔ Struktur, typische Anbringung und typische Abspaltung. Die Strukturabbildungen liegen im Ordner media/schutzgruppen.",
+  "cards": [
+    {
+      "heading": "Ether – allgemeine Struktur",
+      "question": "Wie sieht die allgemeine Struktur eines Ethers aus?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/ether_general.png",
+          "caption": "Allgemeine Etherstruktur"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{R-O-R'}"
+        }
+      ]
+    },
+    {
+      "heading": "Typische Ether-Schutzgruppen",
+      "question": "Welche häufigen Ether-Schutzgruppen für Alkohole sollte man kennen?",
+      "answer": {
+        "type": "markdown",
+        "content": "Wichtige Beispiele sind **Me**, **Bn**, **PMB**, **MOM**, **MEM**, **THP** sowie **Silylether** wie TMS, TES, TBS/TBDMS, TIPS und TBDPS."
+      }
+    },
+    {
+      "heading": "Bn – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Bn?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/bn_ether.png",
+          "caption": "Benzylether (Bn)"
+        },
+        {
+          "type": "markdown",
+          "content": "**Bn** = Benzyl"
+        }
+      ]
+    },
+    {
+      "heading": "Bn – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/bn_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Bn** = Benzyl"
+      }
+    },
+    {
+      "heading": "Bn – Anbringung",
+      "question": "Wie wird die Schutzgruppe Bn typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{NaH}\\ RO^-\\xrightarrow{BnBr}\\ ROBn}"
+        },
+        {
+          "type": "text",
+          "content": "Typisch: Bildung des Alkoxids und anschließende Williamson-Ethersynthese mit Benzylbromid oder Benzylchlorid."
+        }
+      ]
+    },
+    {
+      "heading": "Bn – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Bn typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROBn\\xrightarrow{H_2,\\ Pd/C}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Typische Hydrogenolyse."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Bn ist gegenüber vielen Säuren und Basen robust, aber nicht orthogonal zu anderen hydrogenolytisch spaltbaren Gruppen wie Cbz."
+        }
+      ]
+    },
+    {
+      "heading": "PMB – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe PMB?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/pmb_ether.png",
+          "caption": "para-Methoxybenzylether (PMB)"
+        },
+        {
+          "type": "markdown",
+          "content": "**PMB** = para-Methoxybenzyl"
+        }
+      ]
+    },
+    {
+      "heading": "PMB – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/pmb_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**PMB** = para-Methoxybenzyl"
+      }
+    },
+    {
+      "heading": "PMB – Anbringung",
+      "question": "Wie wird die Schutzgruppe PMB typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{Base,\\ PMBBr\\ oder\\ PMBCl}ROPMB}"
+        },
+        {
+          "type": "text",
+          "content": "Typisch unter basischen Alkylierungsbedingungen."
+        }
+      ]
+    },
+    {
+      "heading": "PMB – Abspaltung",
+      "question": "Wie wird die Schutzgruppe PMB typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROPMB\\xrightarrow{DDQ}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Besonders charakteristisch ist die oxidative Abspaltung mit DDQ."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** PMB kann häufig selektiv neben Bn entfernt werden."
+        }
+      ]
+    },
+    {
+      "heading": "Me – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Me?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/methyl_ether.png",
+          "caption": "Methylether (OMe)"
+        },
+        {
+          "type": "markdown",
+          "content": "**Me** = Methyl"
+        }
+      ]
+    },
+    {
+      "heading": "Me – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/methyl_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Me** = Methyl"
+      }
+    },
+    {
+      "heading": "Me – Anbringung",
+      "question": "Wie wird die Schutzgruppe Me typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{Base}\\ RO^-\\xrightarrow{MeI}\\ ROMe}"
+        },
+        {
+          "type": "text",
+          "content": "Klassische Williamson-Ethersynthese."
+        }
+      ]
+    },
+    {
+      "heading": "Me – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Me typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{Ar-O-Me\\xrightarrow{BBr_3}Ar-OH}"
+        },
+        {
+          "type": "text",
+          "content": "BBr3 wird besonders häufig zur Demethylierung von Aryl-Methylethern eingesetzt."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Methylether sind sehr robuste Schutzgruppen; aliphatische Methylether können deutlich schwerer zu spalten sein."
+        }
+      ]
+    },
+    {
+      "heading": "MOM – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe MOM?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/mom_ether.png",
+          "caption": "Methoxymethylether (MOM)"
+        },
+        {
+          "type": "markdown",
+          "content": "**MOM** = Methoxymethyl"
+        }
+      ]
+    },
+    {
+      "heading": "MOM – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/mom_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**MOM** = Methoxymethyl"
+      }
+    },
+    {
+      "heading": "MOM – Anbringung",
+      "question": "Wie wird die Schutzgruppe MOM typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{MOMCl,\\ Base}ROMOM}"
+        },
+        {
+          "type": "text",
+          "content": "Typisch: MOM-Cl und eine geeignete Base."
+        }
+      ]
+    },
+    {
+      "heading": "MOM – Abspaltung",
+      "question": "Wie wird die Schutzgruppe MOM typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROMOM\\xrightarrow{H^+,\\ H_2O}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "MOM-Ether sind säurelabil."
+        }
+      ]
+    },
+    {
+      "heading": "THP – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe THP?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/thp_ether.png",
+          "caption": "Tetrahydropyranylether (THP)"
+        },
+        {
+          "type": "markdown",
+          "content": "**THP** = Tetrahydropyranyl"
+        }
+      ]
+    },
+    {
+      "heading": "THP – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/thp_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**THP** = Tetrahydropyranyl"
+      }
+    },
+    {
+      "heading": "THP – Anbringung",
+      "question": "Wie wird die Schutzgruppe THP typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH+DHP\\xrightarrow{H^+}ROTHP}"
+        },
+        {
+          "type": "text",
+          "content": "Der Alkohol wird mit 3,4-Dihydro-2H-pyran (DHP) säurekatalysiert umgesetzt, z. B. mit PPTS oder p-TsOH."
+        }
+      ]
+    },
+    {
+      "heading": "THP – Abspaltung",
+      "question": "Wie wird die Schutzgruppe THP typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROTHP\\xrightarrow{H^+,\\ H_2O}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Saure Hydrolyse."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Bei achiralen Alkoholen entsteht am Acetalzentrum häufig ein Diastereomerengemisch, wenn das Substrat bereits chiral ist."
+        }
+      ]
+    },
+    {
+      "heading": "TMS – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe TMS?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/tms_ether.png",
+          "caption": "Trimethylsilylether (TMS)"
+        },
+        {
+          "type": "markdown",
+          "content": "**TMS** = Trimethylsilyl"
+        }
+      ]
+    },
+    {
+      "heading": "TMS – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/tms_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**TMS** = Trimethylsilyl"
+      }
+    },
+    {
+      "heading": "TMS – Anbringung",
+      "question": "Wie wird die Schutzgruppe TMS typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{TMSCl,\\ Imidazol}ROTMS}"
+        },
+        {
+          "type": "text",
+          "content": "TMSCl mit Imidazol oder einer anderen Base ist eine typische Kombination."
+        }
+      ]
+    },
+    {
+      "heading": "TMS – Abspaltung",
+      "question": "Wie wird die Schutzgruppe TMS typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROTMS\\xrightarrow{TBAF}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Auch milde saure Bedingungen können TMS häufig entfernen."
+        },
+        {
+          "type": "markdown",
+          "content": "**Stabilität:** TMS gehört zu den labilsten gebräuchlichen Silylethern."
+        }
+      ]
+    },
+    {
+      "heading": "TES – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe TES?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/tes_ether.png",
+          "caption": "Triethylsilylether (TES)"
+        },
+        {
+          "type": "markdown",
+          "content": "**TES** = Triethylsilyl"
+        }
+      ]
+    },
+    {
+      "heading": "TES – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/tes_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**TES** = Triethylsilyl"
+      }
+    },
+    {
+      "heading": "TES – Anbringung",
+      "question": "Wie wird die Schutzgruppe TES typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{TESCl,\\ Base}ROTES}"
+        }
+      ]
+    },
+    {
+      "heading": "TES – Abspaltung",
+      "question": "Wie wird die Schutzgruppe TES typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROTES\\xrightarrow{TBAF}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Je nach Substrat ist auch saure Spaltung möglich."
+        }
+      ]
+    },
+    {
+      "heading": "TBS – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe TBS?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/tbs_ether.png",
+          "caption": "tert-Butyldimethylsilylether (TBS/TBDMS)"
+        },
+        {
+          "type": "markdown",
+          "content": "**TBS** = tert-Butyldimethylsilyl (synonym: TBDMS)"
+        }
+      ]
+    },
+    {
+      "heading": "TBS – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/tbs_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**TBS** = tert-Butyldimethylsilyl (synonym: TBDMS)"
+      }
+    },
+    {
+      "heading": "TBS – Anbringung",
+      "question": "Wie wird die Schutzgruppe TBS typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{TBSCl,\\ Imidazol}ROTBS}"
+        },
+        {
+          "type": "text",
+          "content": "Sehr häufig verwendete Standardbedingungen für Alkohole."
+        }
+      ]
+    },
+    {
+      "heading": "TBS – Abspaltung",
+      "question": "Wie wird die Schutzgruppe TBS typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROTBS\\xrightarrow{TBAF}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Fluoridquellen sind besonders typisch."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** TBS und TBDMS bezeichnen dieselbe Schutzgruppe."
+        }
+      ]
+    },
+    {
+      "heading": "TIPS – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe TIPS?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/tips_ether.png",
+          "caption": "Triisopropylsilylether (TIPS)"
+        },
+        {
+          "type": "markdown",
+          "content": "**TIPS** = Triisopropylsilyl"
+        }
+      ]
+    },
+    {
+      "heading": "TIPS – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/tips_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**TIPS** = Triisopropylsilyl"
+      }
+    },
+    {
+      "heading": "TIPS – Anbringung",
+      "question": "Wie wird die Schutzgruppe TIPS typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{TIPSCl,\\ Base}ROTIPS}"
+        }
+      ]
+    },
+    {
+      "heading": "TIPS – Abspaltung",
+      "question": "Wie wird die Schutzgruppe TIPS typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROTIPS\\xrightarrow{TBAF}ROH}"
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** TIPS ist sterisch anspruchsvoller und im Allgemeinen robuster als TMS oder TES."
+        }
+      ]
+    },
+    {
+      "heading": "TBDPS – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe TBDPS?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/tbdps_ether.png",
+          "caption": "tert-Butyldiphenylsilylether (TBDPS)"
+        },
+        {
+          "type": "markdown",
+          "content": "**TBDPS** = tert-Butyldiphenylsilyl"
+        }
+      ]
+    },
+    {
+      "heading": "TBDPS – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/tbdps_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**TBDPS** = tert-Butyldiphenylsilyl"
+      }
+    },
+    {
+      "heading": "TBDPS – Anbringung",
+      "question": "Wie wird die Schutzgruppe TBDPS typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{TBDPSCl,\\ Base}ROTBDPS}"
+        }
+      ]
+    },
+    {
+      "heading": "TBDPS – Abspaltung",
+      "question": "Wie wird die Schutzgruppe TBDPS typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROTBDPS\\xrightarrow{F^-}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Typisch mit Fluoridquellen; oft langsamer als bei kleineren Silylethern."
+        },
+        {
+          "type": "markdown",
+          "content": "**Hinweis:** Die häufige Abkürzung ist **TBDPS**. „TBDS“ ist meist eine Verwechslung mit TBS/TBDMS oder TBDPS."
+        }
+      ]
+    },
+    {
+      "heading": "Silylether – Stabilitätsreihe",
+      "question": "Wie lautet eine grobe Stabilitätsreihenfolge häufiger Silylether gegenüber saurer Hydrolyse?",
+      "answer": {
+        "type": "latex",
+        "content": "\\mathrm{TMS<TES<TBS\\lesssim TIPS<TBDPS}"
+      }
+    },
+    {
+      "heading": "Silylether – typische Abspaltung",
+      "question": "Welches Reagenz ist besonders typisch für die Abspaltung von Silylethern?",
+      "answer": [
+        {
+          "type": "markdown",
+          "content": "**TBAF** = Tetrabutylammoniumfluorid."
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{R-O-SiR'_3+F^-\\longrightarrow R-OH}"
+        }
+      ]
+    },
+    {
+      "heading": "Acetal – Struktur",
+      "question": "Wie sieht die allgemeine Struktur eines Acetals bzw. Ketals aus?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/acetal_general.png",
+          "caption": "Allgemeine Acetal-/Ketalstruktur"
+        },
+        {
+          "type": "latex",
+          "content": "\\mathrm{R^1R^2C(OR^3)(OR^4)}"
+        }
+      ]
+    },
+    {
+      "heading": "Acetal – Anbringung",
+      "question": "Wie wird eine Carbonylgruppe als Acetal geschützt?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{R_2C=O+2\\ R'OH\\xrightleftharpoons[H_2O]{H^+}R_2C(OR')_2}"
+        },
+        {
+          "type": "text",
+          "content": "Säurekatalyse; Wasserentzug verschiebt das Gleichgewicht zur Acetalseite. Häufig werden Diole für cyclische Acetale verwendet."
+        }
+      ]
+    },
+    {
+      "heading": "Acetal – Abspaltung",
+      "question": "Wie wird ein Acetal wieder zur Carbonylverbindung entschützt?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{R_2C(OR')_2\\xrightarrow{H^+,\\ H_2O}R_2C=O}"
+        },
+        {
+          "type": "markdown",
+          "content": "Acetale sind typischerweise **basenstabil**, aber **säurelabil**."
+        }
+      ]
+    },
+    {
+      "heading": "Boc – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Boc?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/boc_amine.png",
+          "caption": "Boc-geschütztes Amin"
+        },
+        {
+          "type": "markdown",
+          "content": "**Boc** = tert-Butoxycarbonyl"
+        }
+      ]
+    },
+    {
+      "heading": "Boc – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/boc_amine.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Boc** = tert-Butoxycarbonyl"
+      }
+    },
+    {
+      "heading": "Boc – Anbringung",
+      "question": "Wie wird die Schutzgruppe Boc typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{RNH_2\\xrightarrow{(Boc)_2O,\\ Base}RNH-Boc}"
+        },
+        {
+          "type": "text",
+          "content": "Typisch mit Di-tert-butyldicarbonat."
+        }
+      ]
+    },
+    {
+      "heading": "Boc – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Boc typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{RNH-Boc\\xrightarrow{TFA}RNH_2}"
+        },
+        {
+          "type": "text",
+          "content": "Boc ist säurelabil."
+        }
+      ]
+    },
+    {
+      "heading": "Fmoc – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Fmoc?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/fmoc_amine.png",
+          "caption": "Fmoc-geschütztes Amin"
+        },
+        {
+          "type": "markdown",
+          "content": "**Fmoc** = 9-Fluorenylmethoxycarbonyl"
+        }
+      ]
+    },
+    {
+      "heading": "Fmoc – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/fmoc_amine.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Fmoc** = 9-Fluorenylmethoxycarbonyl"
+      }
+    },
+    {
+      "heading": "Fmoc – Anbringung",
+      "question": "Wie wird die Schutzgruppe Fmoc typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{RNH_2\\xrightarrow{Fmoc-Cl\\ oder\\ Fmoc-OSu,\\ Base}RNH-Fmoc}"
+        }
+      ]
+    },
+    {
+      "heading": "Fmoc – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Fmoc typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{RNH-Fmoc\\xrightarrow{Piperidin}RNH_2}"
+        },
+        {
+          "type": "text",
+          "content": "Fmoc ist basenlabil."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Boc und Fmoc sind klassisch orthogonal: Boc säurelabil, Fmoc basenlabil."
+        }
+      ]
+    },
+    {
+      "heading": "Cbz – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Cbz?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/cbz_amine.png",
+          "caption": "Cbz-geschütztes Amin"
+        },
+        {
+          "type": "markdown",
+          "content": "**Cbz** = Benzyloxycarbonyl"
+        }
+      ]
+    },
+    {
+      "heading": "Cbz – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/cbz_amine.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Cbz** = Benzyloxycarbonyl"
+      }
+    },
+    {
+      "heading": "Cbz – Anbringung",
+      "question": "Wie wird die Schutzgruppe Cbz typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{RNH_2\\xrightarrow{Cbz-Cl,\\ Base}RNH-Cbz}"
+        }
+      ]
+    },
+    {
+      "heading": "Cbz – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Cbz typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{RNH-Cbz\\xrightarrow{H_2,\\ Pd/C}RNH_2}"
+        },
+        {
+          "type": "text",
+          "content": "Typische hydrogenolytische Abspaltung."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Cbz wird auch als Z bezeichnet."
+        }
+      ]
+    },
+    {
+      "heading": "Ac – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Ac?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/acetate_ester.png",
+          "caption": "Acetatester (OAc)"
+        },
+        {
+          "type": "markdown",
+          "content": "**Ac** = Acetyl"
+        }
+      ]
+    },
+    {
+      "heading": "Ac – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/acetate_ester.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Ac** = Acetyl"
+      }
+    },
+    {
+      "heading": "Ac – Anbringung",
+      "question": "Wie wird die Schutzgruppe Ac typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{Ac_2O,\\ Pyridin,\\ DMAP}ROAc}"
+        }
+      ]
+    },
+    {
+      "heading": "Ac – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Ac typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROAc\\xrightarrow{K_2CO_3,\\ MeOH}ROH}"
+        },
+        {
+          "type": "text",
+          "content": "Alternativ ist eine Esterhydrolyse möglich."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Ein O-acetylierter Alkohol liegt als Acetatester vor."
+        }
+      ]
+    },
+    {
+      "heading": "Piv – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Piv?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/pivalate_ester.png",
+          "caption": "Pivalatester (OPiv)"
+        },
+        {
+          "type": "markdown",
+          "content": "**Piv** = Pivaloyl"
+        }
+      ]
+    },
+    {
+      "heading": "Piv – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/pivalate_ester.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Piv** = Pivaloyl"
+      }
+    },
+    {
+      "heading": "Piv – Anbringung",
+      "question": "Wie wird die Schutzgruppe Piv typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{PivCl,\\ Base}ROPiv}"
+        }
+      ]
+    },
+    {
+      "heading": "Piv – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Piv typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Abspaltung durch Esterhydrolyse bzw. Verseifung, meist unter kräftigeren Bedingungen als bei Acetaten."
+        }
+      ]
+    },
+    {
+      "heading": "Tr – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe Tr?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/trityl_ether.png",
+          "caption": "Tritylether (Tr)"
+        },
+        {
+          "type": "markdown",
+          "content": "**Tr** = Trityl (Triphenylmethyl)"
+        }
+      ]
+    },
+    {
+      "heading": "Tr – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/trityl_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**Tr** = Trityl (Triphenylmethyl)"
+      }
+    },
+    {
+      "heading": "Tr – Anbringung",
+      "question": "Wie wird die Schutzgruppe Tr typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{TrCl,\\ Base}ROTr}"
+        }
+      ]
+    },
+    {
+      "heading": "Tr – Abspaltung",
+      "question": "Wie wird die Schutzgruppe Tr typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Tritylgruppen sind säurelabil und können unter mild sauren Bedingungen entfernt werden."
+        },
+        {
+          "type": "markdown",
+          "content": "**Merke:** Trityl ist sehr sperrig und wird häufig zur selektiven Protektion primärer Alkohole eingesetzt."
+        }
+      ]
+    },
+    {
+      "heading": "MEM – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe MEM?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/mem_ether.png",
+          "caption": "2-Methoxyethoxymethylether (MEM)"
+        },
+        {
+          "type": "markdown",
+          "content": "**MEM** = 2-Methoxyethoxymethyl"
+        }
+      ]
+    },
+    {
+      "heading": "MEM – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/mem_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**MEM** = 2-Methoxyethoxymethyl"
+      }
+    },
+    {
+      "heading": "MEM – Anbringung",
+      "question": "Wie wird die Schutzgruppe MEM typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{MEMCl,\\ Base}ROMEM}"
+        }
+      ]
+    },
+    {
+      "heading": "MEM – Abspaltung",
+      "question": "Wie wird die Schutzgruppe MEM typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Typischerweise säurelabile Abspaltung unter geeigneten sauren Bedingungen."
+        }
+      ]
+    },
+    {
+      "heading": "SEM – Abkürzung → Struktur",
+      "question": "Welche Struktur gehört zur Schutzgruppe SEM?",
+      "answer": [
+        {
+          "type": "image",
+          "content": "../media/schutzgruppen/sem_ether.png",
+          "caption": "2-(Trimethylsilyl)ethoxymethylether (SEM)"
+        },
+        {
+          "type": "markdown",
+          "content": "**SEM** = 2-(Trimethylsilyl)ethoxymethyl"
+        }
+      ]
+    },
+    {
+      "heading": "SEM – Struktur → Abkürzung",
+      "question": {
+        "type": "image",
+        "content": "../media/schutzgruppen/sem_ether.png",
+        "caption": "Welche Schutzgruppe ist dargestellt?"
+      },
+      "answer": {
+        "type": "markdown",
+        "content": "**SEM** = 2-(Trimethylsilyl)ethoxymethyl"
+      }
+    },
+    {
+      "heading": "SEM – Anbringung",
+      "question": "Wie wird die Schutzgruppe SEM typischerweise angebracht?",
+      "answer": [
+        {
+          "type": "latex",
+          "content": "\\mathrm{ROH\\xrightarrow{SEMCl,\\ Base}ROSEM}"
+        }
+      ]
+    },
+    {
+      "heading": "SEM – Abspaltung",
+      "question": "Wie wird die Schutzgruppe SEM typischerweise abgespalten?",
+      "answer": [
+        {
+          "type": "text",
+          "content": "Entschützung ist unter geeigneten Bedingungen mit Fluoridquellen möglich; auch saure Bedingungen können je nach Substrat verwendet werden."
+        }
+      ]
+    },
+    {
+      "heading": "Orthogonalität – Amin-Schutzgruppen",
+      "question": "Ordne Boc, Fmoc und Cbz den charakteristischen Abspaltungsbedingungen zu.",
+      "answer": {
+        "type": "markdown",
+        "content": "**Boc → Säure (z. B. TFA)**  \n**Fmoc → Base (z. B. Piperidin)**  \n**Cbz → Hydrogenolyse (H2/Pd-C)**"
+      }
+    },
+    {
+      "heading": "Orthogonalität – Alkohol-Schutzgruppen",
+      "question": "Ordne Bn, PMB und TBS den charakteristischen Abspaltungsbedingungen zu.",
+      "answer": {
+        "type": "markdown",
+        "content": "**Bn → Hydrogenolyse (H2/Pd-C)**  \n**PMB → Oxidation (DDQ)**  \n**TBS → Fluorid (z. B. TBAF)**"
+      }
+    },
+    {
+      "heading": "Schutzgruppenstrategie",
+      "question": "Was bedeutet eine orthogonale Schutzgruppenstrategie?",
+      "answer": "Mehrere Schutzgruppen werden so ausgewählt, dass eine bestimmte Schutzgruppe selektiv entfernt werden kann, während die übrigen unter diesen Bedingungen möglichst stabil bleiben."
+    }
+  ]
+}
